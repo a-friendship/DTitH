@@ -1,0 +1,456 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Dead Lovers Society</title>
+    <link rel="icon" type="image/x-icon" href="imgs/favicon.ico">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- only team section -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> <!-- only team section -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Local stylesheet and javascript -->
+    <link rel="stylesheet" href="/Users/martinapensalfini/Documents/IMWT/maincss.css" >
+    <script src="mainjs.js"></script>
+</head>
+
+<body>
+    <header>
+        <!-- First navbar -->
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <div class="container">
+                <div id="DLStitle">
+                    <img id="logo" src="./imgs/heart.png" />
+                    <a class="navbar-brand" href="index.html"><span id="dead">Dead</span> Lovers Society</a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse navbar-menu" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Issues</a>
+                            <div class="dropdown-menu dropdown-menu-end animate slideIn" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="medea.html">Medea</a>
+                                <a class="dropdown-item" onclick="missingIssue()">Dido</a>
+                                <a class="dropdown-item" onclick="missingIssue()">Guinevere</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="documentation.html">Documentation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#projectinfo">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <hr class="onlybau onlyfuture"
+            style="height: 2px; width: 99%; margin:0 auto;line-height:2px;background-color: white; border:0 none; display: none;" />
+        <!-- Second navbar -->
+        <!-- Cambia nomi: cuori con stili diversi? Anno preciso? -->
+        <ul class="nav justify-content-center navbar-menu" id="stylenav">
+            <li class="nav-item">
+                <a class="nav-link sec-nav" onclick="swapTheme('css/aldinecss.css')">Aldine</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link sec-nav" onclick="swapTheme('css/newspapercss.css')">Quotidiani 1800</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link sec-nav" onclick="switchTheme('css/baucss.css')">Bauhaus</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link sec-nav" onclick="swapTheme('css/popcss.css')">Pop Art</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link sec-nav" onclick="alert('Style not available')">Vogue</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link sec-nav" onclick="swapTheme('css/todaycss.css')">2020s</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link sec-nav" onclick="swapTheme('css/futurecss.css')">Future</a>
+            </li>
+        </ul>
+        <hr class="onlybau onlyfuture"
+            style="height: 2px; width: 99%; margin:0 auto;line-height:2px;background-color: white; border:0 none; display: none;" />
+    </header>
+    <div class="hero-image">
+    </div>
+    <!--http://www.sousound.com/music/healing/healing_01.mp3-->
+    <audio id="myAudio" src="multimedia/Heat Waves (Slowed).mp3" preload="auto"></audio>
+    <a onClick="togglePlay();" class="float">
+        <i class="fa fa-headphones fa-2x my-float"></i>
+    </a>
+
+    <div class="textsection" id="abstractMedea">
+        <h2>Medea</h2>
+        <div class="aldina">
+            <p>Medea is certainly one of the most interesting characters of Ancient Greek
+                Literature. Her magical powers and
+                the terrible act of
+                filicide have made her an interesting subject for many writers and artists, creating on one side a wild
+                woman, justified by her own beliefs and culture in the terrible acts that she is pushed to, and on the
+                other a scorned lover who did everything in her power to help a man who never rewarded her.</p>
+        </div>
+        <p>Her story is linked many times with the Argonauts' one, and so does Ovid in his <q>Metamorphoses</q>:
+            everything begins with a blooming and forbidden romance between Medea and Jason, the hero who came to her
+            kingdom to steal its most valued possession, the notorious golden veil. Instead, Apollonius Rhodium
+            describes Medea's slow descent in her
+            love for Jason, showcasing the woman's feelings with an amazing precision and attention in an incredible
+            display of psychological knowledge and expression.</p>
+        <p>Through her knowledge of magic Medea helps her lover first in the conquest of the golden veil, offering
+            him advice to win every trial imposed by her father, and then in the escape from
+            Colchis and her father's clutches, when the sorceress reveals her bloodthirsty and determinate nature by
+            killing her brother. Still, her love for Jason doesn't have a <i>happy ending</i>. After
+            having found shelter in Corinth, Medea, Jason, and their children are hosted by the land's rightful king,
+            Creon, who aims to marry off his own daughter to the infamous hero. Jason happily accepts the offer,
+            fascinated by the allure of power and the possibility of having a younger and noble wife.
+        </p>
+        <p>Medea isn’t blind to her lovers's intentions and threads carefully her revenge, killing the children she
+            generated with Jason after having gifted a poisoned dress and a golden crown to young Glauce, Jason’s
+            soon-to-be-wife and princess of
+            Corinth, effectively murdering her as well as her father,
+            who just wanted to help his daughter. After having alienated herself from everyone whom she loved and having
+            killed those who were closest to her, Medea runs away on the Sun’s chariot, travels to Athens and
+            later back to Colchis to reunite with her father.</p>
+        <p>All of this is also described in Euripides' tragedy by the same name as the infamous sorceress. The three
+            authors we suggest for our repertory showcase three different
+            perspectives on this mysterious woman, which we hope will further encourage your interest in such an
+            interesting and magical figure.</p>
+    </div>
+    <div class="textsection">
+        <h3>The voices of our story</h3>
+    </div>
+    <!-- Cards to choose the text -->
+    <div class="card-group">
+        <div class="card" onclick="showEur()">
+            <img class="card-img-top" src="imgs/euri.jpeg" alt="Card image cap">
+            <div class="overlay" id="overEu">
+                <div class="text">Euripides</div>
+            </div>
+        </div>
+        <div class="card" onclick="showApR()">
+            <img class="card-img-top" src="imgs/apollo.jpeg" alt="Card image cap">
+            <div class="overlay" id="overAr">
+                <div class="text">Apollonius Rhodius</div>
+            </div>
+        </div>
+        <div class="card" onclick="showOvd()">
+            <img class="card-img-top" src="imgs/ovid.jpeg" alt="Card image cap">
+            <div class="overlay" id="overOv">
+                <div class="text">Ovid</div>
+            </div>
+        </div>
+    </div>
+    <!-- Text hiding/showing -->
+    <div>
+        <!-- Abstract of the authors -->
+        <div class="textsection" id="MedeaEur">
+            <div class="rowauthors">
+                <div class="columnEu">
+            <h3> The Author</h3>
+            <p><div class="aldina">Euripides was born in Salamina in 485 BC and died in 406 BC in Pellas, although it is plausible that he never visited Macedonia</p>
+            <p>In fact, many accounts of his life appear either fables or comic, to the point that many of the sources for his biographies are often his enemies, for example, Aristophanes, who had him as a character in three of his plays </p>
+            <p>Euripides was quite the contrasting figure when it came to opinions on his plays.</p>
+            <p>His first victory in the Dionysia, the main religious festivities of Greece, didn't come till 441 BC and his last was awarded posthumously.</p>
+            <p>In total he won five times, which was quite the low number if compared to Sophocles' eighteen times and Aeschylus' thirteen times </p>
+            <p>His production didn't in fact sit well with many of his contemporaries and is nothing else than a symptom of the historical passage they were living in, with a change of generations that made Euripides' continous evolution through his plays all more interesting to follow through. </p>
+            <p>Sadly this evolution isn't easy to follow through due to the fragmentary nature of Euripides' production, but other than his importance for bringing up new themes and a renown study of the human psyche, this author also invented a few elements that are still used in the modern theatre, for example:</p>
+            <ul>
+                <li>the employment of further technical devices to further make the play spectacular</li>
+                <li>the use of rhethorical techniques to convey the knowledge that there isn't an universal truth</li>
+                <li>the <q>deus ex machina</q>, which was employed by others before Euripides, but with this author became an established stage machine.<br>This device was used to further convey an emotional involvement of the audience, alongside to present on stage the figure of a god, to enhance amazement</li>
+            </ul>
+            </div>
+            </div>
+            <div class="columnEu">
+            <h3>The Play</h3>
+            <p><div class="aldina">M<i>edea</i> is actually one of the first plays written by Euripides</p>
+            <p>It was produced in 431 BC and it earned Euripides the third prize at the City Dionisya, a terrible reception although the competition of that year was quite good, having Sophocles - a fan favorite - coming only at the second place.</p>
+            <p>The story revolves around the Colchian princess Medea who arrived alongside her husband, Jason, in the Greek world</p>
+            <p>Here she isn't only marginalized as a foreigner, but her husband also chooses to remarry a Corinthian princess to befriend her father, Creon, head of the city</p>
+            <p>All of this brings Medea to come up with a few different ideas to make her husband pay for his deeds and disrespect, involving in her plot not only his future bride but also the sons she had with Jason</p>
+            <p><q>Medea</q> is the sole Greek tragedy in which a kin-killer ends up unpunished and triumphant, since at the end of the play it's Medea who triumphs, having lost everything she had</p>
+            <p>The main themes of this play are passion, love and vegeance, although different views have been given through the centuries, such as of Medea as a <q>proto-feminist</q>, fighting against the patriarchal society or as a foreign and irrational presence in an otherwise rational world </p>
+            <p>We hope you'll enjoy our choice in texts, which we thought better represent Medea's journey as a <q>lover</q> through the play.</p>
+        </div>    
+        </div>
+            </div>
+        </div>
+        <div class="textsection" id="MedeaApp">
+            <div class="rowauthors">
+                <div class="columnEu">
+            <h3>The Author</h3>
+            <p><div class="aldina">Apollonius Rhodius is quite the mysterious author, since many sources differ about different aspect of his life and we could pinpoint his existence very very largely to the 3rd century BC</p>
+            <p>There still a few facts that are common among the sources, although many other details still diverge, such as his relationship of competition with Callimachus and the fact that for a certain amount of time he was the head of the library of Alexandria</p>
+            <p>Even his name seems still quite debated, mostly because although a few sources associate it to his move from Alexandria to Rhodes, at the end of his term as of the head of the Library of Alexandria, others instead insist that he actually came from Rhodes and moved to Alexandria.</p>
+            <p>Some other theories just say that, the epithet was just used to distance him from another Apollonius, and the choice of <q>Rhodius</q> was due to the fact that he wrote a poem about Rhodes</p>
+            <p>In all of this theorizing, many believes that his <q>Argonautica</q>, his finest work, was in fact created at Rhodes, in order to make the author famous and to make him chase away the hated Callimachus, who many rumored had written the <q>Ibis</q> poem against.</p>
+            <p>Still only recently Apollonius Rhodius have been able to reap the fruit of his hard work, since only recently his work had been truly recognized and appreciated</p>
+            </div>
+            </div>
+            <div class="columnEu">
+            <h3>The Book</h3>
+            <p><div class="aldina">Instead of dealing with Medea, <i>Argonautica</i> deals with the lives of the infamous argonauts and their travel to reach the infamous Golden Fleece, which was rumored to be magic</q>
+            <p>At the head of the argonauts we have Jason, and in the third book of this work, we also find Medea, a very different Medea from the one we have met in Euripides</p>
+            <p>In this case, Medea has just come to the realization of her feelings for Jason, which creates a terrible contrast with her loyalty to her family, against whom her lover is fighting</p>
+            <p>The passage we chose in this case is meant to highlight this aspect, as we see Medea talking with her sister about her feelings and then with herself, foreseeing the shame that would follow her choosing Jason</p>
+            <p> Still, in the end Medea chooses to risk it all, and aid Jason through the various trials her father has decided to put the hero through</p>
+            <p>The <i>Argonautica</i> has been undoubtedly influenced by two main sources:</p>
+            <ul>
+                <li>The old epic poems such as the <q>Iliad</q> and <q>Odissey</q> for its content</li>
+                <li>The stylistic theme of the time for the frame</li>
+            </ul>
+            <p>This way Apollonius has recreated a new brand of epic, which has then influenced authors, first of which Virgil for the creation of the female figures in his own poem, across all centuries, in its reimagining of Jason's travels</p>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="textsection" id="MedeaOvi">
+            <p>Ovid was a Roman poet who lived during the reign of Augustus. This abstract is incomplete</p>
+        </div>
+        <!-- ============== -->
+    </div>
+    <div>
+        <article>
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="metadata text-right">
+                            <h5>Select the text:</h5>
+                            <ul id="list" style="list-style: none;">
+                            </ul>
+                            </p>
+                            <div class="row mt-4">
+                                <h5>Select the metadata:</h5>
+                                <p><b>Highlight in the text:</b></p>
+                                <div class="col-md-12">
+                                    <form role="form">
+                                        <div class="checkbox"><label>
+                                                <input type="checkbox" id="showpersnames" class="show"> Mortal
+                                                Characters</label></div>
+                                        <div class="checkbox"><label>
+                                                <input type="checkbox" id="showdates" class="show"> Immortal
+                                                Characters</label></div>
+
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="row clearfix mt-3">
+                                <div class="col-md-12">
+                                    <p><b>List down:</b></p>
+
+                                    <!-- Nav selectors -->
+                                    <ul class="nav nav-pills nav-justified" id="sentenceTab" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" id="persname-tab" data-toggle="tab"
+                                                href="#persName" role="tab" aria-controls="view"
+                                                aria-selected="true">Characters</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" id="date-tab" data-toggle="tab"
+                                                href="#date" role="tab" aria-controls="home"
+                                                aria-selected="false">Dates</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " id="places-tab" data-toggle="tab" href="#places"
+                                                role="tab" aria-controls="home" aria-selected="false">Places and
+                                                cities</a>
+                                        </li>
+
+                                    </ul>
+
+
+                                    <!-- Tab panes -->
+                                    <div class="tab-content mt-1 auto" id="sentenceContent">
+                                        <div class="tab-pane active myBorder myBorder-notop" id="persname"
+                                            role="tabpanel" aria-labelledby="persname-tab">
+                                            
+                                            <ul></ul>
+                                        </div>
+                     
+                                        <div class="tab-pane myBorder myBorder-notop" id="date" role="tabpanel"
+                                            aria-labelledby="date-tab">
+                                                <ul></ul>
+                                        </div>
+                                        <div class="tab-pane myBorder myBorder-notop" id="places" role="tabpanel"
+                                            aria-labelledby="places-tab">
+                                            <ul></ul>
+                                        </div>
+
+                                        <ul class="seqinmeta"></ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-8 mt-4">
+                        <div id="file"></div>
+                        <!-- The content will be added here -->
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-3 my-4">
+        <div class="text-center p-3">
+            MA "Digital Humanities and Digital Knowledge", University of Bologna <br>
+            Course "Information Modelling and Web Technologies" <br>
+
+            <div>
+                <small>Powered by Bootstrap</small>
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+                    href="https://github.com/deadloversociety/imwt22.git" role="button" data-mdb-ripple-color="white">
+                    <i class="fa fa-github" id="whitecat"></i>
+                </a><br>
+            </div>
+            <p class="text-center">&copy; 2022 Dead Lovers Society</p>
+    </footer>
+    <!-- Così parte quando è caricata tutta la pagina -->
+    <script>
+        dead = document.getElementById("dead");
+        logo = document.getElementById("logo");
+        dls = document.getElementById("DLStitle");
+        dls.addEventListener("mouseover", startShaking);
+        dls.addEventListener("mouseout", abortShaking);
+    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+     <script>
+        String.prototype.tpl = function (o) {
+            var r = this;
+            for (var i in o) {
+                r = r.replace(new RegExp("\\$" + i, 'g'), o[i])
+            }
+            return r
+        }
+
+        var listItemTpl = `<li><a href='#articles' onclick='load("$url")'>$label</a></li>`
+
+        $(document).ready(main);
+
+        function main() {
+            $.ajax({
+                method: 'GET',
+                url: 'https://a-friendship.github.io/DTitH/lamicageniale.json',
+                success: function (d) {
+                    for (var i = 0; i < d.length; i++) {
+                        $('#list').append(listItemTpl.tpl({
+                            url: d[i].url,
+                            label: d[i].label
+                        }))
+                    }
+                },
+                error: function () {
+                    alert('No document to show')
+                }
+            });
+
+
+            $('#showpersnames').click(function () {
+                if (this.checked)
+                    $('.persName').addClass('text-persname')
+                else
+                    $('.persName').removeClass('text-persname')
+            })
+            $('#showdates').click(function () {
+                if (this.checked)
+                    $('.date').addClass('text-date')
+                else
+                    $('.date').removeClass('text-date')
+            })
+            $('#showplaces').change(function () {
+                if (this.checked)
+                    $('.places').addClass('text-places')
+                else
+                    $('.places').removeClass('text-places')
+            })
+
+
+        }
+
+        function load(file) {
+            $.ajax({
+                method: 'GET',
+                url: file,
+                success: function (d) {
+                    $('#file').html(d)
+                    $('.show').prop("checked", false)
+                    addIds()
+                    filltabs()
+                },
+                error: function () {
+                    alert('Could not load file ' + file)
+                }
+            });
+        }
+
+        function addIds() {
+            addId('.persName', 'persname')
+            addId('.date', 'date')
+
+        }
+
+        function addId(what, prefix) {
+            var id = '0'
+            var elements = $(what);
+            for (var i = 0; i < elements.length; i++) {
+                elements[i].id = prefix + "-" + id++
+            }
+        }
+
+        function filltabs() {
+            filltab("#file .persName", "list-persname", "#persname")
+            filltab("#file .date", "list-date", "#date")
+            filltab("#file .places", "list-places", "#places")
+
+        }
+
+        function filltab(what, style, where) {
+            var list = `<li class="list $style"><a href="#" onclick="goto('$place')">$content</a></li>`
+            var elements = $(what);
+            $(where + ' ul').empty();
+            for (var i = 0; i < elements.length; i++) {
+                $(where + ' ul').append(list.tpl({
+                    style: style,
+                    place: '#' + elements[i].id,
+                    content: elements[i].innerHTML
+                }))
+            }
+        }
+        function goto(id) {
+            var t = $(id)[0].offsetTop;
+            $('html').animate({ scrollTop: t }, 2000);
+            $(id).addClass('animate1');
+            setTimeout(function () {
+                $(id).removeClass('animate1');
+            }, 5000);
+        }
+
+
+    </script>
+</body>
+
+</html>

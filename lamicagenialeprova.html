@@ -336,14 +336,6 @@
         dls.addEventListener("mouseover", startShaking);
         dls.addEventListener("mouseout", abortShaking);
     </script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-    </script>
      <script>
         String.prototype.tpl = function (o) {
             var r = this;
@@ -377,9 +369,9 @@
 
             $('#showpersnames').click(function () {
                 if (this.checked)
-                    $('.persName').addClass('text-persname')
+                    $('.pers-name').addClass('text-persname')
                 else
-                    $('.persName').removeClass('text-persname')
+                    $('.pers-name').removeClass('text-persname')
             })
             $('#showdates').click(function () {
                 if (this.checked)
@@ -455,46 +447,6 @@
             }, 5000);
         }
          </script>
-        <script>
-google.charts.load('current',{packages:['corechart']});
-google.charts.setOnLoadCallback(drawChart);
-function drawChart() {
-
-    var data = google.visualization.arrayToDataTable([
-      ['Chapter', 'Frequency'],
-      ['Chapter 1', 2],
-      ['Chapter 2', 1],
-      ['Chapter 3', 1],
-      ['Chapter 4', 5],
-      ['Chapter 5', 1],
-      ['Chapter 6', 5],
-      ['Chapter 7', 1],
-      ['Chapter 8', 5],
-      ['Chapter 9', 13],
-      ['Chapter 10', 7],
-      ['Chapter 11', 23],
-      ['Chapter 12', 15],
-      ['Chapter 13', 7],
-      ['Chapter 14', 5],
-      ['Chapter 15', 4],
-      ['Chapter 16', 3]
-      ['Chapter 17', 10],
-      ['Chapter 18', 20],
-      ['Chapter 19', 11],
-      ['Chapter 20', 11],
-      ['Chapter 21', 11]
-    ]);
-    
-    var options = {
-      title: 'Lila'
-    };
-    
-    var chart = new google.visualization.BarChart(document.getElementById('myChart'));
-    chart.draw(data, options);
-    
-    }
-
-    </script>
 </body>
 
 </html>

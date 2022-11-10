@@ -241,11 +241,9 @@
                                      <div class="col-md-12">
                                     <form role="form">
                                         <div class="checkbox"><label>
-                                                <input type="checkbox" id="showpersname" class="show"> Mortal
-                                                Characters</label></div>
+                                                <input type="checkbox" id="showpersnames" class="show"> Character</label></div>
                                         <div class="checkbox"><label>
-                                                <input type="checkbox" id="showdates" class="show"> Immortal
-                                                Characters</label></div>
+                                                <input type="checkbox" id="showdates" class="show"> Dates</label></div>
                                   
 
                                     </form>
@@ -258,7 +256,7 @@
                                     <ul class="nav nav-pills nav-justified" id="sentenceTab" role="tablist">
                                         <li class="nav-item">
                                             <a class="nav-link active" id="persnames-tab" data-toggle="tab"
-                                                href="#pers-name" role="tab" aria-controls="view"
+                                                href="#persName" role="tab" aria-controls="view"
                                                 aria-selected="true">Mortal characters</a>
                                         </li>
                                         <li class="nav-item">
@@ -270,7 +268,7 @@
 
                                     <!-- Tab panes -->
                                     <div class="tab-content mt-1 auto" id="sentenceContent">
-                                        <div class="tab-pane active myBorder myBorder-notop" id="pers-name"
+                                        <div class="tab-pane active myBorder myBorder-notop" id="persName"
                                             role="tabpanel" aria-labelledby="persnames-tab">
                                             <ul></ul>
                                         </div>
@@ -391,7 +389,7 @@
         }
 
         function filltabs() {
-            filltab("#file .pers-name", "list-pers-name", "#pers-name")
+            filltab("#file .persName", "list-pers-name", "#pers-name")
             filltab("#file .date", "list-date", "#date")
 
         }

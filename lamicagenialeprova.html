@@ -340,9 +340,9 @@
 
             $('#showpersnames').click(function () {
                 if (this.checked)
-                    $('.persName').addClass('text-persname')
+                    $('.pers-name').addClass('text-persname')
                 else
-                    $('.persName').removeClass('text-persname')
+                    $('.pers-name').removeClass('text-persname')
             })
             $('#showdates').click(function () {
                 if (this.checked)
@@ -372,7 +372,7 @@
         }
 
         function addIds() {
-            addId('.persName', 'persName')
+            addId('.pers-name', 'pers-name')
             addId('.date', 'date')
       
 
@@ -387,7 +387,7 @@
         }
 
         function filltabs() {
-            filltab("#file .persName", "list-pers-name", "#persName")
+            filltab("#file .pers-name", "list-pers-name", "#pers-name")
             filltab("#file .date", "list-date", "#date")
 
         }
@@ -415,6 +415,7 @@
 
 
     </script>
+
 </body>
 
 </html>

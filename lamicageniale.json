@@ -1,6 +1,10 @@
 [
 	{
-		"label": "L'amica geniale",
-		"url": "https://a-friendship.github.io/DTitH/agreal1.html"
+		"label": "prologo",
+		"url": "prologo.html"
+		},
+	{
+		"label": "Infanzia",
+		"url": "infanziasep.html"
 		}
 ]

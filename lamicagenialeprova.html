@@ -238,14 +238,15 @@
                             <div class="row mt-4">
                                 <h5>Select the metadata:</h5>
                                 <p><b>Highlight in the text:</b></p>
-                                <div class="col-md-12">
+                                     <div class="col-md-12">
                                     <form role="form">
                                         <div class="checkbox"><label>
-                                                <input type="checkbox" id="showpersnames" class="show"> Mortal
+                                                <input type="checkbox" id="showpersname" class="show"> Mortal
                                                 Characters</label></div>
                                         <div class="checkbox"><label>
                                                 <input type="checkbox" id="showdates" class="show"> Immortal
                                                 Characters</label></div>
+                                  
 
                                     </form>
                                 </div>
@@ -253,40 +254,28 @@
                             <div class="row clearfix mt-3">
                                 <div class="col-md-12">
                                     <p><b>List down:</b></p>
-
                                     <!-- Nav selectors -->
                                     <ul class="nav nav-pills nav-justified" id="sentenceTab" role="tablist">
                                         <li class="nav-item">
-                                            <a class="nav-link active" id="persname-tab" data-toggle="tab"
-                                                href="#persName" role="tab" aria-controls="view"
-                                                aria-selected="true">Characters</a>
+                                            <a class="nav-link active" id="persnames-tab" data-toggle="tab"
+                                                href="#pers-name" role="tab" aria-controls="view"
+                                                aria-selected="true">Mortal characters</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" id="date-tab" data-toggle="tab"
+                                            <a class="nav-link" id="dates-tab" data-toggle="tab"
                                                 href="#date" role="tab" aria-controls="home"
-                                                aria-selected="false">Dates</a>
+                                                aria-selected="false">Immortal Characters</a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link " id="places-tab" data-toggle="tab" href="#places"
-                                                role="tab" aria-controls="home" aria-selected="false">Places and
-                                                cities</a>
-                                        </li>
-
                                     </ul>
-
 
                                     <!-- Tab panes -->
                                     <div class="tab-content mt-1 auto" id="sentenceContent">
-                                        <div class="tab-pane active myBorder myBorder-notop" id="charmortal"
-                                            role="tabpanel" aria-labelledby="mortalcharacters-tab">
+                                        <div class="tab-pane active myBorder myBorder-notop" id="pers-name"
+                                            role="tabpanel" aria-labelledby="persnames-tab">
                                             <ul></ul>
                                         </div>
-                                        <div class="tab-pane myBorder myBorder-notop" id="charimmortal" role="tabpanel"
-                                            aria-labelledby="immortalcharacters-tab">
-                                            <ul></ul>
-                                        </div>
-                                        <div class="tab-pane myBorder myBorder-notop" id="places" role="tabpanel"
-                                            aria-labelledby="places-tab">
+                                        <div class="tab-pane myBorder myBorder-notop" id="date" role="tabpanel"
+                                            aria-labelledby="date-tab">
                                             <ul></ul>
                                         </div>
                                     </div>
@@ -294,16 +283,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-8 mt-4">
+                    <div class="col-7 col-sm-8 mt-4">
                         <div id="file"></div>
                         <!-- The content will be added here -->
                     </div>
                 </div>
             </div>
-        <div class="col-8 mt-4">
-            <div id="myChart"></div>
-
-        </div>
+        </article>
+    </div>
         </article>
     </div>
 
@@ -324,13 +311,6 @@
             <p class="text-center">&copy; 2022 Dead Lovers Society</p>
     </footer>
     <!-- Così parte quando è caricata tutta la pagina -->
-    <script>
-        dead = document.getElementById("dead");
-        logo = document.getElementById("logo");
-        dls = document.getElementById("DLStitle");
-        dls.addEventListener("mouseover", startShaking);
-        dls.addEventListener("mouseout", abortShaking);
-    </script>
      <script>
         String.prototype.tpl = function (o) {
             var r = this;
@@ -347,7 +327,7 @@
         function main() {
             $.ajax({
                 method: 'GET',
-                url: 'https://a-friendship.github.io/DTitH/lamicageniale.json',
+                url: 'https://deadloversociety.github.io/imwt22/dls.json',
                 success: function (d) {
                     for (var i = 0; i < d.length; i++) {
                         $('#list').append(listItemTpl.tpl({
@@ -374,6 +354,7 @@
                 else
                     $('.date').removeClass('text-date')
             })
+         
 
 
         }
@@ -395,8 +376,9 @@
         }
 
         function addIds() {
-            addId('.pers-name', 'pers-Name')
-            addId('.date', 'Date')
+            addId('.pers-name', 'pers-name')
+            addId('.date', 'date')
+      
 
         }
 
@@ -409,9 +391,9 @@
         }
 
         function filltabs() {
-            filltab("#file .pers-Name", "list-persname", "#pers-name")
-            filltab("#file .Date", "list-date", "#date")
-       
+            filltab("#file .pers-name", "list-pers-name", "#pers-name")
+            filltab("#file .date", "list-date", "#date")
+
         }
 
         function filltab(what, style, where) {
@@ -434,7 +416,9 @@
                 $(id).removeClass('animate1');
             }, 5000);
         }
-         </script>
+
+
+    </script>
 </body>
 
 </html>

@@ -256,7 +256,7 @@
                                     <ul class="nav nav-pills nav-justified" id="sentenceTab" role="tablist">
                                         <li class="nav-item">
                                             <a class="nav-link active" id="persnames-tab" data-toggle="tab"
-                                                href="#persName" role="tab" aria-controls="home"
+                                                href="#pers-name" role="tab" aria-controls="home"
                                                 aria-selected="false">Characters</a>
                                         </li>
                                         <li class="nav-item">
@@ -268,7 +268,7 @@
 
                                     <!-- Tab panes -->
                                     <div class="tab-content mt-1 auto" id="sentenceContent">
-                                        <div class="tab-pane active myBorder myBorder-notop" id="persName"
+                                        <div class="tab-pane active myBorder myBorder-notop" id="pers-name"
                                             role="tabpanel" aria-labelledby="persnames-tab">
                                             <ul></ul>
                                         </div>
@@ -373,7 +373,7 @@
 
         function addIds() {
             addId('.pers-name', 'pers-name')
-            addId('.date', 'date')
+            addId('.date', 'dates')
       
 
         }
@@ -388,7 +388,7 @@
 
         function filltabs() {
             filltab("#file .pers-name", "list-pers-name", "#pers-name")
-            filltab("#file .date", "list-date", "#date")
+            filltab("#file .dates", "list-date", "#date")
 
         }
 

@@ -258,6 +258,21 @@ html {
     filter: opacity(95%);
 }
 
+.hero-image {
+
+    background-image: url("http://birdmenmagazine.com/wp-content/uploads/2020/05/83514596_3058764294142762_4282895461485903872_o-1874x937-1.jpg");
+
+
+    height: 50%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    filter: brightness(500%);
+    filter: opacity(95%);
+}
+
 
 /* ==== CARDS AUTHORS ==== */
 

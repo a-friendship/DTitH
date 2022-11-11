@@ -638,10 +638,8 @@ h2 {
 /* ===== DROP CAPS ===== */
 
 q {
-    text-align: center;
-	font-size:1.5 em;
-	text-style:
-
+    text-align: center  important!;
+	font-size:3 em;
 }
 
 

@@ -630,47 +630,21 @@ h2 {
     }
 }
 
-.rowauthors {
-    display: flex;
 
-}
-
-.columnEu {
-    flex: 50%;
-    margin: 2%;
-}
 
 
 
 
 /* ===== DROP CAPS ===== */
 
-.textsection p:first-of-type::first-letter {
-
-    float: left;
-
-    line-height: 35px;
-
-    font-size: 55px;
-
-    font-style: normal;
-
-    border: solid #292926;
-
-
-    padding-top: 5px;
-
-    padding-bottom: 5px;
-
-    padding-right: 5px;
-
-    padding-left: 5px;
-
-    margin-right: 5px;
-
-    margin-bottom: -5px;
+q {
+    text-align: center;
+	font-size:1.5 em;
+	text-style:
 
 }
+
+
 
     
 

@@ -638,9 +638,9 @@ h2 {
 /* ===== DROP CAPS ===== */
 
   blockquote {
-    max-width:390px;
+    max-width:500px;
     text-align: center; 
-    padding-left: 5px;
+    padding-left: 3px;
     margin:0 auto;
     width:auto;
     display:table

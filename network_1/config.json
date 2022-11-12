@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Martina Pensalfini"
+  },
+  "text": {
+    "more": "This graph represents the network analysis of the chapters 8-14 of the first part (\"Infanzia: Storia di Don Achille\") of the book, \"My Brilliant Friend\"; the graph further opens and explores new relationships, such as the one of the main characters with their school friends and rivals.\nIt also explores the familial relationships of the newly introduced characters, giving us a further insight in the lifestyle of the district\nStarting from the exceptional discovery of Lila\u0027s abilities, it moves onto describing a school challenge that further brings out the girl\u0027s exceptional abilities out in the open, but also brings many people to actually start opnely disliking her, starting a circle of vengeance that is broken only when violence isn\u0027t answered.\nThis segment of chapters also recounts fully the story of the retrieval of the dolls, when Lila and Lenù actually gets together to fight against Don Achille, overcoming their childish fear of the man.\nAt the end, Don Achille pays the two girls and with the money the two buy their first book, which will later give Lila the idea to start a book.\nRight at the end of the chapter, it is introduced a problem: wiill Lila and Lenù be able to actually continue their scholastic careers?",
+    "intro": " Browse through the graph, analyzing the various relationships between the characters of the first part (chapter 8-14) of the book \"My Brilliant Friend\", to understand what has brought Lila and Lenù together and to understand their own social contexts.",
+    "title": "Chapters 8-14"
+  },
+  "legend": {
+    "edgeLabel": "Relationships",
+    "colorLabel": "Different types",
+    "nodeLabel": "Characters"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

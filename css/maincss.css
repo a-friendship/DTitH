@@ -676,6 +676,16 @@ h2 {
     display:table
 }
 
+.legend span {
+border: 1px solid #ccc;
+float: left;
+width: 12px;
+height: 12px;
+margin: 2px;
+}
+.legend .PrimaryCharacter {
+background-color: rgb(230,111,89);
+}
 
 
 

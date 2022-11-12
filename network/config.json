@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Martina Pensalfini"
+  },
+  "text": {
+    "more": "This graph represents the network analysis of the fist seven chapters of the first part (\"Infanzia: Storia di Don Achille\") of the book, \"My Brilliant Friend\"; it described the characters\u0027 lives and mainly focus on their families as represented also by the graph.\nThe sole character that doesn\u0027t belong inherently to the familial sphere, is the teacher Oliviero, who plays a huge part in the seventh character and introduces the theme of \u0027school\u0027, being the first one to acknowledge Lila\u0027s exceptional abilities.\nThis first part starts with the recounting by the narrator, Lenù, of when she and Lila went to retrieve their dolls from Don Achille, and ends with the meeting between teacher Oliviero and Lila\u0027s mother, Mrs. Cerullo, to inform her of the talent of the daughter.",
+    "intro": " Browse through the graph, analyzing the various relationships between the characters of the first part (chapter 1-7) of the book \"My Brilliant Friend\", to understand what has brought Lila and Lenù together and to understand their own social contexts.",
+    "title": "Chapters 1-7"
+  },
+  "legend": {
+    "edgeLabel": "Relationships",
+    "colorLabel": "Different types",
+    "nodeLabel": "Characters"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

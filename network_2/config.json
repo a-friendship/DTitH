@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Martina Pensalfini"
+  },
+  "text": {
+    "more": "This graph represents the network analysis of the chapters 8-14 of the first part (\"Infanzia: Storia di Don Achille\") of the book, \"My Brilliant Friend\"; in this case, the graph is heavily influenced by the events happening in these chapters.\nFirst of all, while Lenù is allowed to actually continue with her education, Lila is stopped by her father, even physically.\nThe girl, still, doesn\u0027t relent and tried to convince her brother to actually support her through this choice, bringing up various discussions in the family; still Lila is unsuccesful and in one of the last chapters, her own father beats her and throws her from a window, after having been enraged by the girl about attending middle grade.\nMeanwhile Lenù starts to notice how they are slowly growing separated due to this and soon Lila loses also the sympathies of teacher Oliviero, who ends up verbally insulting her in one of their last lessons and ignoring the small booklet that Lila had written to try to gain some money.\nAn important episode of this part is the walk to the beach, almost symbolic of the destiny of the two characters; Lila and Lenù decides to visit the beach and they end up ditching school and lying to their parents. Halfway through Lila chooses to come back, although Lenù wanted to continue.\nWhile Lila\u0027s parents don\u0027t mind her absence, Lenù\u0027s own beat her but they allow her to still continue her scholastic career.\nThis first part of the book ends up with Don Achille\u0027s death and Alfredo Peluso\u0027s convinction for it.\n",
+    "intro": " Browse through the graph, analyzing the various relationships between the characters of the first part (chapter 15-18) of the book \"My Brilliant Friend\", to understand what has brought Lila and Lenù together and to understand their own social contexts.",
+    "title": "Chapters 8-14"
+  },
+  "legend": {
+    "edgeLabel": "Relationships",
+    "colorLabel": "Different types",
+    "nodeLabel": "Characters"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

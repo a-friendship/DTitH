@@ -273,6 +273,21 @@ html {
     filter: opacity(95%);
 }
 
+.hero-image2 {
+
+    background-image: url("https://www.wildside.it/public/uploads/MBF_Margherita-Mazzucco-teenage-Elena_photo-by-Eduardo-Castaldo.jpg");
+
+
+    height: 50%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    filter: brightness(500%);
+    filter: opacity(95%);
+}
+
 
 /* ==== CARDS AUTHORS ==== */
 

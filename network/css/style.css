@@ -574,4 +574,48 @@ background-position: -45px -147px;
 cursor: pointer;
 display: none;
 }
+/* your colors */
+.legend .primarycharacter {
+    background-color: #ffb456;
+}
 
+.legend .CerulloFamily {
+    background-color: #da8038;
+
+}
+
+.legend .GrecoFamily {
+    background-color: #ffcb29;
+}
+
+.legend .CarracciFamily {
+    background-color: #ffbd6d;
+}
+
+.legend .PelusoFamily {
+    background-color: #c18c53;
+}
+
+.legend .SpagnuoloFamily {
+    background-color: #ffcd5a;
+}
+
+.legend .CappuccioFamily {
+    background-color: #9300e6;
+}
+
+.legend .ScannoFamily{
+    background-color: #009de6;
+}
+
+.legend .SolaraFamily{
+    background-color: #0002e6;
+}
+
+.legend .SarratoreFamily {
+    background-color: #36e600;
+}
+
+.legend .School {
+    background-color: #36e600;
+}

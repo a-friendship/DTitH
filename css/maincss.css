@@ -676,15 +676,79 @@ h2 {
     display:table
 }
 
-.legend span {
-border: 1px solid #ccc;
-float: left;
-width: 12px;
-height: 12px;
-margin: 2px;
+/* Legenda */
+/* basic positioning */
+.legend {
+    list-style: none;
 }
+
+.legend li {
+    float: left;
+    margin-right: 10px;
+}
+
+.legend span {
+    border: 1px solid #ccc;
+    float: left;
+    width: 12px;
+    height: 12px;
+    margin: 2px;
+}
+
+/* your colors */
 .legend .PrimaryCharacter {
-background-color: rgb(230,111,89);
+    background-color: #ffb456;
+}
+
+.legend .CerulloFamily {
+    background-color: #da8038;
+
+}
+
+.legend .GrecoFamily {
+    background-color: #ffcb29;
+}
+
+.legend .CarracciFamily {
+    background-color: #ffbd6d;
+}
+
+.legend .PelusoFamily {
+    background-color: #c18c53;
+}
+
+.legend .SpagnuoloFamily {
+    background-color: #ffcd5a;
+}
+
+.legend .CappuccioFamily {
+    background-color: #9300e6;
+}
+
+.legend .ScannoFamily{
+    background-color: #009de6;
+}
+
+.legend .SolaraFamily{
+    background-color: #0002e6;
+}
+
+.legend .SarratoreFamily {
+    background-color: #36e600;
+}
+
+.legend .School {
+    background-color: #36e600;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 1px solid #7c4e28;
+    margin-top:1em;
+    margin-bottom:1em;
 }
 
 

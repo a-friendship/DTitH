@@ -514,7 +514,7 @@ img {
 /* ==== THE TEAM SECTION (MAIN HTML) ===== */
 
 .team-profile-card {
-    background-image: url("https://i.pinimg.com/originals/4b/6a/4e/4b6a4e56fff3b6ab86eff138ef4a52c2.png");
+     background-color: gray;
     color: #c00c2c;
 }
 

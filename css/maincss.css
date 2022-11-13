@@ -287,7 +287,20 @@ html {
     filter: brightness(500%);
     filter: opacity(95%);
 }
+.hero-image3 {
 
+    background-image: url("https://familyandmedia.eu/wp-content/uploads/2019/05/Serie-LAmica-Geniale-Elena-Ferrante-1024x563.jpg");
+
+
+    height: 50%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    filter: brightness(500%);
+    filter: opacity(95%);
+}
 
 /* ==== CARDS AUTHORS ==== */
 

@@ -689,6 +689,15 @@ h2 {
 }
 
 
+  blockquote. index {
+    max-width:1000px;
+    text-align: center; 
+    padding-left: 2px;
+    margin:0 auto;
+    width:auto;
+    display:table
+}
+
 
 
 

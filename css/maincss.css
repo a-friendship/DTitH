@@ -691,6 +691,7 @@ h2 {
 
 .index {
     max-width:10000px;
+width: 800px;
     text-align: center; 
     padding-left: 2px;
     margin:0 auto;

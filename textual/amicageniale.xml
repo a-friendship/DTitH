@@ -1,0 +1,3131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>L'amica geniale</title>
+            <author>Elena Ferrante</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>Edizioni E/O, 2011</edition>
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName>Martina Pensalfini</persName>
+               <orgName>Alma Mater Studiorum - University of Bologna</orgName>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+               <authority>A Friendship's Tale</authority>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA
+                     4.0</licence>
+               </availability>
+            <publisher>Edizioni E/O</publisher>
+            <pubPlace>Via Camozzi, 1 
+               00195 Roma </pubPlace>
+            <date>2011</date>
+         </publicationStmt>
+         <sourceDesc>
+               <bibl>
+                  <author>Elena Ferrante</author>, <title>L'amica geniale</title>.
+                  <publisher>Edizioni E/O</publisher>
+                  <date>2011</date>. 
+               </bibl>
+         </sourceDesc>
+      </fileDesc>
+    <profileDesc>
+       <particDesc>
+          <listPerson>
+             <person xml:id="FernandoCerullo">
+             <persName>
+                Fernando Cerullo
+             </persName>
+             </person>
+             <person xml:id="NunziaCerullo">
+                <persName>
+                   Nunzia Cerullo
+                </persName>
+             </person>
+             <person xml:id="Lila">
+                <persName>
+                   Raffaella "Lila" Cerullo
+                </persName>
+             </person>
+             <person xml:id="RinoCerullo">
+                <persName>
+                   Rino Cerullo
+                </persName>
+             </person>
+             <person xml:id="RinoCarracci">
+                <persName>
+                   Rino Carracci
+                </persName>
+             </person>
+             <person xml:id="Lenù">
+                <persName>
+                   Elena "Lenù" Greco
+                </persName>
+             </person>
+             <person xml:id="ElisaGreco">
+                <persName>
+                   Elisa Greco
+                </persName>
+             </person>
+             <person xml:id="GianniGreco">
+                <persName>
+                   Gianni Greco
+                </persName>
+             </person>
+             <person xml:id="PeppeGreco">
+                <persName>
+                   Peppe Greco
+                </persName>
+             </person>
+             <person xml:id="LenùsFather">
+                <persName>
+                   Papà di Lenù
+                </persName>
+             </person>
+             <person xml:id="LenùsMother">
+                <persName>
+                   Mamma di Lenù
+                </persName>
+             </person>
+             <person xml:id="AchilleCarracci">
+                <persName>
+                   Don Achille Carracci
+                </persName>
+             </person>
+             <person xml:id="MariaCarracci">
+                <persName>
+                   Maria Carracci
+                </persName>
+             </person>
+             <person xml:id="StefanoCarracci">
+                <persName>
+                   Stefano Carracci
+                </persName>
+             </person>
+             <person xml:id="AlfonsoCarracci">
+                <persName>
+                   Alfonso Carracci
+                </persName>
+             </person>
+             <person xml:id="PinucciaCarracci">
+                <persName>
+                   Pinuccia Carracci
+                </persName>
+             </person>
+             <person xml:id="AlfredoPeluso">
+                <persName>
+                   Alfredo Peluso
+                </persName>
+             </person>
+             <person xml:id="GiuseppinaPeluso">
+                <persName>
+                   Giuseppnia Peluso
+                </persName>
+             </person>
+             <person xml:id="PasqualePeluso">
+                <persName>
+                   Pasquale Peluso
+                </persName>
+             </person>
+             <person xml:id="CarmenPeluso">
+                <persName>
+                   Carmen Peluso
+                </persName>
+             </person>
+             <person xml:id="Melina">
+                <persName>
+                   Melina
+                </persName>
+             </person>
+             <person xml:id="MaritoMelina">
+                <persName>
+                   Marito di Melina
+                </persName>
+             </person>
+             <person xml:id="AdaCappuccio">
+                <persName>
+                   Ada Cappuccio
+                </persName>
+             </person>
+             <person xml:id="AntonioCappuccio">
+                <persName>
+                   Antonio Cappuccio
+                </persName>
+             </person>
+             <person xml:id="DonatoSarratore">
+                <persName>
+                   Donato Sarratore
+                </persName>
+             </person>
+             <person xml:id="LidiaSarratore">
+                <persName>
+                   Lidia Sarratore
+                </persName>
+             </person>
+             <person xml:id="NinoSarratore">
+                <persName>
+                   Nino Sarratore
+                </persName>
+             </person>
+             <person xml:id="MarisaSarratore">
+                <persName>
+                   Marisa Sarratore
+                </persName>
+             </person>
+             <person xml:id="PinoSarratore">
+                <persName>
+                   Pino Sarratore
+                </persName>
+             </person>
+             <person xml:id="CleliaSarratore">
+                <persName>
+                   Clelia Sarratore
+                </persName>
+             </person>
+             <person xml:id="CiroSarratore">
+                <persName>
+                   Ciro Sarratore
+                </persName>
+             </person>
+             <person xml:id="NicolaScanno">
+                <persName>
+                   Nicola Scanno
+                </persName>
+             </person>
+             <person xml:id="AssuntaScanno">
+                <persName>
+                   Assunta Scanno
+                </persName>
+             </person>
+             <person xml:id="EnzoScanno">
+                <persName>
+                   Enzo Scanno
+                </persName>
+             </person>
+             <person xml:id="SilvioSolara">
+                <persName>
+                   Silvio Solara
+                </persName>
+             </person>
+             <person xml:id="ManuelaSolara">
+                <persName>
+                   Manuela Solara
+                </persName>
+             </person>
+             <person xml:id="MarcelloSolara">
+                <persName>
+                   Marcello Solara
+                </persName>
+             </person>
+             <person xml:id="MicheleSolara">
+                <persName>
+                   Michele Solara
+                </persName>
+             </person>
+             <person xml:id="PadreSpagnuolo">
+                <persName>
+                   Signore Spagnuolo
+                </persName>
+             </person>
+             <person xml:id="RosaSpagnuolo">
+                <persName>
+                   Rosa Spagnuolo
+                </persName>
+             </person>
+             <person xml:id="GigliolaSpagnuolo">
+                <persName>
+                   Gigliola Spagnuolo
+                </persName>
+             </person>
+             <person xml:id="Gino">
+                <persName>
+                   Gino, il figlio del farmacista
+                </persName>
+             </person>
+             <person xml:id="Ferraro">
+                <persName>
+                   Maestro Ferraro
+                </persName>
+             </person>
+             <person xml:id="Oliviero">
+                <persName>
+                   Maestra Oliviero
+                </persName>
+             </person>
+             <person xml:id="Gerace">
+                <persName>
+                   Professore Gerace
+                </persName>
+             </person>
+             <person xml:id="Galliani">
+                <persName>
+                   Professoressa Galliani
+                </persName>
+             </person>
+          </listPerson>
+       </particDesc>
+    </profileDesc> 
+  </teiHeader>
+  <text>
+     <body>
+        <div xml:id="prologo">
+           <head>PROLOGO: Cancellare 
+              le 
+              tracce </head>
+           <div xml:id="chap1">
+              <head>1.</head>
+              <p><date when="2011">Stamattina</date> mi ha telefonato <persName ref="#RinoCarracci">Rino</persName> 
+                 ho creduto che volesse ancora soldi e mi 
+                 sono preparata a negarglieli. Invece il motivo della telefonata era un altro: 
+                 <persName ref="Lila">sua madre</persName> non si trovava più.</p>
+              
+              
+              <p>«Da quando?».</p> 
+              
+              
+              <p>«Da due settimane».</p> 
+              
+              
+              <p>«E mi telefoni adesso?».</p> 
+              
+              
+              <p>Il tono gli dev’essere sembrato ostile, anche se non ero né arrabbiata né 
+                 indignata, c’era solo un filo di sarcasmo. Ha provato a ribattere ma l’ha 
+                 fatto confusamente, in imbarazzo, un po’ in dialetto, un po’ in italiano. Ha 
+                 detto che s’era convinto che la madre fosse in giro per Napoli come al 
+                 solito.</p> 
+              
+              
+              <p>«Pure di notte?».</p> 
+              
+              
+              <p>«Lo sai com’è fatta».</p> 
+              
+              
+              <p>«Lo so, ma due settimane d’assenza ti sembrano normali?».</p> 
+              
+              
+              <p>«Sì. Tu non la vedi da molto, è peggiorata: non ha mai sonno, entra, esce, 
+                 fa quello che le pare».</p> 
+              
+              
+              <p>Comunque alla fine si era preoccupato. Aveva chiesto a tutti, aveva fatto 
+                 il giro degli ospedali, si era rivolto persino alla polizia. Niente, <persName ref="#Lila">sua madre</persName> 
+                 non era 
+                 da nessuna parte. Che buon figlio: un uomo grosso, sui 
+                 quarant’anni, mai lavorato in vita sua, solo traffici e sperperi. Mi sono 
+                 immaginata con quanta cura avesse fatto le ricerche. Nessuna. Era senza 
+                 cervello, e a cuore aveva soltanto se stesso.</p> 
+              
+              
+              <p>«Non è che sta da te?» mi ha chiesto all’improvviso.</p>
+              
+              
+              <p><persName ref="#Lila">La madre</persName>? Qui a 
+                 Torino? Conosceva bene la situazione e parlava solo per 
+                 parlare. Lui sì che era un viaggiatore, era venuto a casa mia almeno una 
+                 decina di volte, senza essere invitato. Sua madre, che invece avrei accolto 
+                 volentieri, non era mai uscita da 
+                 Napoli in tutta la sua vita. Gli ho risposto:</p>
+              <p>«No che non sta da me».</p> 
+              
+              
+              <p>«Sei sicura?».</p>
+              
+              
+              
+              <p>«Rino, per favore: t’ho detto che non c’è».</p>
+              
+              
+              <p>«E allora dov’è andata?».</p> 
+              
+              
+              <p>Ha cominciato a piangere e ho lasciato che mettesse in scena la sua 
+                 disperazione, singhiozzi che partivano finti e continuavano veri. Quando ha 
+                 finito gli ho detto:</p> 
+              
+              
+              <p>«Per favore, una volta tanto comportati come vorrebbe lei: non la 
+                 cercare».</p>
+              
+              
+              <p>«Ma che dici?».</p> 
+              
+              
+              <p>«Dico quello che ho detto. È inutile. Impara a vivere da solo e non 
+                 cercare più nemmeno me».</p> 
+              
+              
+              <p>Ho riattaccato.</p>
+           </div>
+           <div xml:id="chap2">
+              <head>2.</head>
+              <p>La madre 
+                 di <persName ref="#RinoCarracci">Rino</persName> si chiama <persName ref="#Lila">RaffaellaCerullo</persName>, ma tutti l’hanno sempre 
+                 chiamata Lina. Io no, non ho mai usato né il primo nome né il secondo. Da 
+                 più di sessant’anni per me è Lila. Se la chiamassi Lina o Raffaella, così, 
+                 all’improvviso, penserebbe che la nostra amicizia è finita.</p> 
+              
+              
+              <p>Sono almeno tre decenni che mi dice di voler sparire senza 
+                 lasciare 
+                 traccia, e solo io so bene cosa vuole dire. Non ha mai avuto in mente una 
+                 qualche fuga, un cambio di identità, il sogno di rifarsi una vita altrove. E 
+                 non ha mai pensato al suicidio, disgustata com’è dall’idea che Rino abbia a 
+                 che fare 
+                 col suo corpo e sia costretto a occuparsene. Il suo proposito è stato 
+                 sempre un altro: voleva volatilizzarsi; voleva disperdere ogni sua cellula; di 
+                 lei non si doveva trovare più niente. E poiché la conosco bene, o almeno 
+                 credo di conoscerla, do per scontato che abbia trovato il modo di non 
+                 lasciare in questo mondo nemmeno un capello, da nessuna parte.</p>
+           </div>
+           <div xml:id="chap3">
+              <head>3.</head> 
+              <p>Sono passati i giorni. Ho guardato nella posta elettronica, in quella 
+                 cartacea, ma senza speranza. Io ho scritto spessissimo a lei, lei non mi ha 
+                 quasi mai risposto: questa è stata sempre la consuetudine. Preferiva il 
+                 telefono o le lunghe notti di chiacchiere quando andavo a Napoli.</p> 
+              
+              
+              <p>Ho aperto i miei cassetti, le scatole di metallo dove conservo cose di ogni 
+                 genere. Poche. Ho buttato via tanta roba, in particolare ciò che la 
+                 riguardava, e lei lo sa. Ho scoperto che non ho niente di suo, non 
+                 un’immagine, non un biglietto, non un regalino. Mi sono sorpresa io stessa. 
+                 Possibile che in tutti questi anni non mi abbia lasciato niente di sé, o, 
+                 peggio, io non abbia voluto conservare alcunché di lei? Possibile.</p> 
+              
+              
+              <p>Ho telefonato io a <persName ref="#RinoCarracci">Rino</persName>, questa volta, l’ho fatto a malincuore. Non 
+                 rispondeva né sul fisso né sul cellulare. Mi ha chiamato lui in serata, con 
+                 comodo. Aveva la voce con cui cerca di stimolare un senso di pena.</p> 
+              
+              
+              <p>«Ho visto che hai chiamato. Hai notizie?».</p> 
+              
+              
+              <p>«No. E tu?».</p> 
+              
+              
+              <p>«Nessuna».</p> 
+              
+              
+              <p>M’ha detto cose sconclusionate. Voleva andare in tv, alla trasmissione 
+                 che si occupa delle persone scomparse, fare un appello, chiedere perdono 
+                 per tutto a sua mamma, supplicarla di tornare.</p> 
+              
+              
+              <p>Sono stata a sentire pazientemente, poi gli ho chiesto: «Hai guardato nel 
+                 suo armadio?».</p> 
+              
+              
+              <p>«Per fare che?».</p> 
+              
+              
+              <p>Naturalmente non gli era mai venuta in mente la cosa più ovvia.</p> 
+              
+              
+              <p>«Va’ a guardare».</p> 
+              
+              
+              <p>C’è andato e si è reso conto che non c’era niente, nemmeno uno dei 
+                 vestiti di sua madre, né estivi 
+                 né invernali, solo vecchie grucce. L’ho 
+                 mandato in giro a frugare per casa. Sparite le scarpe. Spariti i 
+                 pochi libri. 
+                 Sparite tutte le foto. Spariti i filmini. Sparito il suo computer, anche i vecchi 
+                 dischetti che si usavano una volta, tutto, ogni cosa della sua esperienza di 
+                 
+                 
+                 
+                 strega elettronica che aveva cominciato a destreggiarsi coi calcolatori già 
+                 sul finire degli anni Sessanta, all’epoca delle schede perforate. Rino era 
+                 stupefatto. Gli ho detto:</p> 
+              
+              
+              <p>«Prenditi il tempo che vuoi ma poi telefonami e dimmi se hai trovato 
+                 anche solo uno spillo che le appartiene».</p> 
+              
+              
+              <p>Mi ha chiamato il giorno dopo, era agitatissimo.</p>
+              
+              
+              <p>«Non c’è niente».</p> 
+              
+              
+              <p>«Niente niente?».</p> 
+              
+              
+              <p>«No. S’è 
+                 tagliata via da tutte le foto in cui stavamo insieme, anche quelle 
+                 di quando ero piccolo».</p> 
+              
+              
+              <p>«Hai guardato bene?».</p> 
+              
+              
+              <p>«Dappertutto».</p>
+              
+              
+              <p>«Anche nello scantinato?».</p> 
+              
+              
+              <p>«T’ho detto dappertutto. È sparita persino la scatola con i documenti: che 
+                 so, vecchi certificati di nascita, contratti telefonici, ricevute di bollette. Che 
+                 significa? Qualcuno ha rubato tutto? Cosa cercano? Che vogliono da mia 
+                 madre e da me?».</p> 
+              
+              
+              <p>L’ho rassicurato, gli ho detto di stare tranquillo. Soprattutto da lui, era 
+                 improbabile che qualcuno volesse qualcosa.</p> 
+              
+              
+              <p>«Posso venire a stare un po’ a casa tua?».</p> 
+              
+              
+              <p>«No».</p> 
+              
+              
+              <p>«Per favore, non riesco a dormire».</p> 
+              
+              
+              <p>«Arrangiati, Rino, non so che farci».</p> 
+              
+              
+              <p>Ho riattaccato e quando lui ha 
+                 ritelefonato non ho risposto. Mi sono 
+                 seduta alla scrivania.</p> 
+              
+              
+              <p><persName ref="#Lila">Lila</persName> come al solito vuole esagerare, ho pensato.</p> 
+              
+              
+              <p>Stava dilatando a dismisura il concetto di traccia. Voleva non solo sparire 
+                 lei, adesso, a sessantasei anni, ma anche cancellare tutta la vita che si era 
+                 lasciata alle spalle.</p> 
+              
+              
+              <p>Mi sono sentita molto arrabbiata.</p> 
+              
+              
+              <p>Vediamo chi la spunta questa volta, mi sono detta. Ho acceso il computer 
+                 e ho cominciato 
+                 a scrivere ogni dettaglio della nostra storia, tutto ciò che mi 
+                 è rimasto in mente.</p>
+           </div>
+        </div>
+        
+        <div xml:id="infanzia">
+           <head>INFANZIA: Storia 
+              di 
+              don 
+              Achille</head> 
+            
+           <div xml:id="chapin1">
+              <head>1</head>
+              <p><date notBefore="1944">La volta che <persName ref="#Lila">Lila</persName> e <persName ref="#Lenù">io</persName> decidemmo di salire per le scale buie che portavano</date>, 
+gradino dietro gradino, rampa dietro rampa, fino alla porta 
+dell’appartamento di <persName ref="#AchilleCarracci">don Achille</persName>, cominciò la nostra amicizia.</p>
+
+
+<p>Mi ricordo la luce violacea del cortile, gli odori di una serata tiepida di 
+primavera. Le mamme stavano preparando la cena, era ora di rientrare, ma 
+noi ci attardavamo sottoponendoci per sfida, senza mai rivolgerci la parola, 
+a prove di coraggio. Da qualche tempo, dentro e fuori scuola, non facevamo 
+che quello. <persName ref="#Lila">Lila</persName> infilava la mano e tutto il braccio nella bocca nera di un 
+tombino, e io lo 
+facevo subito dopo a mia volta, col batticuore, sperando 
+che gli scarafaggi non mi corressero su per la pelle e i topi non mi 
+mordessero. Lila s’arrampicava fino alla finestra a pianterreno della <persName ref="#RosaSpagnuolo">signora 
+Spagnuolo</persName>, s’appendeva alla sbarra di ferro dove passava il filo per stendere 
+i panni, si dondolava, quindi si lasciava andare giù sul marciapiede, e io lo 
+facevo subito dopo a mia volta, pur temendo di cadere e farmi male. <persName ref="#Lila">Lila</persName>
+s’infilava sotto pelle la rugginosa spilla francese che aveva trovato per 
+strada non so quando ma che conservava in tasca come il regalo di una fata; 
+e io osservavo la punta di metallo che le scavava un tunnel biancastro nel 
+palmo, e poi, quando lei l’estraeva e me la tendeva, facevo lo stesso.</p> 
+
+
+<p>A un 
+certo punto mi lanciò uno 
+sguardo dei suoi, fermo, con gli occhi 
+stretti, e si diresse verso la palazzina dove abitava <persName ref="#AchilleCarracci">don Achille</persName>. 
+Mi gelai di 
+paura. <persName ref="#AchilleCarracci">Don Achille</persName> era l’orco delle favole, avevo il divieto assoluto di 
+avvicinarlo, parlargli, guardarlo, spiarlo, bisognava fare come se non 
+esistessero né lui né la sua famiglia. C’erano nei suoi confronti, in casa mia 
+ma non solo, un timore e un odio che non sapevo da dove nascessero. <persName ref="#LenùsFather">Mio 
+padre</persName> ne 
+parlava in un modo che me l’ero immaginato grosso, pieno di 
+bolle violacee, furioso malgrado il “don”, che a me suggeriva un’autorità 
+calma. Era un essere fatto di non so quale materiale, ferro, vetro, ortica, ma 
+vivo, vivo col respiro caldissimo che gli usciva dal naso e dalla bocca.</p> 
+<p>Credevo che se solo l’avessi visto da lontano mi avrebbe cacciato negli 
+
+
+
+occhi qualcosa di acuminato e bruciante. Se poi avessi fatto la pazzia di 
+avvicinarmi alla porta di casa sua mi avrebbe uccisa.</p> 
+
+
+<p>Aspettai un po’ per vedere se <persName ref="#Lila">Lila</persName> ci ripensava e tornava indietro. Sapevo 
+cosa voleva fare, avevo inutilmente sperato che se ne dimenticasse, e invece 
+no. I lampioni non si erano ancora accesi e nemmeno le luci delle scale. 
+Dalle case arrivavano voci nervose. Per seguirla dovevo lasciare 
+l’azzurrognolo del cortile ed entrare nel nero del portone. Quando 
+finalmente mi decisi, all’inizio non vidi niente, sentii solo un odore di roba 
+vecchia e DDT. Poi mi abituai allo scuro e scoprii <persName ref="#Lila">Lila</persName> seduta sul primo 
+gradino della prima rampa. Si alzò e cominciammo a salire.</p> 
+
+
+<p>Avanzammo tenendoci dal lato della parete, lei due gradini avanti, io due 
+gradini indietro e combattuta tra accorciare la distanza o lasciare che 
+aumentasse. M’è rimasta l’impressione della spalla che strisciava contro il 
+muro scrostato e 
+l’idea che gli scalini fossero molto alti, più di quelli della 
+palazzina dove abitavo. Tremavo. Ogni rumore di passi, ogni voce era <persName ref="#Achille">don 
+Achille</persName> che ci arrivava alle spalle o ci veniva incontro con un lungo 
+coltello, di quelli per aprire il petto alle galline. Si sentiva un odore d’aglio 
+fritto. <persName ref="MariaCarracci">Maria</persName>, la moglie di <persName ref="#AchilleCarracci">don Achille</persName>, mi avrebbe messo nella padella con 
+l’olio bollente, i figli mi avrebbero mangiato, lui mi avrebbe succhiato la 
+testa come faceva mio padre con le triglie.</p> 
+
+
+<p>Ci fermammo spesso, e tutte le volte sperai che <persName ref="Lila">Lila</persName> decidesse di tornare 
+indietro. Ero molto sudata, lei non so. Ogni tanto guardava in alto, ma non 
+capivo cosa, si vedeva solo il grigiore dei finestroni a ogni rampa. Le luci si 
+accesero all’improvviso, ma tenui, polverose, lasciando ampie zone 
+d’ombra piene di pericoli. Aspettammo per capire se era stato <persName ref="#AchilleCarracci">don Achille</persName> a 
+girare l’interruttore ma non sentimmo niente, né passi né una porta che si 
+apriva o si chiudeva. Poi Lila proseguì, e io dietro.</p> 
+
+
+<p>Lei riteneva di fare una cosa giusta e necessaria, io mi ero dimenticata 
+ogni buona ragione e di sicuro ero lì solo perché c’era lei. Salivamo 
+lentamente verso il più grande dei nostri terrori di allora, andavamo a 
+esporci alla paura e a interrogarla.</p> 
+
+
+<p>Alla quarta rampa <persName ref="#Lila">Lila</persName> si comportò in modo inatteso. Si fermò ad 
+aspettarmi e quando la raggiunsi mi diede la mano. Questo gesto cambiò 
+tutto tra noi per sempre.</p>
+</div>
+           <div xml:id="chapin2">
+              <head>2.</head>
+              <p>Era stata colpa sua. <date notBefore="1944">In un tempo non troppo distante</date> – dieci giorni, un 
+mese, chi lo sa, ignoravamo tutto del tempo, allora – mi aveva preso la 
+bambola a tradimento e l’aveva buttata in fondo a uno scantinato. Ora 
+stavamo salendo verso la paura, allora ci eravamo sentite obbligate a 
+scendere, e di corsa, verso l’ignoto. In alto, in basso, ci pareva sempre di 
+andare incontro a qualcosa di terribile che, pur esistendo da prima di noi, 
+era noi e sempre noi che aspettava. Quando si è al mondo da poco è difficile 
+capire quali sono i disastri all’origine del nostro sentimento del disastro, 
+forse non se ne sente nemmeno la necessità. I grandi, in attesa di domani, si 
+muovono in un presente dietro al quale c’è ieri o l’altro ieri o al massimo la 
+settimana scorsa: al resto non vogliono pensare. I piccoli non sanno il 
+significato di ieri, dell’altro ieri, 
+e nemeno di domani, tutto è questo, ora: 
+la strada è questa, il portone è questo, le scale sono queste, questa è 
+mamma, questo è papà, questo è 
+il giorno, questa la notte. Io ero piccola e a 
+conti fatti la mia bambola sapeva più di me. Le parlavo, mi parlava. Aveva 
+una faccia di celluloide con capelli di celluloide e occhi di celluloide. 
+Indossava un vestitino blu che le aveva cucito mia madre in un raro 
+momento felice, ed era bellissima. La bambola di Lila, invece, aveva un 
+corpo di pezza gialliccia pieno di segatura, mi pareva brutta e lercia. Le due 
+si spiavano, si soppesavano, erano pronte a scappare tra le nostre braccia se 
+scoppiava un temporale, se c’erano i tuoni, se qualcuno più grande e più 
+forte e coi denti aguzzi le voleva ghermire.</p> 
+
+
+<p>Giocavamo nel cortile, ma come se non giocassimo insieme. Lila era 
+seduta per terra, 
+da un lato della finestrella di uno scantinato, io dall’altro. 
+Ci piaceva, quel posto, innanzitutto perché potevamo disporre, sul cemento 
+tra le sbarre dell’apertura, contro il reticolo, sia le cose di Tina, la mia 
+bambola, sia quelle di Nu, la bambola di Lila. Ci mettevamo sassi, tappi di 
+gassosa, fiorellini, chiodi, schegge di vetro. Ciò che Lila diceva 
+a Nu io lo 
+captavo e lo dicevo a voce bassa a Tina, ma modificandolo un po’. Se lei 
+
+
+prendeva un tappo e lo metteva in testa alla sua bambola come se fosse un 
+cappello, io dicevo alla mia, in dialetto: Tina, mettiti la corona di regina se 
+no prendi freddo. Se Nu giocava a campana in braccio a Lila, io poco dopo 
+facevo fare lo stesso a Tina. Ma 
+non succedeva ancora che concordassimo 
+un gioco e cominciasse una collaborazione. Persino quel posto lo 
+sceglievamo senza accordo. Lila andava lì, e io girellavo, fingevo di andare 
+da un’altra parte. Poi, come se niente fosse, mi disponevo anch’io accanto 
+allo sfiatatoio, ma dal lato opposto.</p> 
+
+
+<p>La cosa che ci attraeva di più era l’aria fredda dello scantinato, un soffio 
+che ci rinfrescava in primavera e d’estate. Poi ci piacevano le sbarre con le 
+ragnatele, il buio, e il reticolo fitto che, rossastro di ruggine, si arricciolava 
+sia dal lato mio che da quello di Lila, creando due spiragli paralleli 
+attraverso i quali potevamo far cadere nell’oscurità sassi e ascoltarne il 
+rumore quando toccavano terra. Tutto era bello e pauroso, allora. Attraverso 
+quelle aperture il buio poteva prenderci all’improvviso le bambole, a volte 
+al sicuro 
+tra le nostre braccia, più spesso messe di proposito accanto al 
+reticolo ritorto e quindi esposte al respiro freddo dello scantinato, ai rumori 
+minacciosi che ne venivano, ai fruscii, agli scricchiolii, al raspare.</p> 
+
+
+<p>Nu e Tina non erano felici. I terrori che assaporavamo noi ogni giorno 
+erano i loro. Non ci fidavamo della luce sulle pietre, sulle palazzine, sulla 
+campagna, sulle persone fuori e dentro le case. Ne intuivamo gli angoli neri, 
+i sentimenti compressi ma sempre vicini a esplodere. E attribuivamo a 
+quelle bocche scure, alle caverne che oltre di loro si aprivano sotto le 
+palazzine del rione, tutto ciò che ci spaventava alla luce del giorno. Don 
+Achille, per esempio, era non solo nella sua casa all’ultimo piano ma anche 
+lì sotto, ragno tra i ragni, topo tra i topi, una forma che assumeva tutte le 
+forme. Lo immaginavo a bocca 
+aperta per via di lunghe zanne d’animale, 
+corpo di 
+pietra invetriata ed erbe velenose, sempre pronto ad accogliere in 
+un’enorme borsa nera tutto ciò che lasciavamo cadere dagli angoli divelti 
+del reticolo. Quella borsa era un tratto fondamentale di <persName ref="#AchilleCarracci">don Achille</persName>, ce 
+l’aveva sempre, anche in casa sua, e ci metteva dentro materia viva e morta.</p> 
+
+
+<p><persName ref="#Lila">Lila</persName> sapeva che 
+avevo quella paura, la mia bambola ne parlava ad alta 
+voce. Per questo, proprio nel giorno in cui senza nemmeno contrattare, solo 
+con gli sguardi 
+e i gesti, ci scambiammo per la prima volta le nostre 
+bambole, lei, appena ebbe Tina, la spinse oltre la rete e la lasciò cadere 
+nell’oscurità.</p>
+</div>
+           <div xml:id="chapin3">
+              <head>3.</head>
+              <p><persName ref="Lila">Lila</persName> comparve nella mia vita <date notBefore="1950">in prima elementare</date> e mi impressionò subito 
+perché era molto 
+cattiva. Eravamo tutte un po’ cattive, in quella classe, ma 
+solo quando <persName ref="#Oliviero">la maestra Oliviero</persName> non poteva vederci. Lei invece 
+era cattiva 
+sempre. Una volta ridusse a pezzetti la carta assorbente, prima infilò i 
+frammenti a uno a uno nel buco dell’inchiostro, poi cominciò a pescarli col 
+pennino e a lanciarceli addosso. Io fui colpita due volte nei capelli e una 
+volta sul colletto bianco. La maestra strillò come sapeva fare lei, con una 
+voce ad 
+ago, lunga e puntuta, che ci terrorizzava, e le ordinò di andare 
+subito in 
+castigo 
+dietro la lavagna. Lila non obbedì e non parve nemmeno 
+spaventarsi, anzi continuò a lanciare in giro pezzi di carta bagnati 
+nell’inchiostro. La maestra Oliviero, allora, una donna pesante che ci 
+sembrava molto vecchia anche se doveva essere appena sopra i quaranta, 
+venne giù dalla cattedra minacciandola, inciampò non si sa bene su cosa, 
+non riuscì a tenersi in equilibrio e andò a sbattere con la faccia contro lo 
+spigolo di un banco. Restò sul pavimento che pareva morta.</p>
+
+
+<p>Cosa successe subito dopo non me lo ricordo, ricordo solo il corpo 
+immobile della maestra, un fagotto scuro, e <persName ref="#Lila">Lila</persName> che la fissava col viso 
+serio.</p> 
+
+
+<p>Ho in mente tanti incidenti di questo tipo. Vivevamo in un mondo in cui 
+bambini e adulti si ferivano spesso, dalle ferite usciva il sangue, veniva la 
+suppurazione e a volte morivano. Una delle figlie della <persName ref="#AssuntaScanno">signora Assunta</persName>, la 
+fruttivendola, si era ferita con un 
+chiodo ed era morta di tetano. Il figlio più 
+piccolo della ><persName ref="#RosaSpagnuolo">signora Spagnuolo</persName> 
+era morto di crup alla gola. Un mio cugino, 
+all’età di vent’anni, una mattina 
+andò a spalare macerie e la sera era morto 
+schiacciato, col sangue che gli usciva dalle orecchie e dalla bocca. Il padre 
+di <persName ref="#Lenùsmother">mia madre</persName> era rimasto ucciso perché stava costruendo un palazzo ed era 
+caduto giù. Il padre del <persName ref="#AlfredoPeluso">signor 
+Peluso</persName> non aveva un braccio, 
+gliel’aveva 
+tagliato il tornio a tradimento. La sorella di <persName ref="#GiuseppinaPeluso">Giuseppina</persName>, la moglie del signor 
+Peluso, era morta di tubercolosi a ventidue anni. Il figlio grande di <persName ref="#AchilleCarracci">don 
+
+
+
+Achille</persName> – non l’avevo mai visto, eppure mi pareva di ricordarmelo – era 
+andato in guerra ed era morto due volte, prima annegato nell’oceano 
+Pacifico, poi mangiato dai pescecani. Tutta la famiglia Melchiorre era morta 
+abbracciata, urlando di paura, sotto un bombardamento. La vecchia 
+signorina Clorinda era morta respirando il gas invece dell’aria. Giannino, 
+che stava in quarta quando noi eravamo in prima, un giorno era morto 
+perché aveva trovato una bomba e l’aveva toccata. Luigina, con cui 
+avevamo giocato in cortile o forse no, era solo un nome, l’aveva uccisa il 
+tifo petecchiale. Il nostro mondo era così, pieno di parole che 
+ammazzavano: il crup, il tetano, il tifo petecchiale, il gas, la guerra, il 
+tornio, le macerie, il lavoro, il bombardamento, la bomba, la tubercolosi, la 
+suppurazione. Faccio risalire le tante paure che mi hanno accompagnata per 
+tutta la vita a quei vocaboli e a quegli anni.</p> 
+
+
+<p>Si poteva morire 
+anche di cose che parevano normali. Si poteva morire, 
+per esempio, se sudavi e poi bevevi l’acqua fredda del rubinetto senza 
+esserti prima bagnata i polsi: succedeva che ti coprivi di puntini rossi, ti 
+veniva la tosse e 
+non potevi respirare più. Si poteva morire se mangiavi le 
+ciliegie nere senza sputare il nocciolo. Si poteva morire se masticavi la 
+gomma americana e per distrazione la ingoiavi. Si poteva morire soprattutto 
+se prendevi una 
+botta alla tempia. La tempia era un posto fragilissimo, ci 
+stavamo tutte molto attente. Bastava una sassata, e le sassate erano la 
+norma. All’uscita di scuola una banda di maschi della campagna, 
+capeggiata da uno che si chiamava <persName ref="#EnzoScanno">Enzo</persName> o Enzuccio, uno dei figli di 
+<persName ref="#AssuntaScanno">Assunta</persName> la fruttivendola, cominciò a tirarci le pietre. Si sentivano offesi dal 
+fatto che eravamo più brave di loro. Quando arrivavano i sassi scappavamo 
+tutte, ma <persName ref="#Lila">Lila</persName> no, seguitava a camminare con passo regolare e a volte 
+addirittura si fermava. Era molto brava a studiare la traiettoria dei sassi e a 
+scansarli con un movimento calmo, oggi direi elegante. Aveva un fratello 
+maschio più grande e forse aveva imparato da lui, non so, anch’io avevo 
+fratelli ma più piccoli di me e da loro non avevo imparato niente. Tuttavia, 
+quando mi rendevo conto che era rimasta indietro, pur avendo molta paura 
+mi fermavo ad aspettarla.</p> 
+
+
+<p>C’era già allora qualcosa che mi impediva di abbandonarla. Non la 
+conoscevo bene, non ci eravamo mai rivolte la parola pur essendo 
+continuamente in gara tra noi, in classe e fuori. Ma sentivo confusamente 
+
+
+
+che se fossi scappata insieme alle altre avrei lasciato a lei qualcosa di mio 
+che non mi avrebbe restituito più.</p> 
+
+
+<p>All’inizio restavo nascosta dietro un angolo e mi sporgevo per vedere se 
+Lila arrivava. Poi, visto che non si muoveva, mi costringevo a raggiungerla, 
+le passavo le pietre, le tiravo anch’io. Ma lo facevo senza convinzione, ho 
+fatto molte cose nella mia vita ma mai convinta, mi sono sempre sentita un 
+po’ scollata dalle mie stesse azioni. <persName ref="#Lila">Lila</persName> invece aveva, da piccola – ora non 
+so dire di preciso se già a sei o a sette anni, o quando andammo insieme su 
+per le scale che portavano a casa di <persName ref="#AchilleCarracci">don Achille</persName> e ne avevamo 
+otto, quasi 
+nove –, la caratteristica della determinazione assoluta. Che impugnasse 
+l’asta tricolore della penna o una pietra o il corrimano delle 
+scale buie, 
+comunicava l’idea che ciò che ne doveva seguire – conficcare con un lancio 
+preciso il pennino nel legno del banco, dispensare pallottole intrise di 
+inchiostro, colpire i maschi della campagna, salire fino alla porta di <persName ref="AchilleCarracci">don 
+Achille</persName> – l’avrebbe fatto senza esitazione.</p> 
+
+
+<p>La banda veniva dal terrapieno della ferrovia, faceva provvista di sassi 
+tra i binari. <persName ref="#EnzoScanno">Enzo</persName>, il capo, era un 
+bambino molto pericoloso, almeno tre anni 
+più di noi, ripetente, coi capelli cortissimi biondi e gli occhi chiari. 
+Lanciava con precisione pietre piccole dai bordi taglienti, e <persName ref="#Lila">Lila</persName> aspettava i 
+suoi tiri 
+per mostrargli come li scansava, farlo arrabbiare ancora di più e 
+rispondere subito con tiri altrettanto pericolosi. Una volta lo colpimmo alla 
+caviglia destra, e dico lo colpimmo perché ero stata <persName ref="#Lenù">io</persName> a passare a <persName ref="#Lila">Lila</persName> una 
+pietra piatta coi bordi tutti scheggiati. La pietra strisciò sulla pelle di <persName ref="#EnzoScanno">Enzo</persName> 
+come un rasoio, lasciandogli una macchia rossa da cui subito uscì sangue. Il 
+bambino si guardò la gamba ferita, ce l’ho davanti agli occhi: tra pollice e 
+indice aveva il sasso che stava per tirare, il braccio era già sollevato per il 
+lancio, eppure si bloccò stupefatto. Anche i maschi sotto il suo comando 
+guardarono increduli il sangue. <persName ref="Lila">Lila</persName> invece non mostrò la minima 
+soddisfazione per il buon esito 
+del tiro e si chinò a raccogliere un’altra 
+pietra. <persName ref="#Lenù">Io</persName>Il’afferrai per un braccio, fu il nostro primo contatto, un contatto 
+brusco e spaventato. Sentivo che la banda sarebbe diventata più feroce e 
+volevo che ci ritirassimo. Ma non ci fu tempo. <persName ref="#EnzoScanno">Enzo</persName>, malgrado la caviglia 
+sanguinante, si riprese dallo stupore e lanciò la pietra che aveva in mano. 
+Tenevo ancora stretta Lila quando la sassata la prese in fronte e me la 
+strappò via. Un attimo dopo era distesa sul marciapiede con la testa rotta.</p>
+</div>
+           <div xml:id="chapin4">
+              <head>4.</head>
+
+
+<p>Sangue. In genere usciva dalle ferite solo dopo che ci si era scambiati 
+maledizioni orribili e oscenità disgustose. Si seguiva sempre quella trafila. <persName ref="#Lenùsfather">Mio padre</persName>, che pure mi pareva un uomo buono, lanciava di continuo insulti 
+e minacce se qualcuno, come diceva, non era degno di stare sulla faccia 
+della terra. Ce l’aveva in particolare con <persName ref="#AchilleCarracci">don Achille</persName>. Aveva sempre 
+qualcosa da rinfacciargli e a volte mi mettevo le mani sulle orecchie per non 
+restare troppo impressionata dalle sue brutte parole. Quando ne parlava con 
+<persName ref="#Lenùsmother">mia madre</persName> lo chiamava “tuo cugino”, ma <persName ref="#LenùsMother">mia madre</persName> rinnegava 
+subito quel 
+legame di sangue (c’era una parentela molto alla lontana) e rincarava la 
+dose degli insulti. Mi spaventavano le loro rabbie, e mi spaventava 
+soprattutto che <persName ref="#AchilleCarracci">don Achille</persName> potesse avere orecchie così ricettive da 
+percepire anche gli insulti detti da grande distanza. Temevo che
+venisse ad 
+ammazzarli.</p> 
+
+
+<p>Il nemico giurato di <persName ref="#AchilleCarracci">don Achille</persName>, comunque, non era mio padre ma il 
+<persName ref="#AlfredoPeluso">signor Peluso</persName>, un falegname bravissimo sempre senza soldi in quanto si 
+giocava tutto quello che guadagnava nel retrobottega del bar Solara. <persName ref="#AlfredoPeluso">Peluso</persName> 
+era padre di una nostra compagna di scuola, <persName ref="#CarmenPeluso">Carmela</persName>, di <persName ref="#PasqualePeluso">Pasquale</persName>, che era 
+grande, e di altri due figli, bambini più miserabili di noi, con i quali in 
+qualche caso io e Lila giocavamo e che a scuola e fuori cercavano sempre 
+di rubarci le nostre cose, la penna, la gomma, la cotognata, tanto che 
+tornavano a casa pieni di lividi per le botte che gli davamo.</p> 
+
+
+<p>Le volte che lo vedevamo, <persName ref="#AlfredoPeluso">il signore Peluso</persName> ci pareva l’immagine della 
+disperazione. Da un lato perdeva tutto al gioco e dall’altro si prendeva a 
+schiaffi in pubblico perché non sapeva più come sfamare la famiglia. Per 
+ragioni oscure attribuiva a <persName ref="#AchilleCarracci">don Achille</persName>la propria rovina. Gli addebitava il 
+fatto che 
+a tradimento s’era preso, come se il suo corpo tenebroso fosse 
+fatto di calamita, tutti gli arnesi per il lavoro di falegname, cosa che aveva 
+reso inutile la bottega. Gli rimproverava che s’era preso anche quella e 
+l’aveva trasformata in salumeria. Per anni ho immaginato la pinza, la sega, 
+
+
+
+la tenaglia, il martello, la morsa e mille e mille chiodi che venivano 
+risucchiati in forma di sciame metallico dentro la materia che componeva 
+<persName ref="#AchilleCarracci">don Achille</persName>. Per anni ho visto uscire dal suo corpo, grezzo e 
+pesante di 
+materie eterogenee, salami, provoloni, mortadelle, sugna e 
+prosciutto, 
+sempre in forma di sciame.</p> 
+
+
+<p>Fatti avvenuti in tempi bui. <persName ref="#AchilleCarracci">Don Achille</persName> doveva essersi manifestato in 
+tutta la sua mostruosa natura prima che noi nascessimo. Prima. <persName ref="#Lila">Lila</persName> usava 
+spesso quella formula, a scuola e fuori. Ma pareva che non le 
+importasse 
+tanto ciò che era accaduto prima di noi – eventi in genere oscuri, su cui i 
+grandi o 
+tacevano o si pronunciavano con molta reticenza – quanto che ci 
+fosse stato davvero un prima. Era questo che all’epoca la lasciava perplessa 
+e anzi a volte la innervosiva. Quando diventammo amiche me ne parlò così 
+tanto di quella cosa assurda – prima di noi 
+– 
+che finì per trasmettere il 
+nervoso anche a me. Era il tempo lungo, lunghissimo, in cui non 
+c’eravamo 
+state; il tempo in cui <persName ref="#AchilleCarracci">don Achille</persName> s’era mostrato a tutti per ciò che era: un 
+essere malvagio 
+di incerta fisionomia animalminerale, che – pareva – 
+levava il sangue agli altri mentre a lui non ne usciva mai, forse non era 
+nemmeno possibile graffiarlo.</p> 
+
+
+<p>Eravamo in seconda elementare, forse, e non ci parlavamo ancora, 
+quando si sparse la voce che proprio di fronte alla chiesa della Sacra 
+Famiglia, all’uscita dalla messa, <persName ref="#AlfredoPeluso">il signor Peluso</persName> aveva cominciato a 
+strillare di rabbia contro <persName ref="#AchilleCarracci">don Achille</persName>, e <persName ref="#AchilleCarracci">don Achille</persName> aveva lasciato il figlio 
+grande <persName ref="#StefanoCarracci">Stefano</persName>, 
+<persName ref="#PinucciaCarracci">Pinuccia</persName>, <persName ref="#AlfonsoCarracci">Alfonso</persName>che era nostro coetaneo, <persName ref="#MariaCarracci">la moglie</persName>, e 
+mostrandosi per un attimo nella sua forma più raccapricciante, s’era gettato 
+addosso a <persName ref="#AlfredoPerluso">Peluso</persName>, lo aveva sollevato, lo aveva lanciato contro un albero dei 
+giardinetti e l’aveva abbandonato lì, tramortito, col sangue che gli usciva da 
+cento ferite in testa e dappertutto, senza che il poveretto potesse anche solo 
+dire: aiutatemi.</p>
+</div>
+           <div xml:id="chapin5">
+              <head>5.</head> 
+
+
+<p>Non ho nostalgia della nostra infanzia, è piena di violenza. Ci succedeva di 
+tutto, in casa e fuori, ogni giorno, ma non ricordo di aver mai pensato che la 
+vita che c’era capitata fosse particolarmente brutta. La vita era così e basta, 
+crescevamo con 
+l’obbligo di renderla difficile agli altri prima che gli altri la 
+rendessero difficile a noi. Certo, a me sarebbero piaciuti i modi gentili che 
+predicavano la maestra e il parroco, ma sentivo che quei modi non erano 
+adatti al 
+nostro rione, anche se 
+eri femmina. Le donne combattevano tra 
+loro più degli uomini, si prendevano per i capelli, si facevano male. Far 
+male era una malattia. Da bambina mi sono immaginata animali 
+piccolissimi, quasi invisibili, che 
+venivano di notte nel rione, uscivano dagli 
+stagni, dalle carrozze in disuso dei treni oltre il terrapieno, 
+dalle erbe 
+puzzolenti dette 
+fetienti, dalle rane, dalle salamandre, dalle mosche, dalle 
+pietre, dalla polvere, ed entravano nell’acqua e nel cibo e nell’aria, 
+rendendo le nostre mamme, le nonne, rabbiose come cagne assetate. Erano 
+contaminate più degli uomini, 
+perché i maschi diventavano furiosi di 
+continuo ma alla fine si calmavano, mentre le femmine, che erano 
+all’apparenza silenziose, accomodanti, quando si arrabbiavano andavano 
+fino in fondo alle loro furie senza fermarsi più.</p> 
+
+
+<p><persName ref="#Lila">Lila</persName> fu molto segnata da quello che successe a <persName ref="#Melina">Melina Cappuccio</persName>, 
+
+
+una parente di sua madre.
+              E anch’io. <persName ref="#Melina">Melina</persName> abitava nella stessa palazzina 
+dei miei
+genitori, noi al secondo piano, lei al terzo. Aveva poco più di 
+trent’anni e sei figli, ma ci sembrava una vecchia. Il marito era della sua 
+stessa età, scaricava cassette al mercato ortofrutticolo. Me lo ricordo basso e 
+largo, ma bello, con una faccia fiera. Una notte uscì di casa come al solito e 
+<date notBefore="1950">morì</date> forse ammazzato, forse di stanchezza. Ci fu un funerale amarissimo a 
+cui partecipò tutto il rione, anche i miei genitori, anche i genitori di <persName ref="#Lila">Lila</persName>. 
+Poi passò un po’ 
+di tempo e chissà cosa successe a <persName ref="#Melina">Melina</persName>. Di fuori restò la 
+stessa, una donna secca con un grande naso, i capelli già grigi, la voce acuta 
+
+
+
+che la sera chiamava i figli dalla 
+finestra a uno a uno, per nome, con sillabe 
+allungate da una disperazione rabbiosa: <persName ref="#AdaCappuccio">Aaa-daa</persName>, Miii-chè. In principio fu 
+molto aiutata da <persName ref="#DonatoSarratore">Donato Sarratore</persName>, che viveva nell’appartamento proprio 
+sopra il suo, al quarto e ultimo piano.</p> 
+
+
+<p><persName ref="#DonatoSarratore">Donato</persName> era un frequentatore assiduo della parrocchia della Sacra 
+Famiglia e 
+da buon cristiano si adoperò molto per lei raccogliendo danaro, abiti e 
+scarpe usate, sistemandole <persName ref="#AntonioCappuccio">Antonio</persName>, il figlio più grande, presso l’officina di 
+Gorresio, un suo conoscente. <persName ref="#Melina">Melina</persName> gli fu così grata che la gratitudine si 
+mutò, dentro il suo petto di donna desolata, in amore, in passione. Non si 
+sapeva se <persName ref="#DonatoSarratore">Sarratore</persName> se ne fosse mai accorto. Era un uomo cordialissimo ma 
+molto serio, casa, chiesa e lavoro, faceva parte del personale viaggiante 
+delle Ferrovie dello stato, aveva uno stipendio fisso con cui manteneva 
+dignitosamente la moglie Lidia 
+e cinque figli, il più grande si chiamava 
+<persName ref="#NinoSarratore">Nino</persName>. Le volte che non era in viaggio sulla tratta Napoli-Paola e ritorno, si 
+dedicava ad aggiustare questo e quello in casa, andava a fare la spesa, 
+portava a passeggio in carrozzina l’ultimo nato. Cose molto anomale nel 
+rione. A 
+nessuno 
+veniva in mente che <persName ref="#DonatoSarratore">Donato</persName> si prodigasse a quel modo per 
+alleviare le fatiche <persName ref="#LidiaSarratore">della moglie</persName>. No: tutti i maschi delle palazzine, mio 
+padre in testa, lo consideravano un uomo a cui piaceva fare la femmina, 
+tanto più 
+che scriveva poesie e le leggeva volentieri a chiunque. Non venne 
+mai in mente nemmeno a <persName ref="#Melina">Melina</persName>. La vedova preferì pensare che lui, per 
+gentilezza d’animo, si fosse fatto mettere i piedi in testa dalla <persName ref="#LidiaSarratore">moglie</persName>, e 
+decise perciò di combattere ferocemente contro <persName ref="#LidiaSarratore">Lidia Sarratore</persName> per liberarlo 
+e permettergli di congiungersi stabilmente a lei. La guerra che ne seguì 
+all’inizio mi sembrò divertente, se ne parlava in casa mia e fuori con cattive 
+risate. <persName ref="#LidiaSarratore">Lidia</persName> stendeva le lenzuola fresche di bucato e <persName ref="#Melina">Melina</persName> saliva in piedi 
+sul davanzale e gliele sporcava con una canna che aveva bruciato apposta, 
+alla punta, sul fuoco; <persName ref="#LidiaSarratore">Lidia</persName> passava sotto le finestre e lei le sputava in testa 
+
+
+o le rovesciava addosso secchiate d’acqua sporca; <persName ref="#LidiaSarratore">Lidia</persName> faceva rumore di 
+giorno camminandole, insieme ai figli indemoniati, sopra la testa, e lei si 
+accaniva per tutta la notte a battere contro il soffitto con la mazza per lavare 
+a terra. <persName ref="#DonatoSarratore">Sarratore</persName> cercò in tutti i modi di mettere pace, ma era un uomo 
+troppo sensibile, troppo cortese. 
+Così, di dispetto in dispetto, le due donne 
+cominciarono a prendersi a male parole se solo si incrociavano per strada o 
+per le scale, suoni duri, feroci. Fu da quel momento che cominciarono a 
+
+farmi paura. Una delle tante scene terribili della mia infanzia ha inizio con 
+le urla di <persName ref="#Melina">Melina</persName> e <persName ref="#LidiaSarratore">Lidia</persName>, con gli insulti che si lanciano dalle finestre e 
+poi sulle scale; continua quindi con mia madre che si precipita alla porta di 
+casa, l’apre e si affaccia sul pianerottolo seguita da noi bambini; e finisce 
+con l’immagine, per me ancora oggi insopportabile, delle due vicine che 
+rotolano avvinte 
+giù per le scale e la testa di <persName ref="#Melina">Melina</persName> sbatte sul pavimento 
+del pianerottolo, a pochi centimetri dalle mie scarpe, come un melone 
+bianco che ti è scappato di mano.</p> 
+
+
+<p>Mi è 
+difficile dire perché a quei tempi noi bambine fossimo dalla parte di 
+<persName ref="#LidiaSarratore">Lidia Sarratore</persName>. Forse perché aveva lineamenti regolari e capelli biondi. O 
+
+
+perché <persName ref="#DonatoSarratore">Donato</persName> era suo e avevamo capito che <persName ref="#Melina">Melina</persName> glielo voleva levare. O 
+perché i 
+figli di Melina erano cenciosi e sporchi, mentre quelli di Lidia 
+erano lavati, ben 
+pettinati e il primo, <persName ref="#NinoSarratore">Nino</persName>, che aveva qualche anno più di 
+noi, era bello, ci piaceva. <persName ref="#Lila">Lila</persName> soltanto propendeva per <persName ref="#Melina">Melina</persName>, ma non ci 
+spiegò mai perché. Disse solo, in una certa circostanza, che se <persName ref="#LidiaSarratore">Lidia Sarratore</persName>Lidia finiva ammazzata ben 
+le stava, e io pensai che la vedesse così un 
+po’ perché era cattiva nell’anima e un po’ perché lei e Melina erano parenti 
+alla lontana.</p> 
+
+
+<p>Un giorno tornavamo da scuola, eravamo quattro o cinque bambine.</p> 
+
+
+<p>Con noi 
+c’era <persName ref="#MarisaSarratore">Marisa Sarratore</persName>, 
+che di solito ci accompagnava non perché 
+ci fosse simpatica ma perché speravamo che, tramite lei, avremmo potuto 
+entrare in contatto con suo fratello grande, vale a dire <persName ref="#NinoSarratore">Nino</persName>. Fu lei che si 
+accorse per prima di <persName ref="#Melina">Melina</persName>. La donna camminava dall’altro lato dello 
+stradone con passo lento, portando in una mano un cartoccio da cui, con 
+l’altra, prendeva e mangiava. <persName ref="#MarisaSarratore">Marisa</persName> ce la indicò chiamandola la zoccola, 
+ma senza disprezzo, solo perché ripeteva la formula che in casa usava sua 
+madre.</p> 
+
+
+<p><persName ref="#Lila">Lila</persName>, subito, anche se era più piccola di statura e magrissima, le diede uno 
+schiaffo così forte che la mandò per terra, e lo fece a freddo come era solita 
+fare in tutte le occasioni di violenza, senza gridare prima e senza gridare 
+
+
+
+dopo, senza una parola di preavviso, senza sbarrare gli occhi, gelida e 
+decisa.</p>
+
+
+<p><persName ref="#Lenù">Io</persName> prima 
+soccorsi <persName ref="#MarisaSarratore">Marisa</persName> che già piangeva e l’aiutai a rialzarsi, poi mi 
+girai per vedere cosa faceva <persName ref="#Lila">Lila</persName>. Era scesa dal marciapiede e stava andando 
+da <persName ref="#Melina">Melina</persName>M attraversando lo stradone, senza badare ai camion che passavano. 
+Le vidi, 
+nell’atteggiamento più che nel viso, qualcosa che mi turbò e che 
+tuttora mi è difficile definire, tanto che per adesso mi accontenterò di dire 
+così: sebbene si muovesse tagliando lo stradone, piccola, nera, nervosa, 
+sebbene lo facesse con la sua 
+solita determinazione, era ferma. Ferma 
+dentro ciò che la parente di sua madre stava facendo, ferma per la pena, 
+ferma di sale come le statue di 
+sale. Aderente. Tutt’uno con <persName ref="Melina">Melina</persName>, che 
+aveva sul palmo lo scuro sapone tenero appena acquistato nello scantinato 
+di don Carlo, e ne prendeva con l’altra mano e se lo mangiava.</p> 
+              </div>
+              <div xml:id="chapterin6">
+                 <head>6.</head>
+
+
+<p>Il giorno che <persName ref="#Oliviero">la maestra Oliviero</persName> cadde dalla cattedra e andò a sbattere con 
+uno zigomo contro il banco, <persName ref="#Lenù">io</persName>, come ho detto, la considerai morta, morta 
+sul lavoro come mio nonno o il marito di Melina, e mi sembrò che di 
+conseguenza sarebbe morta anche <persName ref="#Lila">Lila</persName> per il castigo terribile che avrebbe 
+ricevuto. Invece, per un periodo 
+che non posso definire – breve, lungo –, 
+non accadde nulla. Si limitarono a sparire entrambe, maestra e 
+alunna, dai 
+nostri giorni e dalla memoria.</p> 
+
+
+<p><date from="1950" to="1951">Ma tutto era molto sorprendente, allora. <persName ref="#Oliviero">La maestra Oliviero</persName> 
+tornò a 
+scuola viva e cominciò a occuparsi di <persName ref="Lila">Lila</persName> non per castigarla, come ci 
+sarebbe sembrato naturale, ma per lodarla.</date></p>
+
+
+<p>Questa nuova fase cominciò quando fu chiamata a scuola <persName ref="#NunziaCerullo">la madre di 
+   Lila, la signora Cerullo</persName>. Una mattina bussò il bidello e l’annunciò. Subito 
+dopo entrò <persName ref="#NunziaCerullo">Nunzia Cerullo</persName>, irriconoscibile. Lei, che come la gran parte 
+delle donne del rione viveva arruffata in ciabatte e vecchi abiti consunti, 
+comparve in abito da cerimonia (matrimonio, comunione, cresima, 
+funerale), tutta scura, una borsetta nera luccicante, scarpe con un po’ di 
+tacco che le tormentavano i piedi gonfi, e offrì <persName ref="#Oliviero">alla maestra</persName> due sacchetti di 
+carta, uno con lo zucchero e uno col caffè.</p> 
+
+
+<p><persName ref="#Oliviero">La maestra</persName> accettò di buon grado il dono e disse a lei e a tutta la classe, 
+guardando Lila che invece fissava il banco, frasi il cui senso generale mi 
+disorientò. Eravamo in prima elementare. Stavamo appena 
+imparando 
+l’alfabeto e i numeri da uno a dieci. La più brava in classe ero <persName ref="#Lenù">io</persName>, sapevo 
+riconoscere tutte le lettere, sapevo dire uno due tre quattro eccetera, ero di 
+continuo lodata per la calligrafia, vincevo le coccarde tricolori che cuciva la 
+maestra. Tuttavia <persName ref="#Oliviero">la Oliviero</persName>, a sorpresa, sebbene <persName ref="#Lila">Lila</persName> l’avesse fatta cadere 
+mandandola all’ospedale, disse che la migliore tra noi era lei. Vero che era 
+la più cattiva. Vero che aveva fatto quella cosa terribile di tirare pezzi di 
+carta assorbente sporchi di inchiostro addosso a noi. Vero che se quella 
+bambina non si fosse comportata così indisciplinatamente, lei, la nostra 
+
+
+
+maestra, non sarebbe caduta dalla cattedra ferendosi allo zigomo. Vero che 
+era costretta a punirla di continuo con la bacchetta di legno o mandandola in 
+ginocchio sul grano duro dietro la lavagna. Ma c’era un fatto che, in quanto 
+maestra e anche in quanto persona, la riempiva di gioia, un fatto 
+meraviglioso che aveva scoperto qualche giorno prima, casualmente.</p> 
+
+
+<p>Qui si fermò, come se le parole non le bastassero o come se volesse 
+insegnare <persName ref="#NunziaCerullo">alla madre di Lila</persName> e a noi che quasi sempre, più delle parole, 
+contano i fatti. Prese un pezzo di gesso e scrisse alla lavagna (ora non mi 
+ricordo cosa, non sapevo ancora 
+leggere: quindi la parola la invento) sole. 
+Poi chiese a <persName ref="#Lila">Lila</persName>:</p> 
+
+
+<p>«<persName ref="#Lila">Cerullo</persName>, che c’è scritto qui?».</p> 
+
+
+<p>Nell’aula cadde 
+un silenzio incuriosito. <persName ref="#Lila">Lila</persName> fece un mezzo sorrisetto, 
+quasi una smorfia, e si gettò di lato, tutta addosso alla sua compagna di 
+banco, che diede molti segni di fastidio. Poi lesse con tono imbronciato:</p> 
+
+
+<p>«Sole».</p> 
+
+
+<p><persName ref="#NunziaCerullo">Nunzia Cerullo</persName> guardò <persName ref="#Oliviero">la maestra</persName>, e il suo sguardo era incerto, quasi 
+spaventato. <persName ref="#Oliviero">La Oliviero</persName> lì per lì sembrò non capire come mai in quegli 
+occhi di 
+madre non c’era il suo 
+stesso entusiasmo. Ma poi dovette intuire 
+che <persName ref="#NunziaCerullo">Nunzia</persName> non sapeva leggere o che comunque non era sicura che alla 
+lavagna fosse scritto proprio sole, e 
+si accigliò. Quindi un po’ per chiarire la 
+situazione alla <persName ref="#NunziaCerullo">Cerullo</persName>, un po’ per lodare la nostra compagna, disse a Lila:</p> 
+
+
+<p>«Brava, c’è scritto proprio sole».</p> 
+
+
+<p>Poi le comandò:</p> 
+
+
+<p>«Vieni, <persName ref="#Lila">Cerullo</persName>, vieni alla lavagna».</p> 
+
+
+<p><persName ref="#Lila">Lila</persName> svogliatamente andò alla lavagna, <persName ref="#Oliviero">la maestra</persName> le porse il gesso.</p> 
+
+
+<p>«Scrivi» le disse, «gesso».</p> 
+
+
+<p><persName ref="#Lila">Lila</persName>, molto concentrata, con una grafia tremolante, collocando le lettere 
+una più su, una più giù, scrisse: geso.</p> 
+
+
+<p><persName ref="#Oliviero">La Oliviero</persName> aggiunse la seconda “s” e <persName ref="#NunziaCerullo">la signora Cerullo</persName>, vedendo la 
+correzione, disse desolata alla <persName ref="#Lila">figlia</persName>:</p> 
+
+
+<p>«Hai sbagliato».</p> 
+
+
+<p>Ma <persName ref="#Oliviero">la maestra</persName> subito la rassicurò:</p> 
+
+
+<p>«No no no: <persName ref="#Lila">Lila</persName> si deve esercitare, questo sì, ma sa già leggere, sa già 
+scrivere. Chi le ha insegnato?».</p> 
+
+
+<p><persName ref="#NunziaCerullo">la signora Cerullo</persName> disse a occhi bassi:</p> 
+
+
+<p>«Io no».</p> 
+
+
+
+<p>«Ma a casa vostra o nel palazzo c’è qualcuno che può averlo fatto?».</p> 
+
+
+<p><persName ref="#NunziaCerullo">Nunzia</persName>fece energicamente di no con la testa.</p> 
+
+
+<p>Allora <persName ref="#Olivero">la maestra</persName> si rivolse a <persName ref="#Lila">Lila</persName> e con genuina ammirazione le chiese 
+davanti a tutte noi:</p> 
+
+
+<p>«Chi ti ha insegnato a leggere e a scrivere, <persName ref="#Lila">Cerullo</persName>?».</p> 
+
+
+<p><persName ref="#Lila">Cerullo</persName>, piccola, scura di capelli e di occhi e di grembiule, col fiocco rosa 
+al collo e sei anni di vita soltanto, rispose:</p> 
+                 <p>«Io»</p>
+</div>
+              <div xml:id="chapin7">
+                 <head>7.</head>
+
+
+<p>Secondo <persName ref="#RinoCerullo">Rino</persName>, il fratello più grande di Lila, <persName ref="#Lila">la bambina</persName> aveva imparato a 
+leggere intorno ai tre anni guardando le lettere e le figure del suo sillabario.</p> 
+<p>Gli si metteva seduta accanto in cucina mentre faceva i compiti, e 
+apprendeva più di quanto riuscisse ad apprendere lui.</p> 
+
+
+<p><persName ref="#RinoCerullo">Rino</persName> aveva quasi sei anni più di Lila, era un ragazzo coraggioso che 
+brillava in tutti i 
+giochi del cortile e della strada, soprattutto nel lancio dello 
+strùmmolo. Ma leggere, scrivere, fare i conti, imparare le poesie a memoria, 
+non erano cose per lui. A meno di dieci anni <persName ref="#FernandoCerullo">il padre, Fernando,</persName> per 
+insegnargli il mestiere di risuolatore di scarpe aveva cominciato a portarselo 
+ogni giorno nel suo bugigattolo di calzolaio in una viuzza oltre lo stradone. 
+Noi bambine, quando lo incontravamo, gli sentivamo addosso l’odore dei 
+piedi sporchi, della tomaia vecchia, del mastice, e lo prendevamo in giro, lo 
+chiamavamo solapianelle. Forse per questo lui si vantava di essere 
+all’origine della 
+bravura di sua 
+<persName ref="#Lila">sorella</persName>. Ma in realtà non ce l’aveva mai 
+avuto, il 
+sillabario, e non era stato seduto nemmeno un minuto, mai, a fare i 
+compiti. Impossibile dunque che <persName ref="#Lila">Lila</persName> avesse imparato dalle sue fatiche 
+scolastiche. Era più probabile che avesse capito precocemente come 
+funzionava l’alfabeto grazie ai fogli di giornale dentro cui i clienti 
+avvolgevano le scarpe vecchie e che certe volte il padre portava a casa per 
+leggere alla famiglia i fatti di cronaca più interessanti.</p> 
+
+
+<p>Comunque, che le cose fossero andate in un modo o nell’altro, il dato di 
+fatto era 
+quello: 
+<persName ref="#Lila">Lila</persName> sapeva leggere e scrivere, e di quella mattina grigia in 
+cui <persName ref="#Oliviero">la maestra</persName> ce lo rivelò mi è rimasto in mente soprattutto il senso di 
+debolezza che quella notizia mi lasciò addosso. La scuola, fin dal primo 
+giorno, mi era subito sembrata un posto assai più bello di casa mia. Era il 
+luogo del rione in cui mi sentivo più al sicuro, ci andavo molto emozionata. 
+Stavo attenta alle lezioni, eseguivo con la massima cura tutto quello che mi 
+si diceva di eseguire, imparavo. Ma soprattutto mi piaceva piacere alla 
+maestra, mi piaceva piacere a tutti. A casa ero la preferita di <persName ref="#Lenùsfather">mio padre</persName> e 
+
+
+
+anche i miei fratelli mi volevano 
+bene. Il problema era <persName ref="#Lenùsmother">mia madre</persName>, con lei le 
+cose non andavano mai per il verso giusto. Mi pareva che, già allora che 
+avevo poco più di sei anni, facesse di tutto per farmi capire che nella sua 
+vita ero superflua. Non le ero simpatica e nemmeno lei era simpatica a me. 
+Mi repelleva il suo corpo, cosa 
+che probabilmente intuiva. Era biondastra, 
+pupille azzurre, opulenta. Ma aveva l’occhio destro che non si 
+sapeva mai 
+da che parte guardasse. E anche la gamba destra non le funzionava, la 
+chiamava la gamba offesa. Zoppicava e il suo passo mi inquietava, specie di 
+notte, quando non poteva dormire e si muoveva per il corridoio, andava in 
+cucina, tornava indietro, ricominciava. A volte la sentivo schiacciare con 
+colpi rabbiosi di tacco gli scarafaggi che arrivavano dalla porta d’ingresso, 
+e me la immaginavo con occhi furiosi come quando se la prendeva con me.</p> 
+
+
+<p>Di sicuro non era felice, le fatiche di casa la logoravano e i soldi non 
+bastavano mai. Si arrabbiava spesso con <persName ref="#Lenùsfather">mio padre</persName>, usciere al comune, gli 
+urlava che doveva inventarsi qualcosa, che così non si poteva andare avanti. 
+Litigavano. Ma poiché <persName ref="#LenùsFather">mio padre</persName> non alzava la voce nemmeno quando 
+perdeva la pazienza, io parteggiavo sempre per lui contro di lei, anche se a 
+volte la picchiava e con me sapeva essere minaccioso. Era stato lui e non 
+mia madre a dirmi, il primo giorno di scuola: «<persName ref="#Lenù">Lenuccia</persName>, fa’ la brava con la 
+maestra e noi ti facciamo studiare. Ma se non sei brava, se non sei la più 
+brava, papà ha bisogno di aiuto e vai a lavorare». Quelle parole mi avevano 
+spaventato molto, eppure, pur pronunciandole lui, le avevo sentite come se 
+fosse stata mia madre a suggerirgliele, a imporgliele. Avevo promesso a 
+entrambi che avrei fatto la brava. E le cose erano andate subito così bene 
+che <persName ref="#Oliviero">la maestra</persName> mi diceva spesso:</p> 
+
+
+<p>«<persName ref="#Lenù">Greco</persName>, vieniti a sedere vicino a me»</p> 
+
+
+<p>Era un gran privilegio. <persName ref="#Oliviero">La Oliviero</persName> aveva accanto a sé, sempre, una sedia 
+vuota dove chiamava le più brave, per premio. Io, nei primi tempi, le 
+sedevo accanto in continuazione. Lei mi esortava con molte parole 
+incoraggianti, lodava i miei boccoli biondi e così rafforzava in me la voglia 
+di far bene: tutt’al contrario di <persName ref="#LenùsMother">mia madre</persName> che, quando ero a casa, mi 
+copriva così spesso di rimproveri, a volte di insulti, da farmi desiderare di 
+rincantucciarmi in un angolo buio e sperare che non mi trovasse più. Poi 
+successe che venne in classe <persName ref="#NunziaCerullo">la signora Cerullo</persName> e <persName ref="#Oliviero">la maestra Oliviero</persName> ci 
+rivelò che <persName ref="#Lila">Lila</persName> era molto più avanti di noi. Non solo: chiamò più spesso lei 
+che me a sederle 
+accanto. Cosa mi causasse dentro quel declassamento non 
+
+
+
+lo so, trovo difficile, oggi, dire con fedeltà e chiarezza ciò che provai. Lì per 
+lì forse niente, un po’ di gelosia come tutte. Ma di sicuro proprio in quel 
+periodo mi cominciò una preoccupazione. Pensai che, sebbene le mie 
+gambe funzionassero bene, corressi di continuo il rischio di diventare 
+zoppa. Mi svegliavo con quell’idea in testa e mi alzavo subito dal letto per 
+vedere se le mie gambe erano ancora in ordine. Perciò forse mi fissai con 
+<persName ref="#Lila">Lila</persName>, che aveva gambette magrissime, scattanti, e le muoveva sempre, 
+scalciava anche quando era seduta accanto alla maestra, tanto che quella si 
+innervosiva e presto la mandava a posto. Qualcosa mi convinse, allora, che 
+se fossi andata sempre dietro a lei, alla sua andatura, il passo di mia madre, 
+che mi era entrato nel cervello e non se ne usciva più, avrebbe smesso di 
+minacciarmi. Decisi che dovevo regolarmi su <persName ref="#Lila">quella bambina</persName>, non perderla 
+mai di vista, anche se si fosse infastidita e mi avesse scacciata.</p>
+</div>
+              <div xml:id="chaptin8">
+                 <head>8.</head> 
+                 <p>È 
+probabile che questa sia stata la mia maniera di reagire all’invidia, 
+all’odio, e soffocarli. O, forse, travestii a quel modo il senso di subalternità, 
+la fascinazione che subivo. Certo mi addestrai ad accettare di buon grado la 
+superiorità di <persName ref="#Lila">Lila</persName> in tutto, e anche le sue angherie.</p> 
+
+
+<p>Per di più <persName ref="#Oliviero">la maestra</persName> si comportò in maniera molto accorta. Vero che 
+chiamava spesso 
+<persName ref="#Lila">Lila</persName> a sedersi accanto a lei, ma pareva che lo facesse più 
+   per tenerla buona che per premiarla. Continuò, di fatto, a lodare <persName ref="#MarisaSarratore">Marisa Sarratore</persName>, <persName ref="#CarmenPeluso">Carmen Peluso</persName> e soprattutto <persName ref="#Lenù">me</persName>. Mi lasciò brillare di una luce 
+vivida, mi incoraggiò a diventare sempre più disciplinata, sempre più 
+diligente, sempre più acuta. Quando <persName ref="#Lila">Lila</persName> usciva dalle sue turbolenze e mi 
+superava senza sforzo, <persName ref="#Oliviero">la Oliviero</persName> lodava prima me con moderazione e poi 
+passava a esaltare la bravura di 
+<persName ref="#Lila">lei</persName>. Sentivo maggiormente il veleno della 
+sconfitta quando a superarmi erano <persName ref="#MarisaSarrator">Sarratore</persName> o <persName ref="#CarmenPeluso">Peluso</persName>. Se invece risultavo 
+seconda dopo <persName ref="#Lila">Lila</persName>, facevo un’espressione mite di consenso. In quegli anni 
+credo di 
+aver temuto una sola cosa: non essere più abbinata, nelle gerarchie 
+stabilite dalla <persName ref="#Oliviero">Oliviero</persName>, a <persName ref="#Lila">Lila</persName>; non sentire più la maestra che diceva con 
+orgoglio: <persName ref="#Lila">Cerullo</persName> e <persName ref="#Lenù">Grecp</persName> sono le più brave. Se un giorno avesse detto: le 
+migliori sono <persName ref="#Lila">Cerullo</persName> e <persName ref="#MarisaSarratore">Sarratore</persName>, o <persName ref="#Lila">Cerullo</persName> e <persName ref="#CarmenPeluso">Peluso</persName>, sarei morta sul colpo. 
+Perciò impiegai tutte le mie energie di bambina non per diventare la prima 
+della classe – mi pareva impossibile riuscirci – ma per non scivolare al 
+terzo, al 
+quarto, all’ultimo posto. Mi dedicai allo studio e a molte altre cose 
+difficili, lontane da me, solo per restare al passo con <persName ref="#Lila">uella bambina 
+   terribile e sfolgorante</persName>.</p> 
+
+
+<p>Sfolgorante per me. Per tutti gli altri scolari <persName ref="#Lila">Lila</persName> era solo terribile. Dalla 
+prima alla quinta elementare fu, per colpa del direttore e un po’ 
+anche della 
+maestra Oliviero, la bambina più detestata della scuola e del rione.</p> 
+
+
+<p>Almeno due volte all’anno il direttore obbligava le classi a gareggiare tra 
+loro, in modo da individuare gli alunni più brillanti e di conseguenza i 
+maestri più competenti. <persName ref="#Oliviero">Alla Oliviero</persName> questa competizione piaceva. In 
+
+
+
+conflitto permanente con i suoi colleghi, con i quali a volte sembrava 
+prossima a venire alle mani, la 
+maestra usava <persName ref="#Lila">Lila</persName> e <persName ref="#Lenù">me</persName> come la prova 
+lampante di quanto era brava lei, la più brava maestra della scuola 
+elementare del nostro rione. Perciò accadeva spesso che ci portasse nelle 
+classi, anche a prescindere dalle occasioni volute dal direttore, a gareggiare 
+con altri bambini, femmine e 
+maschi. <persName ref="#Lenu">Io</persName>, di solito, ero mandata in 
+avanscoperta per sondare il livello di competenza del nemico. In genere 
+vincevo, ma senza esagerare, senza umiliare né maestri né alunni. Ero una 
+bambina con i boccoli biondi, bellina, felice di esibirmi ma non sfrontata, e 
+comunicavo un’impressione di delicatezza che inteneriva. Se quindi 
+risultavo la più brava a dire le poesie, a recitare le tabelline, a fare le 
+divisioni e le moltiplicazioni, a elencare che le Alpi erano marittime, cozie, 
+graie, pennine eccetera, gli altri insegnanti mi facevano comunque una 
+carezza, gli scolari sentivano quanta fatica avevo fatto per mandare a 
+memoria tutta quella roba e perciò non mi odiavano.</p> 
+
+
+<p>Diverso era il caso di <persName ref="#Lila">Lila</persName>. Già in prima elementare era al di là di ogni 
+possibile competizione. <persName ref="#Oliviero">La maestra</persName> anzi diceva che con un po’ d’impegno 
+sarebbe stata pronta a dare subito l’esame di seconda e a meno di sette anni 
+andare in terza. In seguito il divario crebbe. <persName ref="#Lila">Lila</persName> faceva a mente calcoli 
+complicatissimi, nei suoi dettati non c’era nemmeno un errore, parlava 
+sempre in dialetto come noi tutti ma all’occorrenza sfoderava un italiano da 
+libro, ricorrendo anche a parole come avvezzo, lussureggiante, ben 
+volentieri. Sicché, quando <persName ref="#Oliviero">la maestra</persName> mandava in campo lei o a dire modi e 
+tempi dei verbi o a risolvere problemi, saltava per aria ogni possibilità di 
+fare buon viso a 
+cattivo gioco, gli animi si inasprivano. <persName ref="#Lila">Lila</persName> era troppo per 
+chiunque.</p> 
+
+
+<p>In più non offriva spiragli alla benevolenza. Riconoscere la sua bravura 
+significava per noi bambini ammettere che non ce l’avremmo mai fatta e 
+che era inutile gareggiare, per i maestri e le maestre confessarsi di essere 
+stati bambini mediocri. La sua prontezza mentale sapeva di sibilo, di 
+guizzo, di morso letale. E non c’era niente nel suo aspetto che agisse da 
+correttivo. Era arruffata, sporca, alle ginocchia e ai gomiti aveva sempre 
+croste di ferite che non facevano mai in tempo a risanare. Gli occhi grandi e 
+vivissimi sapevano diventare fessure dietro cui, prima di ogni risposta 
+brillante, c’era uno sguardo che 
+pareva non solo poco infantile, ma forse 
+non umano. Ogni suo movimento comunicava che farle del male non 
+
+
+
+serviva perché, comunque si fossero messe le cose, lei avrebbe trovato il 
+modo di fartene di più.</p> 
+
+
+<p>L’odio dunque era tangibile, io me ne accorgevo. Ce l’avevano con lei sia 
+le femmine che i maschi, ma i maschi più scopertamente. Per un motivo suo 
+segreto, infatti, la maestra Oliviero godeva a portarci soprattutto nelle classi 
+dove si potevano umiliare non tanto scolare e maestre, quanto scolari e 
+maestri. E il direttore, per motivi suoi altrettanto segreti, favoriva 
+soprattutto gare 
+di quel tipo. In seguito ho pensato che nella scuola si 
+scommettessero soldi, forse anche parecchi, su quei nostri incontri. Ma 
+esageravo: forse 
+era solo un modo per dare sfogo a vecchie ruggini o per 
+consentire al direttore di tenere sotto il tacco i maestri meno bravi o meno 
+obbedienti. Fatto sta che una mattina noi due, <date from="1951" to="1952">che allora eravamo in 
+seconda</date>, fummo portate nientemeno in una quarta, la quarta del maestro 
+Ferraro, dove c’erano sia <persName ref="#EnzoScanno">Enzo Scanno</persName>, il malvagio figlio della 
+fruttivendola, che <persName ref="#NinoSarratore">Nino Sarratore</persName>, il fratello di <persName ref="#MarisaSarratore">Marisa</persName> che io amavo.</p> 
+
+
+<p><persName ref="#EnzoScanno">Enzo</persName> lo conoscevano tutti. Era ripetente e almeno un paio di volte era 
+stato trascinato in giro per le classi con al collo un cartello su cui <persName ref="#Ferraro">il maestro Ferraro</persName>, un uomo coi capelli grigi a spazzola, lungo e magrissimo, il viso 
+piccolo e molto segnato, occhi allarmati, aveva scritto asino. Nino invece 
+era così buono, così mite, così silenzioso, che era noto e caro soprattutto a 
+me. Naturalmente <persName ref="#EnzoScanno">Enzo</persName> era meno che zero, scolasticamente parlando, lo 
+tenevamo d’occhio solo perché era manesco. I nostri avversari, nelle cose di 
+intelligenza, erano <persName ref="#NinoSarratore">Nino</persName> e – scoprimmo lì per lì – <persName ref="#AlfonsoCarracci">Alfonso Carracci</persName>, terzo 
+figlio di 
+<persName ref="#AchilleCarracci">don Achille</persName>, un bambino molto curato, uno di seconda come noi, 
+che pareva più piccolo dei sette anni che aveva. Si vedeva che il maestro lo 
+aveva chiamato lì in quarta perché faceva più affidamento su di lui che su 
+<persName ref="#NinoSarratore">Nino</persName>, di quasi due anni più grande.</p> 
+
+
+<p>Ci fu un po’ di maretta tra <persName ref="#Oliviero">la Oliviero</persName> e <persName ref="#Ferraro">Ferraro</persName> per quella convocazione 
+imprevista di <persName ref="#AlfonsoCarracci">Carracci</persName>, poi la gara cominciò davanti alle classi riunite in 
+un’aula sola. Ci chiesero i verbi, ci chiesero le tabelline, ci chiesero le 
+quattro operazioni, prima alla lavagna e poi a mente. Di quella particolare 
+circostanza mi sono rimaste in mente tre cose. La prima è che il piccolo 
+<persName ref="#AlfonsoCarracci">Alfonso Carracci</persName> mi sgominò subito, era calmo e preciso, ma aveva di 
+buono che non godeva a sopraffarti. La seconda è che <persName ref="#NinoSarratore">Nino Sarratore</persName>, a 
+sorpresa, non rispose quasi mai alle domande, restò imbambolato come se 
+non capisse cosa gli chiedevano i due maestri. La terza è che <persName ref="#Lila">Lila</persName> tenne 
+
+
+
+testa <persName ref="#AlfonsoCarracci">al figlio di don Achille</persName> svogliatamente, come se non le importasse che 
+potesse batterla. 
+Il quadro si animò solo quando si passò ai calcoli a mente, 
+addizioni, sottrazioni, moltiplicazioni e divisioni. <persName ref="#AlfonsoCarracci">Alfonso</persName>, malgrado la 
+svogliatezza di <persName ref="#Lila">Lila</persName> che a volte se ne stava zitta come se non avesse sentito 
+la domanda, cominciò a perdere colpi, sbagliava soprattutto le 
+moltiplicazioni e le divisioni. D’altra parte, se <persName ref="#AlfonsoCarracci">il figlio di don Achille</persName> 
+cedeva, anche Lila non era all’altezza e quindi sembravano più o meno pari. 
+Ma a un certo punto successe un fatto imprevisto. Per ben due volte, quando 
+<persName ref="#Lila">Lila</persName> non rispondeva o <persName ref="#AlfonsoCarracci">Alfonso</persName> sbagliava, si sentì piena di disprezzo la voce 
+di <persName ref="#EnzoScanno">Enzo Scanno</persName> che, dagli ultimi banchi, diceva il risultato giusto.</p> 
+
+
+<p>Questo stupì la classe, i maestri, il direttore, <persName ref="#Lenù">me</persName> e <persName ref="#Lila">Lila</persName>. Com’era possibile 
+che uno 
+come <persName ref="#EnzoScanno">Enzo</persName>, svogliato, incapace e delinquente, sapesse fare calcoli 
+complicati a mente meglio di me, di <persName ref="#AlfonsoCarracci">Alfonso Carracci</persName>, di <persName ref="#NinoSarratore">Nino Sarratore</persName>? 
+Di colpo fu come se <persName ref="#Lila">Lila</persName> si svegliasse. <persName ref="#AlfonsoCarracci">Alfonso</persName>finì fuori gioco rapidamente 
+e, col consenso fiero del maestro, che cambiò prontamente campione, 
+cominciò un duello tra <persName ref="#Lila">Lila</persName> ed <persName ref="#EnzoScanno">Enzo</persName>.</p> 
+
+
+<p>I due si tennero testa a lungo. A un certo punto il direttore, scavalcando il 
+maestro, chiamò alla cattedra, accanto a <persName ref="#Lila">Lila</persName>, <persName ref="#Enzo Scanno">il figlio della fruttivendola.  Enzo </persName> lasciò l’ultimo banco con risatelle nervose sue e dei suoi accoliti, ma 
+poi si dispose accanto alla lavagna, di fronte a Lila, cupo, a disagio. Il 
+duello continuò con calcoli a mente sempre più difficili. Il bambino dava il 
+risultato in dialetto, come se stesse per strada e non in un’aula, e il maestro 
+gli correggeva la dizione, ma la cifra era sempre giusta. Di quel momento di 
+gloria <persName ref="#EnzoScanno">Enzo</persName> sembrò fierissimo, lui stesso meravigliato di com’era bravo. Poi 
+cominciò a cedere, perché <persName ref="#Lila">Lila</persName> s’era svegliata definitivamente e ora aveva 
+quegli occhi a fessura, molto determinati, rispondeva con precisione. <persName ref="#EnzoScanno">Enzo</persName>
+alla fine perse. Perse ma senza rassegnazione. Cominciò a bestemmiare, a 
+gridare oscenità 
+terribili. Il maestro lo mandò dietro la lavagna, in 
+ginocchio, ma lui non ci volle andare. Fu preso a bacchettate sulle nocche e 
+poi trascinato per le orecchie nell’angolo del castigo. La giornata scolastica 
+finì così.</p> 
+
+
+<p>Ma da allora la banda dei maschi cominciò a lanciarci le pietre.</p>
+</div>
+              <div xml:id="chapin9">
+                 <head>9.</head> 
+
+
+<p>Quella mattina del duello tra <persName ref="#Lila">lei</persName> ed <persName ref="#EnzoScanno">Enzo</persName> è importante, nella nostra lunga 
+storia. Lì si avviarono molti comportamenti di ardua decifrazione. Per 
+esempio si vide con chiarezza che <persName ref="#Lila">Lila</persName> poteva, volendo, dosare l’uso delle 
+sue capacità. Era 
+ciò che aveva fatto col <persName ref="#AlfonsoCarracci">figlio di don Achille</persName>. Non solo non 
+aveva voluto batterlo, aveva anche calibrato silenzi e risposte in modo da 
+non farsi battere. Allora non eravamo ancora amiche e non potevo chiederle 
+perché avesse tenuto quel comportamento. In realtà non c’era bisogno di 
+fare domande, la ragione ero in grado di intuirla. Come me, anche lei aveva 
+il divieto di fare torti non solo a <persName ref="#AhcilleCarracci">don Achille</persName>, ma anche a tutta la sua 
+famiglia.</p> 
+
+
+<p>Era così. Non sapevamo da dove derivasse quel timore-astio-odioacquiescenza 
+che i nostri genitori manifestavano nei confronti dei Carracci 
+e che ci trasmettevano, ma c’era, era un dato di fatto, come il rione, le sue 
+case bianchicce, l’odore miserabile dei pianerottoli, la polvere delle strade. 
+Con tutta probabilità anche Nino Sarratore era rimasto muto per permettere 
+ad <persName ref="#AlfonsoCarracci">Alfonso</persName> di dare il meglio di sé. Aveva balbettato poche cose, bello, ben 
+pettinato, le ciglia lunghissime, sottile e nervoso, e infine aveva 
+taciuto. Per 
+continuare ad amarlo, volli pensare che le cose fossero andate così. Ma 
+sotto sotto nutrivo dei dubbi. La sua era stata una scelta, come quella di 
+<persName ref="#Lila">Lila</persName>? Non ne ero 
+sicura. Io mi ero fatta da parte perché <persName ref="#AlfonsoCarracci">Alfonso</persName> era davvero 
+più bravo di me. 
+<persName ref="#Lila">Lila</persName> avrebbe potuto batterlo subito, tuttavia aveva scelto di 
+puntare al pareggio. E lui? C’era stato qualcosa che mi aveva confusa, forse 
+persino addolorata: non una sua incapacità, nemmeno una rinuncia, ma, 
+oggi direi, un cedimento. Quel balbettio, il pallore, il viola che gli aveva 
+all’improvviso mangiato gli occhi: com’era bello, così languido, e tuttavia 
+quanto mi era dispiaciuto il suo languore.</p> 
+
+
+<p>Anche <persName ref="#Lila">Lila</persName> a un certo punto mi era sembrata bellissima. In genere ero io 
+quella bella, lei invece era secca come un’alice salata, mandava un odore di 
+selvatico, aveva 
+un viso lungo, stretto alle tempie, chiuso tra due bande di 
+
+
+
+capelli lisci e nerissimi. Ma quando aveva deciso di spazzar via sia <persName ref="#AlfonsoCarracci">Alfonso</persName> 
+che <persName ref="#EnzoScanno">Enzo</persName>, si era illuminata come una santa guerriera. Le era salito un 
+rossore alle guance che era il segno di una vampa sprigionata da ogni 
+angolo del corpo, tanto che per la prima volta avevo pensato: <persName ref="#Lila">Lila</persName> è più 
+bella di <persName ref="#Lenù">me</persName>. Ero dunque seconda in tutto. Mi ero augurata che nessuno se ne 
+accorgesse mai.</p> 
+
+
+<p>Ma la cosa più importante di quella mattinata fu la scoperta che una 
+formula che usavamo spesso per sottrarci alle punizioni custodiva qualcosa 
+di vero, quindi di ingovernabile, quindi di pericoloso. La formula era: non 
+l’ho fatto apposta. <persName ref="#EnzoScanno">Enzo</persName> infatti si era inserito non 
+di proposito nella gara in 
+atto e non di proposito aveva sconfitto <persName ref="#AlfonsoCarracci">Alfonso</persName>. <persName ref="#Lila">Lila</persName> di proposito aveva 
+sconfitto <persName ref="#EnzoScanno">Enzo</persName> ma non di proposito aveva sconfitto anche <persName ref="#AlfonsoCarracci">Alfonso</persName> e non di 
+proposito lo aveva umiliato, era 
+stato solo un passaggio necessario. I fatti 
+che ne derivarono ci convinsero che conveniva fare ogni cosa apposta, 
+premeditatamente, in modo da sapere cosa c’era da aspettarsi.</p> 
+
+
+<p>Infatti ciò che accadde in seguito ci investì in modo inatteso. Poiché 
+quasi niente era stato fatto apposta, ci venne addosso una lava di molte cose 
+improvvise, l’una dietro l’altra. <persName ref="#AlfonsoCarracci">Alfonso</persName> tornò a casa in lacrime per via della 
+sconfitta. Suo fratello <persName ref="#StefanoCarracci">Stefano</persName>, di quattordici anni, apprendista salumiere 
+nella salumeria (l’ex bottega del <persName ref="#AlfredoPeluso">falegname Peluso</persName>) di cui era proprietario 
+<persName ref="#AchilleCarracci">suo padre</persName>, che però non ci metteva mai piede, <date from="1951" to="1952">il giorno dopo venne sotto 
+scuola</date> e 
+disse a <persName ref="#Lila">Lila</persName> bruttissime cose, arrivando a minacciarla. 
+A un certo 
+punto lei gli gridò un insulto molto osceno, lui la spinse contro un muro e 
+cercò di afferrarle la lingua, gridando che gliela voleva pungere con uno 
+spillo. <persName ref="#Lila">Lila</persName> tornò a casa e raccontò tutto a suo fratello <persName ref="#RinoCerullo">Rino</persName>, che più lei 
+parlava, più diventava rosso e con gli occhi lucidi. Nel frattempo <persName ref="#EnzoScanno">Enzo</persName>, 
+mentre in serata tornava a casa senza la sua banda della campagna, fu 
+bloccato da <persName ref="#StefanoCarracci">Stefano</persName> e preso a schiaffi, pugni e calci. <persName ref="#RinoCerullo">Rino</persName>, al mattino, andò 
+a cercare <persName ref="#StefanoCarracci">Stefano</persName> e fecero a botte, dandosele di santa ragione in modo più o 
+meno paritario. Qualche giorno dopo bussò alla porta dei Cerullo la moglie 
+di don Achille, <persName ref="#MariaCarracci">zia Maria</persName>, e fece a <persName ref="#NunziaCerullo">Nunzia</persName> una scenata con urla e insulti. 
+Passò poco tempo e una domenica, dopo la messa, <persName ref="#FernardoCerullo">Fernando Cerullo</persName> il 
+calzolaio, padre 
+di <persName ref="#Lila">Lila</persName> e di <persName ref="#RinoCerullo">Rino</persName>, un uomo piccolo, magrissimo, accostò 
+timidamente <persName ref="AchilleCarracci">don Achille</persName> e gli chiese scusa senza mai dire per 
+che cosa si 
+scusava. Io non lo vidi, o almeno non me lo ricordo, ma si disse che le scuse 
+erano state fatte ad alta voce e in modo che tutti sentissero, anche se <persName ref="#AchilleCarracci">don Achille</persName> era passato oltre come se lo scarparo non parlasse con lui. Poco 
+tempo dopo <persName ref="#Lenù">io</persName> e <persName ref="#Lila">Lila</persName> ferimmo alla caviglia <persName ref="#EnzoScanno">Enzo</persName> con una pietra ed <persName ref="#EnzoScanno">Enzo</persName> 
+lanciò un sasso che colpì <persName ref="#Lila">Lila</persName> alla testa. Mentre <persName ref="#Lenù">io</persName> strillavo di paura e <persName ref="#Lila">Lila</persName> si 
+rialzava con il sangue che le gocciolava da sotto i capelli, <persName ref="#EnzoScanno">Enzo</persName> venne giù 
+dal terrapieno, anche lui sanguinante, e nel vedere <persName ref="#Lila">Lila</persName> in quello stato, in 
+modo del tutto imprevisto, e ai nostri occhi incomprensibile, si mise a 
+piangere. Passò poco e <persName ref="#RinoCerullo">Rino</persName>, il fratello adorato di <persName ref="#Lila">Lila</persName>, arrivò sotto scuola e 
+diede molte mazzate a <persName ref="#EnzoScanno">Enzo</persName>, che si difese appena. <persName ref="#RinoCerullo">Rino</persName> era più grande, più 
+grosso e 
+più motivato. Non solo: <persName ref="#EnzoScanno">Enzo</persName> non disse niente delle botte ricevute 
+né alla sua banda né a sua madre né a suo padre né ai suoi fratelli né ai 
+cugini, che lavoravano tutti in campagna e vendevano frutta e verdura con 
+la carretta. A quel punto, grazie a lui, finirono le vendette.</p>
+</div>
+              <div xml:id="chapin10">
+                 <head>10.</head>
+
+
+<p><persName ref="#Lila">Lila</persName> andò per un po’ in giro, fieramente, con la testa fasciata. Poi si tolse la 
+fasciatura e mostrò a chiunque glielo chiedesse la ferita nera, arrossata ai 
+bordi, che sbucava sulla fronte da sotto l’attaccatura dei capelli. Infine si 
+dimenticò di ciò che le era successo e se qualcuno le guardava fisso il segno 
+biancastro che le era rimasto sulla pelle, faceva un gesto aggressivo che 
+significava: cosa guardi, fatti i fatti tuoi. A <persName ref="#Lenù">me</persName> non disse mai nulla, 
+nemmeno una parola di ringraziamento per le pietre che le avevo passato, 
+per come le avevo asciugato il sangue col lembo del grembiule. Ma da quel 
+momento cominciò a sottopormi a prove di coraggio che non avevano più a 
+che fare con la scuola.</p>
+
+
+<p>Ci vedevamo in cortile sempre più spesso. Ci mostravamo le nostre 
+bambole ma senza darlo a vedere, l’una nei dintorni dell’altra, come se 
+fossimo da sole. A un certo punto le facemmo incontrare per prova, per 
+vedere se andavano d’accordo. E così arrivò il giorno che stavamo accanto 
+alla finestra dello scantinato col reticolo scollato e facemmo uno scambio, 
+lei tenne un po’ la mia bambola e io un po’ la sua, e <persName ref="#Lila">Lila</persName> di punto in bianco 
+fece passare Tina attraverso l’apertura nella rete e la lasciò cadere.</p> 
+
+
+<p>Provai un dolore insopportabile. Tenevo alla mia bambola di celluloide 
+come alla cosa più preziosa che avessi. Lo sapevo che Lila era una bambina 
+molto cattiva, ma non mi sarei mai aspettata che mi facesse una cosa così 
+malvagia. Per me la bambola era viva, saperla in fondo allo scantinato, in 
+mezzo alle mille 
+bestie che ci vivevano, mi gettò nella disperazione. Ma in 
+quell’occasione imparai un’arte in cui poi sono diventata molto brava. 
+Trattenni la disperazione, la trattenni sul bordo degli occhi lucidi, tanto che 
+<persName ref="#Lila">Lila</persName> mi disse in dialetto:</p> 
+
+
+<p>«Non te ne importa?».</p>
+
+
+<p>Non risposi. Provavo un dolore 
+violentissimo, ma sentivo che più forte 
+ancora sarebbe stato il dolore di 
+litigare con lei. Ero come strozzata da due 
+sofferenze, una già in atto, la perdita della bambola, e una possibile, la 
+
+
+
+perdita di Lila. Non dissi nulla, 
+feci solo un gesto senza dispetto, come se 
+fosse naturale, anche se naturale non era e sapevo che stavo rischiando 
+molto. Mi limitai a gettare nello scantinato la sua Nu, la bambola che mi 
+aveva appena dato.</p> 
+
+
+<p><persName ref="#Lila">Lila</persName> mi guardò incredula.</p> 
+
+
+<p>«Quello che fai tu, faccio io» recitai subito ad alta voce, spaventatissima.</p> 
+
+
+<p>«Adesso me la vai a prendere».</p> 
+
+
+<p>«Se tu vai a prendere la mia».</p> 
+
+
+<p>Andammo insieme. Nell’ingresso della palazzina, a sinistra, c’era la 
+porticina che introduceva agli scantinati, la conoscevamo bene. Scardinata 
+com’era – uno dei battenti si reggeva su un solo ganghero –, la porta era 
+bloccata da un catenaccio che teneva insieme in malo modo le due ante. 
+Ogni bambino era tentato e insieme terrorizzato dalla possibilità di forzare 
+la porticina quel tanto che avrebbe reso possibile passare dall’altro lato. Noi 
+lo facemmo. Ci ricavammo uno 
+spazio sufficiente perché i nostri corpi esili 
+e flessibili sgattaiolassero nello scantinato.</p> 
+
+
+<p>Una volta dentro, prima Lila, poi io, scendemmo per cinque gradini di 
+pietra in un luogo umido, mal rischiarato dalle piccole aperture a livello 
+stradale. Avevo paura, cercai di tener dietro a <persName ref="Lila">Lila</persName>, che però sembrava 
+arrabbiata e puntava diritto a ritrovare la sua bambola. Avanzai a tentoni. 
+Sentivo sotto le suole dei sandali oggetti che scricchiolavano, vetro, 
+pietrisco, insetti. Intorno c’erano cose non identificabili, masse scure, 
+puntute o squadrate o tondeggianti. La poca luce che attraversava il buio a 
+volte cadeva su cose riconoscibili: lo scheletro di una sedia, l’asta di un 
+lampadario, cassette della frutta, fondi e fiancate d’armadi, bandelle di 
+ferro. Provai un grande spavento per quella che mi sembrò una faccia 
+floscia dai grandi occhi di vetro che si allungava in un mento a forma di 
+scatola. La vidi appesa su un trabiccolino di legno con un’espressione 
+desolata e gridai, la indicai a <persName ref="#Lila">Lila</persName>. Lei si girò di scatto, si avvicinò piano 
+voltandomi la schiena, allungò una mano con cautela, la staccò dal 
+trabiccolo. Poi si girò. S’era messa la faccia dagli occhi di vetro sopra la sua 
+e ora aveva un viso enorme, orbite tonde senza pupille, niente bocca, solo 
+quella bazza nera che le ciondolava sul petto.</p> 
+
+
+<p>Sono attimi che mi sono rimasti bene impressi nella memoria. Non ne 
+sono certa, ma mi dovette uscire dal petto un vero urlo di terrore, perché lei 
+si affrettò a dire 
+con una voce rimbombante che era solo una maschera, una 
+
+
+
+maschera antigas: suo padre la chiamava così, ne aveva una identica nel 
+ripostiglio di casa. Seguitai a tremare e mugolare di paura, cosa che 
+evidentemente la convinse a strapparsela dal viso e a gettarla in un angolo, 
+con un gran fracasso e molta polvere che si addensò tra le lingue di luce dei 
+finestrini.</p> 
+
+
+<p>Mi calmai. Lila si guardò intorno, individuò l’apertura da dove avevamo 
+fatto cadere Tina e Nu. Ci accostammo alla parete ruvida, grumosa, 
+guardammo nell’ombra. Le bambole non c’erano. <persName ref="#Lila">Lila</persName> ripeteva in dialetto: 
+non ci stanno, non ci stanno, non ci stanno, e frugava per terra con le mani, 
+cosa che io non avevo il coraggio di fare.</p> 
+
+
+<p>Passarono minuti lunghissimi. Una sola volta mi sembrò di vedere Tina e 
+con un tuffo al cuore mi chinai a prenderla, ma era solo un vecchio foglio di 
+giornale appallottolato. Non ci stanno, ripeté Lila e si allontanò verso 
+l’uscita. Allora mi sentii persa, incapace di restare lì da sola seguitando a 
+cercare, incapace di andar via con lei se non avessi trovato la bambola.</p> 
+
+
+<p>In cima ai gradini disse:</p> 
+
+
+<p>«Se l’è pigliate <persName ref="#AchilleCarracci">don Achille</persName>, se l’è messe nella borsa nera».</p> 
+
+
+<p>E io in quello stesso momento lo sentii, <persName ref="#AchilleCarracci">don Achille</persName>: strisciava, si 
+strusciava, tra le forme indistinte delle cose. Allora abbandonai Tina al suo 
+destino, scappai per non perdere <persName ref="#Lila">Lila</persName> che già si torceva agile, sgusciando 
+oltre la porta sgangherata.</p>
+</div>
+              <div xml:id="chapin11">
+                 <head>11.</head> 
+
+
+<p>Credevo a tutto quello che lei mi diceva. M’è rimasta in mente 
+la massa 
+informe di <persName ref="#AchilleCarracci">don Achille</persName> che corre per cunicoli sotterranei a braccia pendule, 
+trattenendo con le dita larghe da un lato la testa di Nu, dall’altro quella di 
+Tina. Soffrii molto. Mi ammalai di febbri di crescenza, guarii, mi ammalai 
+di nuovo. Fui presa da una sorta di disfunzione tattile, certe volte avevo 
+l’impressione che, mentre ogni essere animato intorno accelerava i ritmi 
+della sua vita, le superfici solide mi diventassero molli sotto le dita o si 
+gonfiassero lasciando spazi vuoti tra la loro massa interna e la sfoglia di 
+superficie. Mi sembrò che lo 
+stesso mio corpo, a tastarlo, risultasse 
+tumefatto e questo mi intristiva. Ero certa di avere guance a palloncino, 
+mani riempite di segatura, lobi delle orecchie che parevano sorbe mature, 
+piedi a forma di pagnotta. Quando ritornai per le strade e a scuola, sentii 
+che anche lo spazio era cambiato. Pareva incatenato tra due poli 
+scuri, da un 
+lato la bolla d’aria sotterranea che premeva alle radici delle case, la torva 
+caverna dentro cui erano cadute le bambole; dall’altro il globo in alto, al 
+quarto piano della palazzina dove abitava <persName ref="#AchilleCarracci">don Achille</persName> che ce le aveva 
+rubate. Le due palle erano come avvitate alle estremità di una sbarra di 
+ferro, che nella mia immaginazione attraversava obliquamente gli 
+appartamenti, le strade, la campagna, il tunnel, i binari, e li compattava. Mi 
+sentivo stretta dentro quella morsa insieme alla massa di cose e di persone 
+d’ogni giorno, e avevo un sapore brutto in bocca, provavo un senso 
+permanente di nausea che mi sfiniva, come se il tutto, così compresso, 
+sempre più stretto, mi macinasse riducendomi a una crema ripugnante.</p> 
+
+
+<p>Fu un malessere resistente, forse durò anni, fin oltre la prima 
+adolescenza. Ma proprio quando era appena incominciato, insperatamente 
+ebbi la mia prima dichiarazione d’amore.</p> 
+
+
+<p><persName ref="#Lenù">Io</persName> e <persName ref="#Lila">Lila</persName>
+non avevamo ancora provato a salire su da <persName ref="#AchilleCarracci">don Achille</persName>, il lutto 
+per la perdita di Tina era ancora insopportabile. <date from="1952-06" to="1952-09"> andata svogliatamente a 
+   comprare il pane.</date> Mi ci aveva mandato <persName ref="#Lenùsmother">mia madre</persName> e stavo tornando a casa 
+
+
+
+con il resto ben stretto in pugno per non perderlo e la palata ancora calda 
+contro il 
+petto, quando mi accorsi che dietro di me arrancava <persName ref="#NinoSarratore">Nino Sarratore</persName> 
+con il suo fratellino per mano. <persName ref="#LidiaSarratore">La madre, Lidia</persName>, nei giorni d’estate lo faceva 
+uscire di 
+casa sempre in compagnia di <persName ref="#PinoSarratore">Pino</persName>, che all’epoca non aveva più di 
+cinque anni, con 
+l’obbligo di non lasciarlo mai. In prossimità di un angolo 
+di strada, poco dopo la salumeria dei Carracci, <persName ref="#NinoSarratore">Nino</persName> fece per superarmi, ma 
+invece di passare oltre mi tagliò la strada, mi spinse contro il muro, 
+appoggiò la mano libera alla parete come una sbarra che mi doveva 
+impedire di scappare, e con l’altra si tirò accanto il fratello, testimone 
+silenzioso della sua impresa. Disse tutto affannato qualcosa che non capii. 
+Era pallido, prima sorrideva, poi diventava serio, poi tornava a sorridere. 
+Alla fine scandì nell’italiano della scuola:</p> 
+
+
+<p>«Quando ci facciamo grandi ti voglio sposare».</p> 
+
+
+<p>Poi mi chiese se nel frattempo mi volevo fidanzare con lui. Era un po’ 
+più alto di me, magrissimo, il collo lungo, le orecchie un po’ scostate dalla 
+testa. Aveva capelli ribelli, occhi intensi con ciglia lunghe. Era commovente 
+lo sforzo 
+che stava facendo per contenere la sua timidezza. Sebbene volessi 
+sposarlo anch’io mi venne di rispondergli:</p> 
+
+
+<p>«No, non posso».</p> 
+
+
+<p><persName ref="#NinoSarratore">Lui</persName> restò a bocca aperta, <persName ref="#PinoSarratore">Pino</persName> gli diede uno strattone. Scappai via.</p> 
+
+
+<p>Da quel momento cominciai a 
+svicolare tutte le volte che lo vedevo. 
+Eppure mi sembrava bellissimo. 
+Quante volte ero rimasta nei paraggi di sua 
+sorella Marisa solo per avvicinarlo e fare insieme a loro la strada per tornare 
+a casa. Ma evidentemente mi fece la dichiarazione in un momento 
+sbagliato. Non poteva sapere come mi sentivo sbandata, quanta angoscia mi 
+dava la sparizione di Tina, come mi logorava lo sforzo di star dietro a <persName ref="#Lila">Lila</persName>, 
+fino a che punto mi toglieva il fiato lo spazio compresso del cortile, delle 
+palazzine, del rione. Dopo molti lunghi sguardi spauriti che mi lanciava da 
+lontano, anche lui cominciò a evitarmi. Per un po’ dovette temere che 
+dicessi alle altre bambine, e innanzitutto <persName ref="#MarisaSarratore">a sua sorella</persName>, della proposta che mi 
+aveva fatto. Si sapeva che <persName ref="#GigliolaSpagnuolo">Gigliola Spagnuolo</persName>, la figlia del pasticciere, si 
+era comportata così quando Enzo le aveva chiesto di fidanzarsi. 
+Ed <persName ref="#EnzoScanno">Enzo</persName> lo 
+aveva saputo e s’era arrabbiato, le aveva gridato sotto scuola che era una 
+bugiarda, l’aveva anche minacciata di ammazzarla con un coltello. Fui 
+tentata di raccontare ogni cosa anch’io, ma poi lasciai perdere, non lo dissi a 
+
+
+
+nessuno, nemmeno a <persName ref="#Lila">Lila</persName> quando diventammo amiche. Piano piano io 
+stessa me ne dimenticai.</p> 
+
+
+<p>La cosa mi tornò in mente quando, qualche tempo dopo, <date from="1952-08" to="1952-09"> l’intera 
+famiglia 
+Sarratore si trasferì</date>. Una mattina comparvero nel cortile la carretta e il 
+cavallo che appartenevano <persName ref="#NicolaScanno">al marito di Assunta, Nicola</persName>: con quella stessa 
+carretta e quello stesso cavallo 
+vecchio vendeva insieme alla moglie la 
+frutta e la verdura girando per le 
+vie del rione. <persName ref="#NicolaScanno">Nicola</persName> aveva una bella faccia 
+larga e gli stessi occhi azzurri, gli stessi capelli biondi di <persName ref="#EnzoScanno">suo figlio, Enzo</persName>. Si 
+occupava, oltre che di vendere frutta e verdura, anche di traslochi. E infatti 
+lui, <persName ref="#DonatoScarratore">Donato Sarratore</persName>, <persName ref="#NinoSarratore">Nino</persName> stesso e anche <persName ref="#LidiaSarratore">Lidia</persName> cominciarono a portar giù 
+di tutto, carabattole d’ogni genere, materassi, mobili, e sistemarono ogni 
+cosa sulla carretta.</p> 
+
+
+<p>Le donne, appena sentirono il rumore delle ruote nel cortile, si 
+affacciarono alle finestre, anche mia madre, anch’io. C’era una gran 
+curiosità. Pareva che <persName ref="#DonatoSarratore">Donato</persName> avesse avuto una casa nuova direttamente 
+dalle Ferrovie dello stato, nei dintorni di una piazza che si chiamava piazza 
+Nazionale. Oppure – disse <persName ref="#Lenùsmother">mia madre</persName> – <persName ref="#LidiaSarratore">la moglie</persName> l’ha obbligato a traslocare 
+per sfuggire alle persecuzioni di <persName ref="#Melina">Melina</persName>, che le vuole togliere <persName ref="#DonatoSarratore">il marito</persName>. 
+Probabile. Mia madre vedeva sempre il male dove con mio grande fastidio 
+si scopriva presto o tardi che il male c’era davvero, e il suo occhio strabico 
+pareva fatto apposta per individuare i movimenti segreti del rione. Come 
+avrebbe reagito <persName ref="#Melina">Melina</persName>? Era vero, come avevo sentito sussurrare, che aveva 
+fatto un bambino con <persName ref="#DonatoSarratore">Sarratore</persName> e 
+poi l’aveva ucciso? Ed era possibile che si 
+sarebbe messa a urlare bruttissime cose, tra cui anche quella? Tutte, grandi 
+e piccole, eravamo affacciate alla finestra, forse per salutare con la mano la 
+famigliola che se ne andava, forse per assistere allo spettacolo della rabbia 
+di quella donna brutta, secca e vedova. Vidi che anche Lila e sua madre 
+Nunzia si sporgevano per vedere.</p> 
+
+
+<p>Cercai lo sguardo di <persName ref="#NinoSarratore">Nino</persName>, ma lui sembrava avere altro da fare. 
+Mi prese 
+allora, come al solito senza un motivo preciso, uno sfinimento che rendeva 
+debole ogni cosa intorno. Pensai che forse mi aveva fatto la dichiarazione 
+perché sapeva già che se ne sarebbe andato e prima voleva dirmi ciò che 
+sentiva per me. Lo guardai mentre s’affannava a trasportare cassette zeppe 
+di cose e sentii la colpa, il dolore di avergli detto no. Ora se ne fuggiva 
+come un uccellino.</p> 
+
+
+
+<p>Alla fine la processione di mobili e masserizie cessò. <persName ref="#NicolaScanno">Nicola</persName> e <persName ref="#DonatoSarratore">Donato</persName>
+cominciarono a passarsi corde per fissare tutto sulla carretta. <persName ref="#LidiaSarratore">Lidia Sarratore</persName>
+comparve vestita come per andare a una festa, s’era messa anche un 
+cappellino estivo, di paglia blu. Spingeva la carrozzella col figlio maschio 
+piccolo e di lato aveva le due femmine, <persName ref="#MarisaSarratore">Marisa</persName> che aveva la mia età, otto-
+nove anni, e <persName ref="#CleliaSarratore">Clelia</persName> di sei. Si sentì all’improvviso un rumore di cose rotte al 
+secondo piano. Quasi nello stesso momento <persName ref="#Melina">Melina</persName> cominciò 
+a gridare. 
+Erano grida di tale strazio che, 
+vidi, <persName ref="#Lila">Lila</persName> si mise le mani sulle orecchie. 
+Risuonò anche la voce addoloratissima di <persName ref="#AdaCappuccio">Ada</persName>, la seconda figlia di Melina, 
+che gridava: mammà, no, mammà. Dopo un attimo d’incertezza mi tappai le 
+orecchie anch’io. Ma intanto cominciarono a volare oggetti dalla finestra e 
+fu tale la curiosità che mi liberai i timpani, come se avessi bisogno di suoni 
+nitidi per capire. <persName ref="#Melina">Melina</persName> però non gridava parole ma solo aaah, aaah, come 
+se fosse ferita. Non la si vedeva, di lei non compariva nemmeno 
+un braccio 
+
+
+o una mano che lanciava le cose. Pentole di rame, bicchieri, bottiglie, piatti 
+parevano volare 
+dalla finestra per volontà propria e in strada <persName ref="#LidiaSarratore">Lidia Sarratore</persName> 
+filava a testa china, la schiena curva sulla carrozzella, le figlie dietro, e 
+<persName ref="#DonatoSarratore">Donato</persName> s’arrampicava sulla carretta tra le sue proprietà, e <persName ref="#NicolaScanno"> don Nicola</persName>
+tratteneva il cavallo per il morso e intanto le cose urtavano sull’asfalto, 
+rimbalzavano, si spezzavano schizzando schegge tra le zampe nervose della 
+bestia.</p> 
+<p>Cercai <persName ref="#Lila">Lila</persName> con lo sguardo. Vidi adesso un’altra faccia, una faccia di 
+smarrimento. Si 
+dovette accorgere che la guardavo e sparì subito dalla 
+finestra. La carretta intanto si mosse. Rasente il muro, senza un saluto per 
+nessuno, sgusciarono verso il cancello anche <persName ref="#LidiaSarratore">Lidia</persName> e i quattro figli più 
+piccoli, mentre <persName ref="#NinoSarratore">Nino</persName>Nino pareva senza voglia di andarsene, come ipnotizzato 
+dallo spreco di oggetti fragili contro l’asfalto.</p> 
+
+
+<p>Per ultimo vidi volare dalla finestra una sorta di macchia nera. Era una 
+ferro da stiro, ferro puro: il manico di ferro, la base di ferro. Quando ancora 
+avevo Tina e giocavo in casa, usavo quello di <persName ref="#Lenùsmother">mia madre</persName>, identico, con la 
+forma a prua, fingendo che fosse 
+una barca nella tempesta. L’oggetto venne 
+giù in picchiata e fece un buco per terra con un tonfo secco, a pochi 
+centimetri da <persName ref="#NinoSarratore">Nino</persName>. Per poco – pochissimo – non lo uccise.</p>
+</div>
+              <div xml:id="chapin12">
+                 <head>12.</head> 
+
+
+<p>Nessun bambino mai dichiarò a <persName ref="#Lila">Lila</persName> il suo amore e lei non mi ha mai detto 
+se ne soffrì. <persName ref="#GigliolaSpagnuolo">Gigliola Spagnuolo</persName> riceveva di continuo proposte di 
+fidanzamento e anch’io ero molto richiesta. <persName ref="#Lila">Lila</persName> invece non piaceva, 
+innanzitutto perché era uno stecco, sporca e sempre con qualche ferita, ma 
+anche perché aveva la lingua affilata, inventava soprannomi umilianti e pur 
+sfoggiando con la maestra vocaboli della lingua italiana che nessuno 
+conosceva, con noi parlava solo 
+un dialetto sferzante, pieno di male parole, 
+che stroncava sul nascere ogni sentimento d’amore. Solo <persName ref="#Enzo">Enzo</persName> fece una 
+cosa che, se non era proprio una richiesta di fidanzamento, era comunque 
+un segnale di ammirazione e di rispetto. <date from="1951" to="1952">Parecchio</date> dopo che le aveva rotto 
+la testa con la pietra e prima, mi pare, di essere respinto da <persName ref="#GigliolaSpagnuolo">Gigliola Spagnuolo</persName>, lui ci rincorse per lo 
+stradone e, sotto i miei occhi increduli, tese 
+a Lila un serto di sorbe.</p> 
+
+
+<p>«Che ci faccio?».</p> 
+
+
+<p>«Te le mangi».</p> 
+
+
+<p>«Acerbe?».</p> 
+
+
+<p>«Le fai maturare».</p> 
+
+
+<p>«Non le voglio».</p> 
+
+
+<p>«Buttale».</p> 
+
+
+<p>Tutto qui. <persName ref="#EnzoScanno">Enzo</persName> girò le spalle e corse a lavorare. <persName ref="#Lenù">Io</persName> e <persName ref="#Lila">Lila</persName> ci mettemmo a 
+ridere. Parlavamo poco, ma per ogni cosa che ci capitava avevamo una 
+risata. Le dissi solo, con tono divertito: «A me piacciono, le sorbe».</p> 
+
+
+<p>In realtà 
+mentivo, era un frutto 
+che non amavo. Mi attraeva il colore 
+rossogiallastro di quando erano acerbe, la loro compattezza che 
+risplendeva 
+nelle giornate di sole. Ma quando maturavano sui balconi e diventavano 
+marroni e molli come piccole pere vizze, e la pelle si staccava 
+facilmente 
+mostrando una polpa granulosa non di cattivo sapore, ma disfatta in un 
+modo che mi ricordava le carogne dei topi lungo lo stradone, allora 
+nemmeno le toccavo. Dissi quella frase quasi per prova, sperando che <persName ref="#Lila">Lila</persName> 
+
+
+
+me le tendesse: tieni, prendile tu. Sentii che se mi avesse dato il dono che le 
+aveva fatto <persName ref="#EnzoScanno">Enzo</persName> sarei stata contenta più che se mi avesse dato una cosa sua. 
+Ma non lo fece, e ricordo ancora l’impressione di tradimento quando se le 
+portò a casa. Lei stessa piantò 
+il chiodo alla finestra. La vidi mentre vi 
+appendeva il serto.</p>
+</div>
+              <div xml:id="chapin13">
+                 <head>13.</head> 
+
+
+<p><persName ref="#EnzoScanno">Enzo</persName> non le fece mai più altri regali. Dopo la lite con <persName ref="#GigliolaSpagnuolo">Gigliola</persName>, che aveva 
+detto a tutti della dichiarazione che lui le aveva fatto, lo vedemmo sempre 
+meno. Pur essendosi mostrato bravissimo coi calcoli a mente 
+era troppo 
+svogliato, sicché il maestro non lo propose per l’esame d’ammissione alle 
+medie e lui non se ne rammaricò, anzi ne fu contento. S’iscrisse alla scuola 
+di avviamento al lavoro, ma di fatto già lavorava coi genitori. Si svegliava 
+prestissimo per andare col padre 
+al mercato ortofrutticolo o a girare con la 
+carretta vendendo per il rione i prodotti della campagna, e quindi con la 
+scuola presto chiuse.</p> 
+
+
+<p><date notAfter="1955-04-10">A noi invece, quando stavamo 
+   per finire la quinta</date>, fu comunicato che 
+eravamo fatte per continuare a studiare. <persName ref="#Oliviero">La maestra</persName> chiamò a turno i 
+genitori miei, di Gigliola e di Lila per dir loro che assolutamente dovevamo 
+sostenere, oltre 
+che l’esame di licenza elementare, anche l’esame di 
+ammissione alla 
+scuola media. <persName ref="#Lenù">Lenù</persName> le studiai tutte per fare in modo che <persName ref="#Lenusfather">mio padre</persName> non mandasse <persName ref="#Oliviero">dalla maestra</persName> <persName ref="#Lenùsmother">mia madre</persName>, claudicante, con l’occhio 
+ballerino e soprattutto sempre rabbiosa, ma ci venisse lui, che era usciere e 
+sapeva usare modi cortesi. Non ce la feci. Andò lei, parlò con la maestra e 
+tornò a casa molto cupa.</p> 
+
+
+<p>«<persName ref="#Oliviero">La maestra</persName>vuole soldi. Dice che le deve fare delle lezioni in più perché 
+l’esame è difficile».</p> 
+
+
+<p>«Ma a che serve questo esame?» chiese <persName ref="#Lenùsfather">mio padre</persName>.</p> 
+
+
+<p>«A farle studiare il latino».</p> 
+
+
+<p>«E perché?».</p> 
+
+
+<p>«Perché hanno detto che è brava».</p> 
+
+
+<p>«Ma se è brava, perché <persName ref="#Oliviero">la maestra</persName> le deve fare queste lezioni a 
+pagamento?».</p> 
+
+
+<p>«Per stare meglio <persName ref="#Oliviero">lei</persName> e peggio noi».</p> 
+
+
+<p>Discussero molto. All’inizio <persName ref="#Lenùsmother">mia madre</persName> era contraria e <persName ref="#Lenùsfather">mio padre</persName> incerto; 
+poi <persName ref="#Lenùsfather">mio padre</persName> diventò cautamente favorevole e <persName ref="#Lenùsmother">mia madre</persName> si rassegnò a 
+
+
+
+essere un po’ meno contraria; infine decisero di farmi fare l’esame, ma 
+sempre col patto che se <persName ref="#Lenù">io</persName> non fossi stata bravissima mi avrebbero tolto 
+subito dalla scuola.</p> 
+
+
+<p>A <persName ref="#Lila">Lila</persName> invece i genitori dissero di no. <persName ref="#NunziaCerullo">Nunzia Cerullo</persName> fece 
+qualche 
+tentativo poco convinto, ma <persName ref="#FernandoCerullo">il padre</persName> non volle neanche discutere e anzi 
+diede uno schiaffo a <persName ref="#RinoCerullo">Rino</persName> che gli aveva detto che sbagliava. I genitori 
+propendevano addirittura per non andare <persName ref="#Oliviero">dalla maestra</persName>dalla ma, che però li fece 
+chiamare dal direttore, e allora <persName ref="#NunziaCerullo">Nunzia</persName> dovette andare per forza. 
+Di fronte al 
+timido ma netto rifiuto di quella donna spaurita, <persName ref="#Oliviero">la Oliviero</persName>, arcigna ma 
+calma, sfoderò i temi meravigliosi di <persName ref="#Lila">Lila</persName>, le soluzioni brillanti di problemi 
+ardui e persino i disegni coloratissimi che in classe, quando si applicava, ci 
+incantavano tutte perché, rubacchiando pastelli Giotto, tratteggiava molto 
+realisticamente principesse con pettinature, gioielli, vestiti, scarpe che non 
+s’erano mai visti in nessun libro e nemmeno al cinema parrocchiale. 
+Quando però il rifiuto fu confermato, <persName ref="#Oliviero">la Oliviero</persName> perse la calma e trascinò 
+dal direttore <persName ref="#NunziaCerullo">la madre di Lila</persName> come se fosse un’alunna indisciplinata. Ma 
+<persName ref="#NunziaCerullo">Nunzia</persName> non poteva cedere, non aveva il permesso del marito. Di 
+conseguenza ripeté no fino allo sfinimento suo, della maestra, del direttore.</p> 
+
+
+<p>Il giorno 
+dopo, mentre andavamo a scuola, <persName ref="#Lila">Lila</persName> mi disse col tono suo 
+solito: tanto io l’esame lo faccio 
+lo stesso. Le credetti, proibirle una cosa era 
+inutile, lo sapevamo tutti. Sembrava la più forte di noi bambine, più forte di 
+<persName ref="#EnzoScanno">Enzo</persName>, di 
+<persName ref="#AlfonsoCarracci">Alfonso</persName>, di <persName ref="#StefanoCarracci">Stefano</persName>, più forte di suo fratello <persName ref="#RinoCerullo">Rino</persName>, più forte dei 
+nostri genitori, più forte di tutti i grandi compresa la maestra e i carabinieri 
+che ti potevano mettere in prigione. Sebbene fragile nell’aspetto, ogni 
+divieto davanti a lei perdeva consistenza. Sapeva come passare il limite 
+senza mai subirne veramente le conseguenze. Alla fine la gente cedeva e 
+addirittura, per quanto a malincuore, era costretta a lodarla.</p>
+</div>
+              <div xml:id="chapin14">
+                 <head>14.</head> 
+
+
+<p>Anche andare da <persName ref="#AchilleCarracci">don Achille</persName> era proibito, ma lei decise di farlo 
+ugualmente e io le andai dietro. Anzi, fu in quell’occasione che mi convinsi 
+che niente potesse fermarla, e che anzi ogni sua disobbedienza avesse 
+sbocchi che per la meraviglia toglievano il fiato.</p> 
+
+
+<p>Volevamo che <persName ref="#AchilleCarracci">con Achille</persName> ci 
+restituisse le nostre bambole. Perciò 
+andammo su per le scale, a ogni gradino ero sul punto di girare le spalle e 
+tornare in cortile. Sento ancora 
+la mano di <persName ref="#Lila">Lila</persName> che afferra la mia, e mi 
+piace pensare che si decise a farlo non solo perché intuì che non avrei avuto 
+il coraggio di arrivare fino all’ultimo piano, ma anche perché lei stessa con 
+quel gesto cercava la forza d’animo per continuare. Così, l’una accanto 
+all’altra, <persName ref="#Lenù">io</persName> dalla parte del muro e <persName ref="#Lila">lei</persName> dalla parte della ringhiera, le mani 
+strette con i palmi sudati, facemmo le ultime rampe. Davanti alla porta di 
+<persName ref="#AchilleCarracci">don Achille</persName> il cuore mi batteva fortissimo, me lo sentivo nelle orecchie, ma 
+mi consolai pensando che fosse il rumore anche del cuore di <persName ref="#Lila">Lila</persName>. 
+Dall’appartamento arrivavano voci, forse di <persName ref="#AlfonsoCarracci">Alfonso</persName> o <persName ref="#StefanoCarracci">Stefano</persName> o <persName ref="#PinucciaCaracci">Pinuccia</persName>. 
+<persName ref="#Lila">Lila</persName>, dopo una lunghissima sosta muta davanti alla porta, girò la chiavetta 
+del campanello. Ci fu silenzio, poi un ciabattare. Ci aprì la porta donna 
+<persName ref="#MariaCarracci">Maria</persName>, aveva una vestaglia verde stinto. Quando parlò, le vidi in bocca un 
+dente d’oro molto brillante. Credette che cercassimo <persName ref="#AlfonsoCarracci">Alfonso</persName>, era un po’ 
+stupita. <persName ref="#Lila">Lila</persName> le disse in dialetto:</p> 
+
+
+<p>«No, vogliamo <persName ref="#AchilleCarracci">don Achille</persName>».</p> 
+
+
+<p>«Di’ a me».</p> 
+
+
+<p>«Dobbiamo parlare con lui».</p> 
+
+
+<p>La donna gridò:</p> 
+
+
+<p>«<persName ref="#AchilleCarracci">Achì</persName>».</p> 
+
+
+<p>Altro ciabattare. Comparve dalla 
+penombra una figura tarchiata. Aveva il 
+busto lungo, le gambe corte, le braccia che scendevano fino alle ginocchia e 
+la sigaretta in bocca, si vedeva la brace. Chiese roco: «Chi è?».</p> 
+
+
+<p>«<persName ref="#Lila">La figlia dello scarparo</persName> insieme alla <persName ref="#Lenù">figlia grande di Greco</persName>».</p> 
+
+
+
+<p><persName ref="#AchilleCarracci">Don Achille</persName> venne alla luce e, 
+per la prima volta, lo vedemmo bene. 
+Niente minerali, niente scintillio di vetri. Il viso era di carne, lungo, e i 
+capelli gli si arruffavano solo sulle orecchie, al centro della testa era tutto 
+lucido. Aveva occhi lucenti, con il bianco venato di torrentelli rossi, la 
+bocca larga e sottile, il mento grosso con una fossa al centro. Mi sembrò 
+brutto ma non quanto mi ero immaginata.</p> 
+
+
+<p>«Beh?».</p> 
+
+
+<p>«Le bambole» disse <persName ref="#Lila">Lila</persName>.</p> 
+
+
+<p>«Che bambole?».</p> 
+
+
+<p>«Le nostre».</p> 
+
+
+<p>«Qua non ci servono le bambole vostre».</p> 
+
+
+<p>«Ve le siete prese giù allo scantinato».</p> 
+
+
+<p><persName ref="#AchilleCarracci">Don Achille</persName> si girò e gridò verso l’interno dell’appartamento:</p> 
+
+
+<p>«<persName ref="#PinucciaCarracci">Pinù</persName>, tu ti sei presa la bambola della figlia dello scarparo?».</p> 
+
+
+<p>«Io no».</p> 
+
+
+<p>«<persName ref="#AlfonsoCarracci">Alfò</persName>, te la sei presa tu?».</p> 
+
+
+<p>Risate.</p> 
+
+
+<p><persName ref="#Lila">Lila</persName> disse ferma, non so da dove le veniva tutto quel coraggio:</p> 
+
+
+<p>«Ve le siete prese voi, vi abbiamo visto».</p> 
+
+
+<p>Ci fu un momento di silenzio.</p> 
+
+
+<p>«Voi io?» chiese <persName ref="#AchilleCarracci">don Achille</persName>.</p> 
+
+
+<p>«Sì, e le avete messe nella vostra borsa nera».</p> 
+
+
+<p><persName ref="#AchilleCarracci">L'uomo</persName>, nell’udire quelle ultime parole, corrugò la fronte infastidito.</p> 
+
+
+<p>Non potevo crederci che eravamo lì, davanti a <persName ref="#AchilleCarracci">don Achille</persName>, e <persName ref="#Lila">Lila</persName> gli 
+parlasse a quel modo e lui la fissasse perplesso, e nel fondo si 
+intravedessero <persName ref="#AlfonsoCarracci">Alfonso</persName> e <persName ref="#StefanoCarracci">Stefano</persName> e <persName ref="#PinucciaCarracci">Pinuccia</persName> e <persName ref="#MariaCarracci">donna Maria</persName> che 
+apparecchiava la tavola per la cena. Non potevo crederci che era una 
+persona comune, un po’ basso, un po’ calvo, un po’ sproporzionato, ma 
+comune. Perciò aspettavo che da un momento all’altro si trasformasse.</p> 
+
+
+<p><persName ref="#AchilleCarracci">Don Achille</persName> ripeté, come per capire bene il senso delle parole:</p> 
+
+
+                 <p>«Io mi sono preso le vostre bambole e le ho messe nella borsa nera?».</p> 
+
+
+<p>Sentii che non era arrabbiato ma all’improvviso sofferente, come se 
+stesse avendo la 
+conferma di una cosa che già sapeva. Disse qualcosa in 
+dialetto che non capii,<persName ref="#MariaCarracci">Maria</persName> gridò:</p> 
+
+
+<p>«<persName ref="#AchilleCarracci">Achì</persName>, è pronto».</p> 
+
+
+<p>«Vengo».</p> 
+
+
+
+<p><persName ref="#AchilleCarracci">Don Achille</persName> portò un mano grossa e larga alla tasca di dietro dei calzoni. 
+Noi ci stringemmo forte la mano, aspettandoci che tirasse fuori un coltello. 
+Invece estrasse il portafoglio, lo aprì, guardò dentro e tese a Lila dei soldi, 
+non mi ricordo quanto. </p>
+
+
+<p>«Compratevele, le bambole» disse.</p>
+
+
+<p><persName ref="#Lila">Lila</persName> arraffò i soldi e mi trascinò giù per la rampa. Lui borbottò 
+affacciandosi alla ringhiera:</p> 
+
+
+<p>«E ricordatevi che ve le ho regalate io».</p> 
+
+
+<p>Dissi in 
+italiano, attenta a non cadere per le scale: «Buonasera e buon 
+appetito».</p>
+</div>
+              <div xml:id="chapin15">
+                 <head>15.</head> 
+
+
+<p><date when="1955-04-10"><persName ref="#GigliolaSpagnuolo">Gigliola Spagnuolo</persName> e <persName ref="#Lenù">io</persName>io, subito dopo Pasqua</date>, cominciammo ad andare a 
+casa della <persName ref="#Oliviero">maestra</persName> per prepararci all’esame di ammissione. <persName ref="#Oliviero">La maestra</persName>
+abitava proprio di lato alla parrocchia della Sacra Famiglia, le sue finestre 
+affacciavano sui 
+giardinetti e di lì si vedevano, oltre la campagna fitta, i 
+tralicci della ferrovia. <persName ref="#GigliolaSpagnuolo">Gigliola Spagnuolo</persName> passava sotto le mie finestre e mi chiamava. 
+<persName ref="#Lenù">Io</persName> ero già pronta, uscivo di corsa. Mi piacevano quelle lezioni private, due a 
+settimana, mi pare. <persName ref="#Olivoer">La maestra</persName>, a fine lezione, ci offriva dolcetti secchi a 
+forma di cuore e una gassosa.</p> 
+
+
+<p><persName ref="#Lila">Lila</persName> non venne mai, i suoi genitori non avevano accettato di pagare la 
+maestra. Ma lei, visto che ormai eravamo molto amiche, continuò a dirmi 
+che avrebbe fatto l’esame e sarebbe venuta in prima media nella mia stessa 
+classe.</p> 
+
+
+<p>«E i libri?».</p> 
+
+
+<p>«Me li presti tu».</p> 
+
+
+<p>Intanto però, coi soldi di <persName ref="#AchilleCarracci">don Achille</persName>, comprò un romanzo: Piccole 
+donne. Si 
+decise a farlo perché lo conosceva già e le era piaciuto 
+moltissimo. <persName ref="#Oliviero">La Oliviero</persName>, in quarta, aveva dato a noi più brave libri da 
+leggere. A lei era toccato Piccole donne 
+con la seguente frase di 
+accompagnamento: «Questo è per le grandi ma per te va bene», e a me il 
+libro Cuore, 
+senza nemmeno una parola che mi spiegasse di cosa si trattava. 
+<persName ref="#Lila">Lila</persName> si era letta sia Piccole donne 
+che Cuore, in pochissimo tempo, e diceva 
+che non c’era confronto, secondo lei Piccole donne 
+era bellissimo. Io non 
+ero riuscita a leggerlo, a stento avevo finito Cuore 
+entro i termini stabiliti 
+dalla maestra per la restituzione. Ero una lettrice lenta, tuttora 
+sono così. 
+<persName ref="#Lila">Lila</persName>, quando aveva dovuto ridare il libro alla z<persName ref="#Oliviero">Oliviero</persName>, si era rammaricata 
+sia di non poter rileggere di continuo Piccole donne, sia di non poterne 
+parlare con me. <date from="1953" to="1954">Perciò una mattina si decise.</date> Mi chiamò dalla strada, 
+andammo agli stagni, nel posto dove avevamo seppellito dentro una 
+scatoletta di metallo i soldi di <persName ref="#AchilleCarracci">don Achille</persName>, prendemmo il denaro e 
+
+
+
+andammo a chiedere a Iolanda la cartolaia, che esponeva in vetrina chissà 
+da quando una copia di Piccole donne 
+ingiallita dal sole, se bastava. 
+Bastava. Appena diventammo proprietarie del libro cominciammo a vederci 
+in cortile per leggerlo o a mente, l’una vicina all’altra, o ad alta 
+voce. Ce lo 
+leggemmo per mesi, così tante volte che il libro diventò sudicio, 
+sbrindellato, perse il dorso, cominciò a cacciare fili, a sgangherare i 
+quinterni. Ma era il nostro libro, 
+lo amammo molto. Ne ero <persName ref="#Lenù">io</persName> la 
+custode, lo 
+tenevo a 
+casa tra quelli di scuola, perché <persName ref="#Lila">Lila</persName> non se la sentiva di tenerlo in 
+casa sua. <persName ref="#FernandoCerullo">Il padre</persName>, negli ultimi tempi, si arrabbiava se solo la pescava a 
+leggere.</p> 
+
+
+<p><persName ref="#RinoCerullo">Rino</persName> invece la proteggeva. <date when="1955">Quando ci fu la questione dell’esame di 
+ammissione</date>, tra 
+<persName ref="#RinoCerullo">lui</persName> e <persName ref="#FernandoCerullo">il padre</persName> esplosero litigi di continuo. <persName ref="#RinoCerullo">Rino</persName> a 
+quell’epoca aveva all’incirca sedici anni, era un ragazzo molto nervoso e 
+aveva cominciato una sua battaglia per essere pagato per il lavoro che 
+faceva. Il suo ragionamento era: 
+mi alzo alle sei; vengo al negozio e lavoro 
+fino alle otto di 
+sera; voglio un salario. Ma quelle parole scandalizzavano 
+sia <persName ref="#FernandoCerullo">il padre</persName> che <persName ref="#NunziaCerullo">la madre</persName>. <persName ref="#RinoCerullo">Rino</persName> aveva un letto dove dormire, aveva di che 
+mangiare, perché voleva soldi? Il suo compito era aiutare la famiglia, non 
+impoverirla. Ma 
+il <persName ref="#FerandoCerullo">ragazzo</persName> insisteva, trovava ingiusto sgobbare quanto <persName ref="#Fernando Cerullo">il padre</persName> e non ricevere un centesimo. A quel punto <persName ref="#FernandoCerullo">Fernando Cerullo</persName> gli 
+rispondeva con apparente pazienza: «p<persName ref="#FernandoCerullo">Io</persName> ti pago già, <persName ref="#RinoCerullo">Rino</persName>, ti pago 
+profumatamente insegnandoti il mestiere completo: <persName ref="#RinoCerullo">tu</persName> presto non saprai 
+solo rifare i tacchi o l’orlo o rimettere la mezza piantella; tuo 
+padre tutto 
+quello che sa te lo sta passando e presto arriverai a fare, a regola d’arte, una 
+scarpa intera». Ma quel pagamento a base d’istruzione a <persName ref="#RinoCerullo">Rino</persName> non bastava e 
+quindi battibeccavano, specialmente a cena. Si cominciava parlando di soldi 
+e si finiva a litigare per <persName ref="#Lila">Lila</persName>.</p> 
+
+
+<p>«Se tu mi paghi ci penso io a farla studiare» diceva <persName ref="#RinoCerullo">Rino</persName>.</p> 
+
+
+<p>«Studiare? Perché, io ho studiato?».</p> 
+
+
+<p>«No».</p> 
+
+
+<p>«E tu hai studiato?».</p> 
+
+
+<p>«No».</p> 
+
+
+<p>«Allora perché deve studiare <persName ref="#Lila">tua sorella</persName> che è femmina?».</p> 
+
+
+<p>La cosa finiva quasi sempre con 
+uno schiaffo in faccia a <persName ref="RinoCerullo">Rino</persName>, che in un 
+modo o in un altro, anche senza volerlo, aveva mancato di rispetto <persName ref="#FernandoCerullo">al padre</persName>. 
+<persName ref="#RinoCerullo">Il ragazzo</persName> ragazzo, senza piangere, chiedeva scusa con voce cattiva.</p> 
+
+
+
+<p><persName ref="#Lila">Lila</persName> taceva durante quelle discussioni. Non me l’ha mai detto, ma a me è 
+rimasta l’impressione che mentre io odiavo <persName ref="#Lenùsmother">mia madre</persName>, e la odiavo davvero, 
+profondamente, lei malgrado tutto non ce l’avesse affatto con <persName ref="#FernandoCerullo">suo padre</persName>. 
+Diceva che era pieno di gentilezze, diceva che quando lui doveva fare i 
+conti se li faceva fare da lei, diceva che l’aveva sentito dire agli amici che 
+<persName ref="#Lila">sua figlia</persName> era la persona più intelligente del rione, diceva che quand’era il 
+suo onomastico le portava lui stesso la cioccolata calda a letto e quattro 
+biscotti. Ma c’era poco da fare, non rientrava nel suo modo di vedere che lei 
+continuasse a studiare. E non rientrava nemmeno nelle sue possibilità 
+economiche: la famiglia era numerosa, si vivacchiava tutti sulla 
+botteguccia, anche due sorelle nubili di <persName ref="#FernanodCerullo">Fernando</persName>, anche i genitori di 
+<persName ref="#Nunzia">Nunzia</persName>. Perciò su quella cosa dello studio era come parlare al muro, e sua 
+madre tutto sommato era della stessa opinione. Solo <persName ref="#RinoCerullo">il fratello</persName> la 
+pensava in 
+modo diverso e si batteva coraggiosamente contro <persName ref="#FernandoCerullo">il padre</persName>. E <persName ref="#Lila">Lila</persName>, per 
+ragioni che non capivo, si mostrava convinta che <persName ref="#RinoCerullo">Rino</persName> avrebbe vinto.</p> 
+<p>Avrebbe ottenuto il suo salario 
+e l’avrebbe mandata a scuola 
+con i soldi 
+suoi.</p> 
+
+
+<p>«Se bisogna pagare una tassa, me la paga <persName ref="RinoCerullo">lui</persName>» mi spiegava.</p> 
+
+
+<p>Era sicura che <persName ref="#RinoCerullo">il fratello</persName>il 
+fratello le avrebbe dato i soldi anche per i libri di scuola 
+e persino per le penne, il portapenne, i pastelli, il mappamondo, il 
+grembiule e il fiocco. Lo adorava. Mi disse che, dopo aver studiato, voleva 
+guadagnare molti soldi al solo scopo di rendere <persName ref="#RinoCerullo">suo fratello</persName> la persona più 
+ricca del rione.</p> 
+
+
+<p>La ricchezza, in quell’ultimo anno delle elementari, diventò un nostro 
+chiodo fisso. Ne parlavamo come nei romanzi si parla della ricerca di un 
+tesoro. Dicevamo: quando diventeremo ricche faremo questo, faremo 
+quello. A 
+sentirci, pareva che la ricchezza fosse nascosta in qualche posto 
+del rione, dentro forzieri che una volta aperti mandavano bagliori, e 
+aspettasse solo che noi la trovassimo. Poi, non so perché, le cose 
+cambiarono e cominciammo ad associare lo studio ai soldi. Pensammo che 
+studiare molto ci avrebbe fatto scrivere libri e che i libri ci avrebbero rese 
+ricche. La ricchezza era sempre un luccicore di monete d’oro chiuse dentro 
+innumerevoli casse, ma per arrivarci bastava studiare e scrivere un libro.</p> 
+
+
+<p>«Ne scriviamo uno insieme» disse <persName ref="#Lila">Lila</persName> una volta e la cosa mi riempì di 
+gioia.</p> 
+
+
+
+<p>Forse l’idea prese piede quando <persName ref="#Lila">lei</persName> scoprì che l’autrice di Piccole donne 
+aveva fatto così tanti soldi che aveva dato un po’ delle sue ricchezze alla 
+famiglia. Ma non ci giurerei. Ne ragionammo, dissi che potevamo 
+cominciare subito dopo l’esame di ammissione. Acconsentì, però non seppe 
+resistere. <date from="1955-04-10" to="1954-06">Mentre <persName ref="#Lenù">io</persName> avevo molto da studiare anche per via delle lezioni 
+pomeridiane con 
+<persName ref="#GigliolaSpagnuolo">Spagnuolo</persName> e <persName ref="#Oliviero">la maestra</persName>, lei era più libera, si mise al lavoro 
+e scrisse un romanzo senza di me.</date></p>
+
+
+<p>Ci rimasi male quando me lo portò perché lo leggessi, ma non dissi 
+niente, anzi trattenni la delusione e le feci molte feste. Erano una decina di 
+fogli a quadretti, ripiegati e fermati con uno spillo da sarta. C’era una 
+copertina disegnata coi pastelli, mi ricordo il titolo. Si chiamava La fata blu, 
+e com’era appassionante, quante parole difficili c’erano. Le dissi di farlo 
+leggere <persName ref="#Oliviero">alla maestra</persName>. Non volle. La pregai, mi offrii di darglielo io. Poco 
+convinta, fece cenno di sì.</p> 
+
+
+<p>Una volta che stavo a casa della Oliviero per la lezione, approfittai di 
+quando <persName ref="#GigliolaSpagnuolo">Gigliola</persName> stava nel bagno per tirar fuori La fata blu. Dissi che era un 
+romanzo bellissimo scritto da <persName ref="#Lila">Lila</persName> e che Lila voleva farglielo leggere. Ma la 
+maestra, che negli ultimi cinque 
+anni era stata sempre entusiasta 
+di tutto ciò 
+che faceva <persName ref="#Lila">Lila</persName> a parte le cattiverie, replicò freddamente:</p>
+
+<p>«Di’ a <persName ref="#Lila">Cerullo</persName> che farebbe bene a studiare per la licenza, invece di 
+perdere tempo». E pur tenendosi il romanzo di Lila, lo lasciò sul tavolo 
+senza dargli nemmeno uno sguardo.</p> 
+
+
+<p>Quell’atteggiamento mi disorientò. Cosa era successo? S’era arrabbiata 
+con <persName ref="#NunziaCerullo">la madre di Lila</persName>? Aveva 
+esteso l’arrabbiatura a <persName ref="#Lila">Lila</persName>> stessa? Era 
+dispiaciuta per i soldi che i genitori della mia amica non avevano voluto 
+darle? Non capii. Qualche giorno dopo cautamente le chiesi se aveva letto 
+La fata blu. Mi 
+rispose con 
+un tono insolito, oscuramente, come se solo <persName ref="#Lenù">io</persName> e 
+<persName ref="#Oliviero">lei</persName> ci potessimo veramente capire.</p> 
+
+
+<p>«Lo sai cos’è la plebe, <persName ref="#Lenù">Greco</persName>?».</p> 
+
+
+<p>«Sì: la plebe, i tribuni della plebe, i Gracchi».</p> 
+
+
+<p>«La plebe è una cosa assai brutta».</p> 
+
+
+<p>«Sì».</p>
+
+
+<p>«E se uno vuole restare plebe, lui, i suoi figli, i figli dei suoi figli, non si 
+   merita niente. Lascia perdere <persName ref="#Lila">Cerullo</persName> e pensa a <persName ref="#Lenù">te</persName>».</p>
+
+
+<p><persName ref="#Oliviero">La maestra Oliviero</persName> non disse mai niente sulla Fata blu. <persName ref="#Lila">Lila</persName> mi chiese 
+notizie un paio di volte, poi lasciò perdere. Disse cupa:</p> 
+
+
+
+<p>«Appena ho tempo ne scrivo un altro, quello non era buono».</p> 
+
+
+<p>«Era bellissimo».</p> 
+
+
+<p>«Faceva schifo».</p> 
+
+
+<p>Ma diventò meno vivace, specialmente in classe, probabilmente perché si 
+accorse che <persName ref="#Oliviero">la Oliviero</persName> non la lodava più, anzi certe volte si mostrava 
+infastidita dai suoi eccessi di bravura. Quando ci fu la gara di fine anno 
+risultò comunque la migliore, ma senza la sfrontatezza di una volta. A 
+conclusione della giornata, il direttore sottopose a chi era rimasto in gara – 
+in effetti a <persName ref="#Lila">Lila</persName>, a <persName ref="#Gigliola">Gigliola</persName> e a <persName ref="#Lenù">me</persName> – un problema difficilissimo che aveva 
+inventato lui in persona. <persName ref="#GigliolaSpagnuolo">Gigliola</persName> e <persName ref="#Lenù">io</persName> ci affaticammo senza risultato. <persName ref="#Lila">Lila</persName> 
+ridusse come al solito i suoi occhi a due fessure, ci si applicò. Fu l’ultima a 
+capitolare. Disse con un tono timido, inusuale per lei, che il problema non si 
+poteva risolvere perché c’era qualcosa di sbagliato nel testo, ma 
+non sapeva 
+cosa. Apriti cielo, <persName ref="#Oliviero">la Oliviero</persName> 
+le fece una grandissima lavata di testa. 
+Vedevo <persName ref="#Lila">Lila</persName> esile, alla lavagna, col gesso in mano, molto pallida, e investita 
+da raffiche di frasi cattive. Ne sentivo la sofferenza, non 
+riuscivo a 
+sopportare il tremolio del suo labbro inferiore e fui quasi per scoppiare in 
+lacrime.</p> 
+
+
+<p>«Quando non si sa risolvere un 
+problema» concluse <persName ref="#Oliviero">la Oliviero</persName> gelida, 
+«non si 
+dice: il problema è sbagliato, si dice: io non sono capace di 
+risolverlo».</p> 
+
+
+<p>Il direttore restò in silenzio. Per quel che ricordo, la giornata finì lì.</p>
+</div>
+              <div xml:id="chapin16">
+                 <head>16.</head>
+
+
+<p><date from="1955-04-10" to="1955-06">Poco prima dell’esame di licenza elementare</date> <persName ref="#Lila">Lila</persName> mi spinse a fare un’altra 
+delle tante cose che da sola non avrei mai avuto il coraggio di fare.</p> 
+<p>Decidemmo di non andare a scuola e passammo i confini del rione.</p> 
+
+
+<p>Non era mai successo. Da quando avevo memoria non mi 
+ero mai 
+allontanata dalle palazzine bianche a quattro piani, dal cortile, dalla 
+parrocchia, dai giardinetti, né avevo mai sentito la spinta a farlo. Passavano 
+treni di continuo oltre la campagna, passavano auto e camion su e giù per lo 
+stradone, eppure non riesco a ricordare nemmeno un’occasione in cui 
+chiedo a 
+<persName ref="#Lenù">me stessa</persName>, a <persName ref="#Lenùsfather">mio padre</persName>, 
+<persName ref="#Oliviero">alla maestra</persName>: dove vanno le auto, i camion, 
+i treni, in quale città, in quale mondo?</p> 
+
+
+<p>Anche <persName ref="#Lila">Lila</persName> non s’era mai mostrata particolarmente interessata, però 
+quella volta organizzò ogni cosa. Mi disse di raccontare a <persName ref="#Lenùsmother">mia madre</persName> che 
+dopo la scuola saremmo andate 
+tutte a casa della maestra per una festa di 
+fine anno scolastico, e sebbene io cercassi di ricordarle che le maestre non 
+avevano mai invitato tutte noi bambine a casa loro per far festa, lei disse 
+che proprio per questo dovevamo dire così. L’avvenimento sarebbe 
+sembrato tanto eccezionale che nessuno dei nostri genitori avrebbe avuto la 
+faccia tosta di andare a chiedere a scuola se era vero o no. Mi fidai come al 
+solito, e andò proprio come aveva detto lei. A casa mia ci credettero tutti, 
+non solo <persName ref="#Lenusfather">mio padre</persName> e i miei fratelli, ma anche <persName ref="#Lenùsmother">mia madre</persName>.</p> 
+
+
+<p>La notte precedente non riuscii a dormire. Cosa c’era oltre il rione, oltre 
+il suo perimetro stranoto? Alle 
+nostre spalle si levavano una collinetta 
+fittamente alberata e qualche rara costruzione a ridosso di binari luccicanti. 
+Davanti a noi, oltre lo stradone, s’allungava una via tutta buche che 
+costeggiava gli stagni. A destra, uscendo dal cancello, si distendeva il filo di 
+una campagna senza alberi sotto un cielo enorme. A sinistra c’era un tunnel 
+a tre bocche, ma 
+se ci si arrampicava su fino ai binari della ferrovia, nelle 
+belle giornate si 
+vedeva, al di là di certe case basse e muri di tufo e una fitta 
+
+
+
+vegetazione, una 
+montagna celeste con una vetta più bassa e una un po’ più 
+alta, che si chiamava Vesuvio ed era un vulcano.</p> 
+
+
+<p>Ma niente di ciò che avevamo sotto gli occhi tutti i giorni, o che si poteva 
+vedere inerpicandosi su per la collina, ci impressionava. Abituate dai libri di 
+scuola a parlare con molta competenza di ciò che non avevamo mai visto, 
+era l’invisibile che ci eccitava. <persName ref="#Lila">Lila</persName> diceva che, proprio nella direzione del 
+Vesuvio, c’era il mare. <persName ref="#RinoCerullo">Rino</persName>, che c’era andato, le aveva raccontato che era 
+acqua azzurra, sbrilluccicante, uno spettacolo bellissimo. La domenica, 
+specialmente d’estate, ma spesso 
+anche d’inverno, lui correva con gli amici 
+a farci il bagno, e le aveva promesso di portarcela. Non era il solo, 
+naturalmente, ad aver visto il mare, l’avevano visto anche altri che 
+conoscevamo. Una volta ce ne avevano parlato <persName ref="#NinoSarratore">Nino Sarratore</persName> e <persName ref="#Marisa Sarratore">sua sorella, Marisa</persName>, con il tono di chi trovava normale che ci si andasse ogni tanto a 
+mangiare i taralli e i frutti di mare. Anche <persName ref="#GigliolaSpagnuolo">Gigliola Spagnuolo</persName> c’era stata. 
+<persName ref="#GigliolaSpagnuolo">Lei</persName>, <persName ref="#NinoSarratore">Nino</persName>, <persName ref="#MarisaSarratore">Marisa</persName> avevano, per loro fortuna, genitori che portavano i figli a 
+fare passeggiate molto lontano, non solo quattro passi ai giardinetti davanti 
+alla parrocchia. I nostri non erano così, mancava il tempo, mancavano i 
+soldi, mancava la voglia. Era vero che mi pareva di avere del mare una vaga 
+memoria azzurrina, <persName ref="#Lenùsmother">mia madre</persName> sosteneva di avermici portata da piccola, 
+quando doveva fare le sabbiature alla gamba offesa. Ma a <persName ref="#Lenùsmother">mia madre</persName>
+credevo poco e con <persName ref="#Lila">Lila</persName>, che non ne sapeva niente, ammettevo di non 
+saperne niente nemmeno io. Così lei progettò di fare come <persName ref="#RinoCerullo">Rino</persName>, mettersi in 
+cammino e andarci da sola. Mi convinse ad accompagnarla. Domani.</p> 
+
+
+<p>Mi alzai presto, feci tutto come 
+se dovessi andare a scuola, la zuppa di 
+pane nel latte caldo, la cartella, il grembiule. Aspettai come al solito <persName ref="#Lila">Lila</persName> 
+davanti al cancello, solo che, invece di prendere a destra, attraversammo lo 
+stradone e andammo a sinistra, verso il tunnel.</p> 
+
+
+<p>Era mattina presto e faceva già caldo. C’era un odore forte di terra ed 
+erba che 
+si asciugavano al sole. Salimmo tra arbusti alti, per sentieri incerti 
+che andavano verso i binari. Arrivate a un pilone dell’elettricità ci 
+togliemmo i grembiuli e li mettemmo nelle cartelle, che nascondemmo tra i 
+cespugli. Quindi filammo per la campagna, la conoscevamo benissimo e 
+volammo eccitatissime per una china che ci portò a ridosso del tunnel. La 
+bocca di destra era nerissima, non ci eravamo mai infilate dentro 
+quell’oscurità. Ci prendemmo per mano e andammo. Era un passaggio 
+lungo, il cerchio luminoso dell’uscita pareva lontano. Una volta abituate 
+
+
+
+alla penombra vedemmo, stordite dal rimbombo dei passi, le righe d’acqua 
+argentata che scivolavano lungo le pareti, le grandi pozzanghere. 
+Procedemmo tesissime. Poi <persName ref="#Lila">Lila</persName> lanciò un grido e rise per come il suono 
+esplodeva violento. Subito dopo gridai <persName ref="#Lenù">io</persName> e risi a mia volta. Da quel 
+momento non facemmo che gridare, insieme e separatamente: risate e grida, 
+grida e risate, per il piacere di sentirle amplificate. La tensione si allentò, 
+cominciò il viaggio.</p> 
+
+
+<p>Avevamo davanti a noi tante ore in cui nessuno dei nostri familiari ci 
+avrebbe cercato. Quando penso al piacere di essere liberi, penso 
+all’inizio di 
+quella giornata, a quando uscimmo dal tunnel e ci trovammo su una strada 
+tutta dritta a perdita d’occhio, la strada che, secondo ciò che aveva detto 
+Rino a Lila, a farla tutta si arrivava al mare. Mi sentii esposta all’ignoto con 
+gioia. Niente di paragonabile alla discesa negli scantinati o all’ascesa fino 
+alla casa di <persName ref="#AchilleCarracci">don Achille</persName>. C’era un sole nebuloso, un forte odore 
+di bruciato. 
+Camminammo a 
+lungo tra muri crollati invasi dalle erbacce, edifici bassi da 
+cui venivano voci in dialetto, a volte un clangore. Vedemmo un cavallo che 
+calava cautamente giù da un terrapieno e attraversava la strada nitrendo. 
+Vedemmo una donna giovane, affacciata a un balconcino, che si pettinava 
+col pettine stretto per i pidocchi. Vedemmo molti bambini mocciolosi che 
+smisero di giocare e ci guardarono minacciosamente. Vedemmo anche un 
+uomo grasso in canottiera che sbucò da una casa diroccata, si aprì i calzoni 
+e ci mostrò il suo pene. Ma non ci spaventammo di niente: <persName ref="#NicolaScanno">don Nicola</persName>, il 
+padre di <persName ref="#EnzoScanno">Enzo</persName>, a volte ci faceva accarezzare il suo cavallo, i bambini erano 
+minacciosi anche nel nostro cortile e c’era il vecchio don Mimì che ci 
+mostrava il suo coso schifoso tutte le volte che tornavamo da scuola. Per 
+almeno tre ore di cammino lo stradone che stavamo percorrendo non ci 
+sembrò diverso dal segmento su cui ci affacciavamo ogni giorno. E non 
+sentii mai la responsabilità della via giusta. Ci tenevamo per mano, 
+avanzavamo fianco a fianco, ma per me, secondo il solito, era come se <persName ref="#Lila">Lila</persName>
+fosse dieci passi più avanti e sapesse di preciso cosa fare, dove andare. Ero 
+abituata a sentirmi la seconda in tutto e perciò ero sicura che a lei, che da 
+sempre era la prima, fosse tutto chiaro: l’andatura, il computo del tempo a 
+disposizione per andare e tornare, il percorso per arrivare al mare. La 
+sentivo come se avesse tutto ordinato nella testa in modo tale che il mondo 
+intorno non sarebbe riuscito mai a mettere disordine. Mi abbandonai con 
+allegria. Ricordo 
+una luce soffusa che pareva venire non dal cielo ma dalla 
+
+
+
+profondità della 
+terra, la quale però, a vederla in superficie, era povera, 
+laida.</p> 
+
+
+<p>Poi cominciammo a essere stanche, ad aver sete e fame. A quello non 
+avevamo pensato. Lila rallentò, rallentai anch’io. La sorpresi due o tre volte 
+mentre mi guardava come se si fosse pentita di farmi una cattiveria. Cosa 
+stava succedendo? Mi accorsi che si girava spesso indietro e presi a girarmi 
+anch’io. La sua mano cominciò a sudare. Da tempo alle spalle non avevamo 
+più il tunnel, che 
+era il confine col rione. La strada già percorsa ci era ormai 
+poco familiare, come quella che continuava ad aprirsi davanti a noi. La 
+gente pareva del tutto indifferente alla nostra sorte. E intanto ci cresceva 
+intorno un paesaggio d’abbandono: bidoni ammaccati, legna bruciacchiata, 
+carcasse d’auto, 
+ruote di carretta coi raggi spezzati, mobili semidistrutti, 
+ferraglia rugginosa. Perché <persName ref="#Lila">Lila</persName> guardava indietro? Perché aveva smesso di 
+parlare? Cosa c’era che non andava?</p> 
+
+
+<p>Guardai meglio. Il cielo, che all’inizio era molto alto, si era come 
+abbassato. Alle nostre spalle stava diventando tutto nero, c’erano nuvole 
+grosse, pesanti, che poggiavano sopra gli alberi, i pali della luce. Davanti a 
+noi, invece, la luce era ancora abbagliante, ma come incalzata ai lati da un 
+grigiore violaceo che tendeva a soffocarla. Si sentirono tuoni lontani. Ebbi 
+paura, ma ciò che mi spaventò di più fu l’espressione di <persName ref="#Lila">Lila</persName>, per me nuova. 
+Aveva la 
+bocca aperta, gli occhi spalancati, guardava nervosamente avanti, 
+indietro, di lato, e mi stringeva la mano molto forte. Possibile, mi chiesi, 
+che abbia paura? Cosa le sta succedendo?</p> 
+
+
+<p>Arrivarono i primi goccioloni, colpirono la polvere della strada lasciando 
+piccole macchie marrone.</p> 
+
+
+<p>«Torniamo» disse <persName ref="#Lila">Lila</persName>.</p> 
+
+
+<p>«E il mare?».</p> 
+
+
+<p>«È troppo lontano».</p> 
+
+
+<p>«E casa?».</p> 
+
+
+<p>«Anche».</p> 
+
+
+<p>«Allora andiamo al mare».</p> 
+
+
+<p>«No».</p> 
+
+
+<p>«Perché?».</p> 
+
+
+<p>La vidi agitata come non l’avevo mai vista. C’era qualcosa – qualcosa 
+che aveva sulla punta della lingua ma non si decideva a dirmi – che 
+all’improvviso le imponeva di trascinarmi in fretta a casa. Non capivo: 
+
+
+
+perché non proseguivamo? C’era tempo, il mare non doveva essere distante, 
+e che tornassimo a casa o seguitassimo ad andare avanti, ci saremmo 
+bagnate lo stesso, se fosse venuta la pioggia. Era uno schema di 
+ragionamento che avevo appreso da lei e mi stupivo che non lo applicasse.</p> 
+
+
+<p>Una luce violacea spaccò il cielo nero, tuonò più forte. <persName ref="#Lila">Lila</persName> mi diede uno 
+strattone, mi ritrovai poco convinta a correre nella direzione del rione. Si 
+levò il vento, i goccioloni diventarono più fitti, nel giro di pochi secondi si 
+trasformarono in 
+una cascata d’acqua. A nessuna di noi venne in mente di 
+cercarci un riparo. Corremmo accecate dalla pioggia, gli abiti subito zuppi, i 
+piedi nudi dentro sandali consunti che facevano poca presa sul terreno 
+ormai fangoso. Corremmo finché avemmo fiato.</p> 
+
+
+<p>Poi non ce la facemmo più, rallentammo. Lampi, tuoni, una lava d’acqua 
+piovana correva ai bordi dello stradone, camion rumorosissimi passavano 
+veloci sollevando ondate di fanghiglia. Facemmo la strada a passo svelto, il 
+cuore in 
+tumulto, prima sotto grandi rovesci, poi sotto una pioggia sottile, 
+infine sotto un cielo grigio. Eravamo zuppe, i capelli incollati al cranio, le 
+labbra livide, gli occhi spaventati. Riattraversammo il tunnel, andammo su 
+per la campagna. Gli arbusti carichi di pioggia ci sfioravano facendoci 
+rabbrividire. Ritrovammo le cartelle, mettemmo sugli abiti bagnati i 
+grembiuli asciutti, ci avviammo verso casa. Tesa, gli occhi sempre bassi, 
+Lila non mi diede più la mano.</p> 
+
+
+<p>Capimmo presto che niente era andato come avevamo previsto. Il cielo 
+s’era fatto nero sopra il rione in 
+concomitanza con l’uscita da scuola. <persName ref="#Lenùsmother">Mia madre</persName> era andata sotto scuola con l’ombrello per accompagnarmi alla festa 
+dalla maestra. Aveva scoperto che non c’ero, che non c’era nessuna festa. 
+Da ore mi stava cercando. Quando vidi da lontano la sua figura 
+penosamente claudicante lasciai subito Lila perché non se la prendesse con 
+lei e le corsi incontro. Non mi fece nemmeno parlare. Mi colpì a schiaffi e 
+anche con l’ombrello, urlando che m’avrebbe ucciso se avessi fatto ancora 
+una cosa del genere.</p> 
+
+
+<p>Lila se la batté, a casa sua nessuno si era accorto di niente.</p> 
+
+
+<p>In serata <persName ref="#Lenùsmother">mia madre</persName> riferì tutto a 
+<persName ref="#Lenùsfather">mio padre</persName> e lo obbligò a picchiarmi. <persName ref="#Lenùsfather">Lui</persName> 
+si innervosì, di fatto non voleva, finirono col litigare. Prima le tirò uno 
+schiaffo, poi, arrabbiato con se stesso, me le diede di santa ragione. Per tutta 
+la notte cercai di 
+capire cosa fosse realmente successo. Dovevamo andare al 
+mare e non ci eravamo andate, le avevo buscate per niente. Si era verificata 
+
+
+
+una misteriosa inversione di atteggiamenti: io, malgrado la pioggia, avrei 
+continuato il cammino, mi sentivo lontana da tutto e da tutti, e la lontananza 
+
+
+– avevo 
+scoperto per la prima volta – mi estingueva dentro ogni legame e 
+ogni preoccupazione; Lila s’era 
+bruscamente pentita del suo stesso piano, 
+aveva rinunciato al mare, era voluta tornare dentro i confini del 
+rione. Non 
+mi ci raccapezzavo.</p> 
+<p>Il giorno dopo non l’aspettai al cancello, andai sola a scuola. Ci 
+vedemmo ai giardinetti, lei mi 
+scoprì i lividi sulle braccia e mi chiese 
+cos’era successo. Feci spallucce, ormai era andata così.</p> 
+
+
+<p>«T’hanno solo picchiata?».</p> 
+
+
+<p>« E cosa mi dovevano fare?».</p> 
+
+
+<p>«Ti mandano ancora a studiare il latino?».</p> 
+
+
+<p>La guardai perplessa.</p> 
+
+
+<p>Era possibile? Mi aveva trascinata con sé augurandosi che i miei genitori 
+
+
+per punizione non mi mandassero più alla scuola media? O 
+mi aveva 
+riportata indietro 
+in fretta e furia proprio per evitarmi quella punizione? O – 
+mi chiedo oggi – aveva voluto in momenti diversi tutt’e due le cose?</p>
+</div>
+              <div xml:id="chapin17">
+                 <head>17.</head>
+
+
+<p><date from="1955-06" to="1955-09">Facemmo insieme 
+   l’esame di licenza elementare.</date> Quando si rese conto che 
+avrei dato anche quello di ammissione, perse energia. Accadde così una 
+cosa che sorprese tutti: io superai entrambi gli esami con tutti dieci; <persName ref="#Lila">Lila</persName>
+prese la licenza con tutti nove e otto in aritmetica.</p> 
+
+
+<p>Non mi disse nemmeno una parola di rabbia o di scontento. Cominciò 
+invece a fare comunella con <persName ref="#CarmenPeluso">Carmela Peluso</persName>, la figlia del falegname-
+giocatore, come 
+se non le bastassi più. Nel giro di pochi giorni diventammo 
+un trio, nel quale però <persName ref="#Lenù">io</persName>, che ero risultata la prima a scuola, tendevo a 
+essere quasi sempre terza. Parlavano e scherzavano di continuo tra loro o, 
+per meglio dire, <persName ref="#Lila">Lila</persName> parlava e scherzava, <persName ref="#CarmenPeluso">Carmela</persName> ascoltava e si divertiva. 
+Quando uscivamo a passeggio tra la parrocchia e lo stradone, <persName ref="#Lila">Lila</persName> stava 
+sempre al centro e noi due ai lati. Se mi accorgevo che lei tendeva ad 
+accostarsi di più a <persName ref="#CarmenPeluso">Carmela</persName>, ne soffrivo e mi veniva voglia di tornarmene a 
+casa.</p> 
+
+
+<p>In quell’ultima fase era come stordita, sembrava vittima di un colpo di 
+sole. Faceva già molto caldo e ci bagnavamo spesso la testa alla fontanella. 
+Me la ricordo coi capelli e la faccia sgocciolante che voleva 
+parlare di 
+continuo di quando saremmo andate a scuola l’anno seguente. Era diventato 
+il suo argomento preferito e lo affrontava come se fosse uno dei racconti 
+che aveva intenzione di scrivere per diventare ricca. Quando parlava, 
+adesso, di preferenza si rivolgeva a <persName ref="#CarmenPeluso">Carmela Peluso</persName>, che aveva preso la 
+licenza con tutti sette e nemmeno lei aveva fatto l’esame di ammissione.</p> 
+
+
+<p><persName ref="#Lila">Lila</persName> era molto abile a raccontare, sembrava tutto vero, la scuola dove 
+saremmo andate, i professori, e mi faceva ridere, mi faceva preoccupare.</p> 
+<p>Una mattina però la interruppi.</p> 
+
+
+<p>«<persName ref="#Lila">Lila</persName>» le dissi, «tu non puoi andare alla scuola media, non hai fatto 
+l’esame di ammissione. Né <persName ref="#Lila">tu</persName> né <persName ref="#CarmenPeluso">Peluso</persName> ci potete andare».</p> 
+
+<p>Si arrabbiò. Disse che ci sarebbe andata ugualmente, esame o non esame.</p> 
+
+
+<p>«Anche <persName ref="#CarmenPeluso">Carmela</persName>?».</p> 
+
+
+
+<p>«Anche».</p> 
+
+
+<p>«Non è possibile».</p> 
+
+
+<p>«E poi vedrai».</p> 
+
+
+<p>Ma quelle mie parole dovettero darle uno scrollone forte. Da allora smise 
+coi racconti sul nostro futuro scolastico e ridiventò silenziosa. Poi, con una 
+repentina determinazione, si mise a tormentare tutti i suoi familiari gridando 
+che voleva studiare il latino come l’avremmo studiato <persName ref="#Lenù">io</persName> e <persName ref="#GigliolaSpagnuolo">Gigliola</persName> 
+Spagnuolo. Se la prese soprattutto con <persName ref="#RinoCerullo">Rino</persName>, che aveva promesso di aiutarla 
+ma non l’aveva fatto. Era inutile 
+spiegarle che ormai non c’era più niente da 
+fare, diventava ancora più irragionevole e più cattiva.</p> 
+
+
+<p><date from="1955-06" to="1955-07">All’inizio dell’estate</date> mi cominciò un sentimento difficile da ordinare in 
+parole. La vedevo nervosa, aggressiva com’era sempre stata, ed ero 
+contenta, la riconoscevo. Ma sentivo anche, dietro i suoi vecchi modi, una 
+pena che mi infastidiva. Soffriva, e il suo dolore non mi piaceva. La 
+preferivo quand’era diversa da me, molto lontana dalle mie ansie. E il 
+disagio che mi dava scoprirla fragile si mutava per vie segrete in un bisogno 
+mio di superiorità. Appena potevo, cautamente, in specie quando con noi 
+c’era <persName ref="#CarmenPeluso">Carmela Peluso</persName>, trovavo il modo di ricordarle che avevo preso una 
+pagella migliore 
+della sua. Appena potevo, cautamente, le segnalavo che io 
+sarei andata alla scuola media e lei no. Smettere di essere seconda, 
+superarla, per la prima volta mi 
+sembrò un successo. Dovette accorgersene 
+e diventò ancora più aspra, ma non con me, con i suoi familiari.</p> 
+
+
+<p>Spesso, mentre aspettavo che venisse giù in cortile, sentivo i suoi strilli 
+che arrivavano dalle finestre. Lanciava insulti nel dialetto peggiore della 
+strada, così grevi che a sentirli mi venivano pensieri d’ordine e 
+di rispetto, 
+non mi pareva giusto che trattasse i grandi a quel modo, anche suo fratello. 
+Certo, <persName ref="#FernandoCerullo">il padre, Fernando lo scarparo,</persName> quando gli prendevano i cinque 
+minuti diventava cattivo. Ma a tutti i padri venivano le furie. Tanto più che 
+il suo, quando lei non lo provocava, era un uomo gentile, simpatico, gran 
+lavoratore. Assomigliava di faccia a un attore che si chiamava Randolph 
+Scott, ma senza alcuna finezza. Era più grezzo, niente colori chiari, aveva 
+una barbaccia nera che gli cresceva fin sotto gli occhi e certe mani larghe e 
+corte solcate di sporco a ogni piega e sotto le unghie. Scherzava volentieri. 
+Le volte che andavo a casa di Lila mi prendeva il naso tra indice e medio e 
+fingeva di staccarmelo. Voleva farmi credere che me l’avesse rubato e che 
+ora il naso gli si 
+agitasse prigioniero tra le dita con l’intenzione 
+di scappare 
+
+
+
+e tornarmi in faccia. Questo lo trovavo divertente. Ma se <persName ref="#RinoCerullo">Rino</persName> o <persName ref="#Lila">Lila</persName> o gli 
+altri figli lo facevano arrabbiare, a sentirlo dalla strada mi spaventavo 
+anch’io.</p> 
+
+
+<p>Non so cosa successe, un pomeriggio. Nella stagione calda restavamo 
+all’aperto fino all’ora di cena. Quella volta Lila non si faceva vedere, andai 
+a chiamarla sotto le sue finestre, che erano a pianterreno. Gridavo: «Lì, Lì, 
+Lì», e la mia voce si sommava a quella altissima di <persName ref="#FernandoCerullo">Fernando</persName>, a 
+quella alta 
+di <persName ref="#NunziaCerullo">sua moglie</persName>, a 
+quella insistente della <persName ref="#Lila">mia amica</persName>. Sentii con chiarezza che 
+era in atto qualcosa che mi atterriva. Dalle finestre arrivava un napoletano 
+sguaiato e il fracasso di oggetti spaccati. All’apparenza non era niente di 
+diverso da quello che accadeva in casa mia quando <persName ref="#Lenùsmother">mia madre</persName> si arrabbiava 
+perché i soldi non bastavano e <persName ref="#Lenùsfather">mio padre</persName> si arrabbiava perché lei aveva già 
+speso la parte di stipendio che le aveva dato. In realtà c’era una differenza 
+sostanziale. <persName ref="#Lenùsfather">Mio padre</persName>M si conteneva persino quando era furioso, diventava 
+violento in sordina, impedendo alla voce di esplodere anche se gli si 
+gonfiavano ugualmente le vene 
+del collo e gli si infiammavano gli occhi. 
+<persName ref="#FernandoCerullo">Fernando</persName> invece urlava, rompeva cose, e la rabbia si autoalimentava, non 
+riusciva a fermarsi, anzi i tentativi che faceva la moglie per bloccarlo lo 
+rendevano più furibondo e se 
+pure non ce l’aveva con lei finiva per 
+picchiarla. Insistevo, quindi, nel chiamare <persName ref="#Lila">Lila</persName> anche per tirarla fuori da 
+quella tempesta di grida, di oscenità, di rumori della devastazione. Gridavo: 
+«Lì, Lì, Lì» ma lei – la sentii – non smise di insultare suo padre.</p> 
+
+
+<p>Avevamo dieci anni, a momenti ne avremmo fatti undici. Io stavo 
+diventando sempre più piena, <persName ref="#Lila">Lila</persName> restava piccola di statura, magrissima, 
+era leggera e delicata. All’improvviso le grida cessarono e pochi attimi 
+dopo la mia amica volò dalla finestra, passò sopra la mia testa e atterrò 
+sull’asfalto alle mie spalle.</p> 
+
+
+<p>Restai a 
+bocca aperta. <persName ref="#FernandoCerullo">Fernando</persName> si affacciò continuando a strillare 
+minacce orribili contro <persName ref="#Lila">la figlia</persName>. L’aveva lanciata come una cosa.</p> 
+
+
+<p>La guardai esterrefatta mentre provava a risollevarsi e mi diceva con una 
+smorfia quasi divertita:</p> 
+
+
+<p>«Non mi sono fatta niente».</p> 
+
+
+<p>Ma sanguinava, si era spezzata un braccio.</p>
+</div>
+              <div xml:id="chapin18">
+                 <head>18.</head>
+
+
+<p>I 
+padri potevano fare quello e altro alle bambine petulanti. Dopo, <persName ref="#FernandoCerullo">Fernando</persName>
+diventò più cupo, più lavoratore 
+del solito. Per tutta l’estate capitò spesso 
+che <persName ref="#Lenù">io</persName>, <persName ref="#CarmenPeluso">Carmela</persName> e <persName ref="#Lila">Lila</persName> passassimo davanti alla sua botteguccia, ma mentre 
+   <persName ref="#RinoCerullo">Rino</persName> ci faceva sempre un cenno allegro di saluto, <persName ref="#FernandoCerullo">lo scarparo</persName>, finché <persName ref="#Lila">la figlia</persName>finché ebbe il braccio ingessato, nemmeno la guardò. Si vedeva che era
+dispiaciuto. Le sue violenze di padre erano poca cosa se confrontate con la 
+violenza diffusa 
+nel rione. Al bar Solara, col caldo, tra perdite al gioco e 
+ubriachezze moleste, si arrivava spesso alla disperazione (parola che in 
+dialetto significava aver perso ogni speranza, ma anche, insieme, essere 
+senza un soldo) e quindi alle mazzate. <persName ref="#SilvioSolara">Silvio Solara</persName>, il padrone, grosso, una 
+pancia imponente, occhi blu e la fronte altissima, aveva un bastone scuro 
+dietro il banco 
+con cui non 
+esitava a colpire chi non pagava le 
+consumazioni, chi aveva chiesto prestiti e alla scadenza non voleva 
+restituirli, chi faceva patti di qualche genere ma non li manteneva, e spesso 
+era aiutato dai suoi figli, <persName ref="#MarcelloSolara">Marcello</persName> e <persName ref="#MicheleSolara">Michele</persName>, ragazzi dell’età del <persName ref="#RinoCerullo">fratello di 
+   Lila</persName>, che 
+però colpivano ancora 
+più duramente del padre. Lì le mazzate si 
+davano, si ricevevano. Poi gli 
+uomini tornavano a casa inaspriti dalle 
+perdite al gioco, dall’alcol, dai debiti, dalle scadenze, dalle botte, e alla 
+prima parola storta picchiavano i familiari, una catena di torti che generava 
+torti.</p> 
+
+
+                 <p><date from="1955-06" to="1955-09">Nel bel mezzo di quella stagione lunghissima </date> successe un fatto che 
+sconvolse tutti, ma che su <persName ref="#Lila">Lila</persName> ebbe un effetto particolare. <persName ref="#AchilleCarracci">Don Achille</persName>Don Achille, il 
+terribile <persName ref="#AchilleCarracci">don Achille</persName>, fu ammazzato in casa sua nel primo pomeriggio di una 
+giornata d’agosto sorprendentemente piovosa.</p>
+
+
+<p>Era in cucina, aveva appena aperto la finestra per far entrare l’aria fresca 
+della pioggia. S’era alzato dal 
+letto apposta, interrompendo la controra. 
+Indossava un pigiama celeste molto usurato, ai piedi aveva solo calzini d’un 
+colore gialliccio annerito ai calcagni. Appena aprì la finestra gli arrivò in 
+
+
+
+faccia uno sbuffo di pioggia e sul lato destro del collo, proprio a mezza 
+strada tra la mandibola e la clavicola, un colpo di coltello.</p> 
+
+
+<p>Il sangue gli schizzò dal collo e colpì una pentola di rame appesa alla 
+parete. Il rame era così luccicante che il sangue pareva una macchia di 
+inchiostro da cui – ci raccontava Lila – con andamento incerto, colava una 
+riga nera. L’assassino – ma lei propendeva per un’assassina – 
+era entrato 
+senza scasso, in un’ora in cui i bambini e i ragazzi erano per strada e i 
+grandi, se non si 
+trovavano al lavoro, riposavano. Aveva aperto sicuramente 
+con una chiave falsa. Sicuramente aveva intenzione di colpirlo al cuore 
+mentre dormiva, ma l’aveva trovato sveglio e gli aveva dato quel colpo alla 
+gola. <persName ref="#AchilleCarracci">Don Achille</persName>Don Achille s’era girato, con la lama tutta immersa nel collo, gli occhi 
+sbarrati e il sangue che gli usciva a fiumi e colava sul pigiama. Quindi era 
+caduto in ginocchio e poi faccia a terra.</p> 
+
+
+<p>L’assassinio aveva così impressionato <persName ref="#Lila">Lila</persName>, che quasi ogni giorno, seria, 
+aggiungendo sempre nuovi dettagli, ce ne imponeva il racconto come se 
+fosse stata presente. Sia io che <persName ref="#CarmenPeluso">Carmela Peluso</persName>, a sentirla, ci spaventavamo, 
+<persName ref="#CarmenPeluso">Carmela</persName> addirittura non ci dormiva la notte. Nei momenti più terribili, 
+quando la riga nera di sangue colava lungo la pentola di rame, gli occhi di 
+<persName ref="#Lila">Lila</persName> diventavano due fessure 
+feroci. Di sicuro s’immaginava che il 
+colpevole fosse femmina solo perché le veniva più facile immedesimarsi.</p> 
+
+
+<p>In quel periodo andavamo spesso a casa dei Peluso a giocare a dama e a 
+   tris, a <persName ref="#Lila">Lila</persName> era venuta quella passione. <persName ref="#GiuseppinaPeluso">La madre di Carmela</persName> ci faceva 
+entrare in camera da pranzo, dove tutti i mobili erano stati fatti dal marito 
+quando <persName ref="#AchilleCarracci">don Achille</persName>don Achille non gli aveva ancora tolto i suoi arnesi di falegname e 
+la bottega. Ci mettevamo sedute al tavolo, che era collocato tra due buffè 
+con specchi, e giocavamo. <persName ref="#CarmenPeluso">Carmela</persName> mi era sempre più antipatica, ma facevo 
+finta di essere sua amica almeno quanto lo ero di <persName ref="#Lila">Lila</persName>, anzi, 
+in qualche 
+circostanza lasciavo credere addirittura di tenere più a lei. In compenso mi 
+era molto simpatica <persName ref="#GiuseppinaPeluso">la signora Peluso</persName>. Lavorava alla Manifattura del 
+tabacco, ma da qualche mese aveva perso il lavoro e stava sempre in casa. 
+Era comunque nella buona e nella cattiva sorte una persona allegra, grassa, 
+con un gran seno, le guance accese da due vampe rosse, e sebbene i soldi 
+scarseggiassero aveva sempre qualcosa di buono da offrirci. Anche il marito 
+pareva un po’ più tranquillo. Adesso faceva il cameriere in una pizzeria, e si 
+sforzava di non andare più al bar Solara a perdere a carte il poco che 
+guadagnava.</p> 
+
+
+<p>Una mattina stavamo nella camera da pranzo a giocare a dama, <persName ref="#Lenù">io</persName> e 
+<persName ref="#Carmela">Carmela</persName>Carmela contro 
+<persName ref="#Lila">Lila</persName>Lila. Eravamo sedute al tavolo, noi due da un lato, lei 
+dall’altro. Sia alle spalle di Lila 
+che alle spalle mie e di Carmela c’erano i 
+mobili con gli specchi, identici. Erano di legno scuro e con la cornice a 
+volute. Guardavo noi tre riflesse all’infinito e non riuscivo a concentrarmi 
+sia per tutte quelle immagini nostre che non mi piacevano, sia per le grida 
+di <persName ref="#AlfredoPeluso">Alfredo Peluso</persName>, che quel giorno era molto nervoso e se la prendeva con 
+   <persName ref="#GiuseppinaPeluso">la moglie Giuseppina</persName>.</p> 
+
+
+<p>A un certo punto bussarono alla 
+porta e andò ad aprire <persName ref="#GiuseppinaPeluso">la signora Peluso</persName>. 
+Esclamazioni, grida. Noi tre ci affacciammo nel corridoio e vedemmo i 
+carabinieri, figure che temevamo molto. I carabinieri afferrarono <persName ref="#Alfredo">Alfredo</persName> e 
+se lo portarono via. Lui si sbracciava, urlava, chiamava per nome i figli, 
+<persName ref="#PasqualePeluso">Pasquale</persName>, <persName ref="#CarmenPeluso">Carmen</persName>, Ciro, Immacolata, si afferrava ai mobili fatti con le sue 
+mani, alle sedie, a <persName ref="#GiuseppinaPeluso">Giuseppina</persName>, giurava che non aveva ammazzato <persName ref="#AchilleCarracci">don Achille</persName>, che era innocente. Carmela piangeva disperata, piangevano tutti, 
+mi misi a piangere anch’<persName ref="#Lenù">io</persName>. <persName ref="#Lila">Lila</persName> no, <persName ref="#Lila">Lila</persName> fece quello sguardo che aveva fatto 
+anni prima per <persName ref="#Melina">Melina</persName>, ma con qualche differenza: ora, pur restando ferma, 
+pareva essere in movimento insieme ad <persName ref="#AlfredoPeluso">Alfredo Peluso</persName> che lanciava urla 
+roche, aaaah, spaventose.</p> 
+
+
+<p>Fu la cosa più terribile a cui assistemmo nel corso della nostra infanzia, 
+mi impressionò molto. <persName ref="#Lila">Lila</persName> si preoccupò di <persName ref="#CarmenPeluso">Carmela</persName>, la consolò. Le diceva 
+che, se davvero 
+era stato <persName ref="#AlfredoPeluso">suo padre</persName>, aveva fatto benissimo a uccidere <persName ref="#AchilleCarracci">don Achille</persName>, ma che a parer suo non era stato lui: di sicuro era innocente e 
+presto sarebbe scappato di prigione. Parlottavano insieme continuamente e 
+se mi accostavo se ne andavano un po’ più in là per evitare che sentissi.</p>
+              </div>
+        </div>
+      </body>
+  </text>
+</TEI>

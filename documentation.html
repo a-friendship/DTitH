@@ -1,0 +1,415 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>A Friendship</title>
+        <link rel="icon" type="image/x-icon" href="imgs/respect.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- only team section -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> <!-- only team section -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery/jquery.min.js" type="text/javascript"></script>
+
+    <!-- Local stylesheet and javascript -->
+    <link rel="stylesheet" href="css/maincss.css" >
+    <script src="js/scripts.js"></script>
+</head>
+
+<body>
+    <header>
+        <!-- First navbar -->
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <div class="container">
+                <div id="DLStitle">
+                    <img id="logo" src="./imgs/respect.png" />
+                    <a class="navbar-brand" href="index.html">A Friendship</a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse navbar-menu" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Analyses</a>
+                            <div class="dropdown-menu dropdown-menu-end animate slideIn" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="lamicagenialeprova.html">Digital Edition</a>
+                                <a class="dropdown-item" href="timeline.html">Timeline</a>
+                                <a class="dropdown-item" href="networkanalysis.html">Network Analysis</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="documentation.html">Documentation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#projectinfo">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="hero-image2">
+    </div>
+    </header>
+     <div class="textsection" id="documentation">
+    <h2>Documentation of the Project</h2>
+    <div id="projintro">
+      <h3>Project introduction</h3>
+      <p><i>Dead Lovers Society</i> is a metadata-enriched and stylistically
+        customizable magazine on tragic love stories. The project has been developed in the framework of the course
+        “Information Modelling and Web Technologies”, held by Prof Vitali for the MA in “Digital Humanities and
+        Digital
+        Knowledge” in the a. y. 2021/2022.</p>
+
+      <p>The topic of this digital-born magazine stems out from one of the most important masterpiece of Latin
+        literature, Ovid’s <i>Heroides</i>: this digital environment is intended as an occasion to bring online the
+        tragic love stories of many heroines of the past, from classical antiquity to modern days.</p>
+
+      <p>Each story is told from at least three different points of view: the same narrative sequences may hence be
+        rearranged or described from a different perspective. Conscious of the risks of relying exclusively on a
+        translated text, we decided to add the possibility to read the document in the original language. The implied
+        readers of this magazine are hence diversified, as its issues can be read with different purposes: from the most
+        naïve passion for reading to the interest in interlinguistic comparison.</p>
+
+    </div>
+    <div id="websitstruct">
+      <h3>Website infrastructure</h3>
+      <p>The web-application mainly consists of a set of HTML pages, edited through CSS
+        stylesheets and animated thanks to JavaScript scripts. Some parts of it (e.g. navbar, footer, heroimage etc)
+        are rendered through predefined models taken from Bootstrap or other sources. These assets have been slightly modified according to our needs
+        and to respect the stylistic features of the historical teaming. These imported assets are the sole situations
+        where the dimensions can be measured in absolute value (i.e. in pixel). The original contents of the web
+        application are instead measured in em, which grants the overall responsivity of the site.</p>
+
+      <p> Up to now, the application consists of three main HTML pages:
+      <ul>
+        <li>index.html: homepage of the website, containing the general information about the project and a carousel
+          displaying all the issues of the magazine.</li>
+        <li>medea.html: containing the first issue, dedicated to the Greek witch Medea. Here the character is briefly
+          presented by an abstract and her story is told by Euripides, Apollonius Rhodius and Ovid. Each text, which
+          has been separatedly marked up and here uploaded through an Ajax function, can be read in English and
+          compared with the original Greek and Latin source (also paragraph to paragraph). Moreover, an ad hoc tab
+          allows to surf through the metadata of the publication. The other two issues about Dido and
+          Guinevevre are not available yet.</li>
+        <li>documentation.html: currently displayed, contains the documentation of the project.</li>
+      </ul>
+      Each page starts with a double navbar: the first one is the sitemap, while the second one allows to change the
+      displayed stylesheet at any moment.</p>
+    </div>
+    <div id="metadatadoc">
+      <h3>Metadata enrichment</h3>
+      <p>Following the paradigm proposed by the Text Encoding Initiative with the tags &lt;placeName&gt; and
+        &lt;persName&gt;, we chose three main themes as basis of the metadata enrichment:
+      <ul>
+        <li>Mortal characters: in this section are included mostly mortals and a few demigods, which weren't later
+          rendered immortal (e.g.: Jason).</li>
+        <li>Immortal characters: in here we can find the gods and monsters cited by the works we chose, alongside a
+          few personifications of natural elements, emotions and intangible entities (e.g.: War).</li>
+        <li>Places: in here, instead, we have all the places cited by the works.</li>
+      </ul>
+      </p>We thought these three main thematics to be the most suitable for our text, since we are dealing with
+      mythological texts of various genres (both of an upper and lower level), and the most useful for our reader.</p>
+      <p>In fact, whereas an expert reader might benefit from a detailed analysis, an inexpert one might be more
+        interested into simply tracking the main characters of the works or the places, out of curiosity.</p>
+      <p>After having chosen our main entities, we thought of executing a simple entity recognition of mortal
+        characters, immortal characters and places.</p>
+      <p>In fact, the reader has two main services when it comes to the metadata:
+      <ul>
+        <li>On one side, there is the possibility to display all the metadata that correspond to a certain theme through checkboxes - activated by a Javascript function through the
+          employment of Jquery selectors. In this way
+          the user can execute a larger analysis on the entirety of the text. </li>
+        <li>Secondly, all the metadata found by the checkboxes are showcased on tabs and through clicking the
+          specific name, the user is brought to the part in the text where the metadata is stored for a more specific
+          analysis. This is obtained through a few Javascript functions and the use of Jquery selectors, again on an already
+          marked up text.</li>
+      </ul>
+      </p>
+      <p>Moving from a metadata-based analysis, we also offer the possibility to compare the original Greek text with
+        the English one, either fully or just through some narrative sequences. It is also possible to shift quickly through the works chosen by employing a json file, which contains the html
+        of texts. </p>
+    </div>
+    <div id="histolayout">
+      <h3>Historical theming</h3>
+      <p>The website was at first developed in the style currently displayed as
+        "2020s". It is based on nowadays trending features in typography (such as, <i>Wired</i>) both in font and in
+        page layout and adopts a
+        very minimalistic aesthetic for what concerns colors and image filters. On the basis of this stylesheet, other
+        six different themes were defined in order to philologically reconstruct specific typographical tastes. The general
+        concepts
+        of historical typography is taken from Guity Novin, "History of Layout Design and Modern Newspaper &
+        Magazins",
+        <i>A History of Graphic Design</i>.
+      </p>
+      <div>
+        <h4>Aldo Manuzio&apos;s print edition (<i>Aldine</i>)</h4>
+        <p>Aldus Manuntius was probably one of the most influential personalities during the end of the XV and the beginning of
+          the XVI century.</p>
+        <p>In 1494 he changed for ever the way people perceived culture, through opening the <i>Aldine Press</i>
+          and starting the creation of <i>libelli portatiles</i>.</p>
+        <p>In fact the books that he created were printed in the small "octavo" size, which isn't much different
+          from our own paperback editions, effectively handling people an instrument that could be easily read,
+          everywhere and efficiently.
+        <p>Other than coming up with a new book format, Aldus Manuntius was also one of the first that started
+          printing
+          ancient Greek and Latin texts, for example, publishing Plato's works, with a Latin preface and dedicating
+          such
+          an edition to Pope Leo X.</p>
+        <p>We thought that this detail might be very interesting and quite fitting for the texts we have chosen, which
+          are part of Greek and Latin works, hence in our choice we continue Manuntius' goal to further educate
+          people,
+          in these new subjects.</p>
+        <p>Aside from handling his own publishing house, Manuntius also collaborated with Francesco Griffo to further
+          create and embellish his style and he both came up with new typefaces:
+        <ul>
+          <li> The humanist typeface </li>
+          <li> The italic typeface </li>
+        </ul>
+        <p>Both typefaces are well known to us and are still very much use (mostly the second one), but these aren't
+          the
+          only things that Manuntius' collaboration with Francesco Griffo created.</p>
+        <p>Francesco Griffo (or better Francesco da Bologna, as he was known before 1883) actually created a new
+          font,
+          the Griffo, which we employed in the Aldine style, as an homage to this artisan who created a new style
+          and
+          was actually a strict collaborator of Aldus Manuntius until a fight brought them apart</p>
+        <p>We also were very careful with the choice of the colors, basing ourselves on the editions that have arrived
+          to
+          us to make our reader feel like he is reading an actual Aldine edition but also giving them the best
+          accessible possible and readability for the texts.</p>
+        <p>We do hope we were able to convey with our style the simplicity, correcteness and beauty that
+          characterized
+          many of the Aldine editions</p>
+        Bibliography:
+        <p>
+        <ul>
+          <li>Clough, James:<i>Chi era Francesco Griffo?</i>, Griffo La Grande Festa delle Lettere, 2016</li>
+          <li>Smith, Lorenza:<i>Aldo Manuzio (Aldus Manutius): inventor of the modern book</i>, Khan Academy, 2019
+          </li>
+          <li><i>Aldus Manutius: the inventor of the paperback saved the Greeks with his Aldine Press
+              revolution</i>,Typeroom, 2020</li>
+        </ul>
+        <a href="https://www.pinterest.it/brokenhrtsclub/xix-century/"><i class="bi bi-pinterest"></i></a> Discover
+        our
+        moodboard on Pinterest
+        </p>
+      </div>
+      <div>
+        <h4>XIX century&apos;s newspaper</h4>
+        <p>We have decided to represent the XIX century theme through the American newspaper layout and style, trying to
+          replicate the artefacts that can be found in many online archives (one of these being the Library of
+          Congress).
+        </p>
+        <p>Even though there were some differences and variations, American newspapers from the beginning of the XIX
+          century shared some layout characteristics: the front page bore, at the top, a nameplate with the newspaper's
+          title (usually in Gothic or blackletter style), its place of publication and other information regarding the
+          date, volume and number of the issue. Inside there was the masthead, containing repeated information of the
+          nameplate (such as the newspaper's title, place and date of publication and so on).
+        </p>
+        <p>For what concerns the content, there is less consistency: some newspapers filled the front page with
+          advertisement and left only the subsequent page(s) to the actual news, while others did the opposite or mixed
+          advertisement and news. After the introduction of the printing press machine (1814), newspapers became larger,
+          the most important ones expanding to six or eight pages, each with eight to ten columns of texts (and the
+          columns ran the full length of the page). Advertisements were difficult to distinguish from news articles, as
+          they had little graphic display (and newspapers consisted primarily of text even by the late 1850s).
+        </p>
+        <p>Moreover, as seen from some original artifacts, we can see how the margins of the written sections were the
+          only ones of some extent, while those between different columns are very restricted and almost imperceptible
+          if not for the vertical lines dividing them.
+        </p>
+        <p>In our theme we have tried to reproduce as faithfully as possible the layout and style of a newspaper from
+          XIX century's United States. We did so by means of a background paper-like texture, two fonts for the body and
+          the title of the newspaper (the title in a Gothic-like style and the body in a more traditional and slightly
+          smudged type to give the impression of an imperfect print), washed out pictures and a multi-columns layout for the
+          text, as well as smaller margins.
+        </p>
+        <p>
+          Bibliography:
+        <ul>
+          <li><i>American Newspapers, 1800-1860: An Introduction</i>, Illinois Library</li>
+          <li><i>The Early Nineteenth-Century Newspaper Boom</i> - The News Media and the Making of America, 1730-1865
+            (American Antiquarian Society)</li>
+          <li><i>Chronicling America: Historic American Newspapers</i>, Library of Congress</li>
+        </ul>
+        <a href="https://www.pinterest.it/brokenhrtsclub/xix-century/"><i class="bi bi-pinterest"></i></a> Discover
+        our
+        moodboard on Pinterest</p>
+      </div>
+      <div>
+        <h4>Bauhaus</h4>
+        <p>To epitomize a typographic style of the first half of the 20th century we
+          decided to draw inspiration from the Bauhaus. Indeed, the design school paid attention not only to
+          architecture
+          and object design but devoted many efforts also in the typographical domain. This impact resulted not only in
+          the
+          worldwide famous panel with writings laid in geometrical manner, but also in famous commercial products, such as
+          the
+          cover of the "Penguin Classics", proposed by Jan Tschichold.</p>
+        <p>In this project, the "Bauhaus" style is strictly based on real example of the Weimar school of design. As
+          reference text, we used the original version of Gropius' manifesto <i>Idee und Aufbau des staatlichen
+            Bauhaus</i>. Analyzing a digital facsmile available on Monoskop it was possible to infere the proportion of
+          the different parts. The font is set to the default size (1em) and a drop cap is added as in the cover of the
+          manifesto, while the margin has been calculated to be 5% of the entire width of the displayed page.</p>
+        <p>
+          For what concerns the choice of the colors and of paratextual elements, we decided to take inspiration directly
+          from original artefacts of the period. Bauhaus' publications always included illustrations and diagrams, frequently rendered in the bichromy of black and white: this feature suggested the introduction of a full
+          grayscale
+          filter on all the images present of the webapp. To avoid an excessive monotony of the page, we also combined
+          this aspect with a color palette directly taken from important artists of Bauhaus' milieu: for this reason the
+          entire style is dominated by primary colors directly taken from the original artifacts through color picker
+          softwares. Moreover, the presence of ortogonal elements is respected thanks to the customization of the
+          borders
+          of the div elements (either on the four sides or only on two, in right angle).</p>
+        <p>
+          Bibliography:
+        <ul>
+          <li>Gropius, Walter: <i>Idee und Aufbau des staatlichen Bauhaus</i>, Bauhausverlag, 1923</li>
+          <li>Malherek, Joseph: "The Industrialist and the Artist: László Moholy-Nagy, Walter Paepcke, and the New
+            Bauhaus in Chicago, 1918–46." <i>Journal of Austrian-American History</i>, vol. 2, no. 1, 2018, pp. 51–76
+          </li>
+          <li>Moriarty, Ana: <i>The Modern Letter - The Best of the Bauhaus Typography</i>, Widewalls, 2016</li>
+        </ul>
+        <a href="https://www.pinterest.it/brokenhrtsclub/first-half-xx/"><i class="bi bi-pinterest"></i></a> Discover
+        our moodboard on Pinterest</p>
+      </div>
+      <div>
+        <h4>Pop Art</h4>
+        <p>For what concerns the second half of XX Century, we chose to reproduce Pop Art, and more specifically
+          American artist Roy Lichtenstein's style. The central motif of this artistic movement was the rejection of traditional historic artistic subject matter
+          in lieu of contemporary society's mass manufactured products and images. It had iconic characteristics such as
+          recognisable imagery, bright colours and mixed media and collage.</p>
+        <p>In particular, Lichtenstein was inspired by comic strips and their saturated primary colours, bold outlines
+          and Ben-Day dots, soon to become some of his trademarks. This artist did not merely "copy" his pictures from comic books and cartoons, but he heavily alterated the
+          source images, cropping them to build dramatic compositions and locating language in condensed comic books
+          panels.</p>
+        <p>To replicate Lichtenstein's style we have used a background pattern similar to Ben-Day dots, two
+          comic book-like fonts (a thicker one for the titles, reminiscing of Lichtenstein's famous <i>Whaam!</i>, and a
+          simpler thinner one for the body), the three primary colours, highly saturated images and speech bubbles
+          for the text sections.</p>
+        <p>Bibliography:
+        <ul>
+          <li><i>Roy Lichtenstein</i>, The Art Story Foundation</li>
+          <li><i>What is Pop Art? Techniques, Artists, and Examples that Shaped the Movement</i>, Invaluable</li>
+          <li><i>Pop art in the United States</i>, Encyclopædia Britannica</li>
+          <li><i>Roy Lichtenstein</i>, Encyclopædia Britannica</li>
+        </ul>
+        <a href="https://www.pinterest.it/brokenhrtsclub/second-half-xx/"><i class="bi bi-pinterest"></i></a> Discover
+        our moodboard on Pinterest
+        </p>
+      </div>
+      <div>
+        <h4>Vogue</h4>
+        <p><i>Vogue</i> is probably one of the most known and iconic fashion magazines and has influenced our
+          everyday's life in different aspects.</p>
+        <p>Referred and infamous in pop culture, <i>Vogue</i> was created in 1892 in New York by Arthur Baldwin Turnure,
+          although it was later acquired by the group Condé Nast which is still its owner. Through the decades, this weekly newspaper spread through countries and centuries, bringing more and more interesting
+          and specific articles, and most importantly memorable covers, which have become its trademark.</p>
+        <p>We chose to focus on a specific timezone of <i>Vogue</i> articles, choosing the period that goes from the 90s
+          to the early 00s. The design of this style was actually highly inspired by the cover of August 1993, both in a matter of colors and layout.</p>
+        <p>During this time the newspaper had published:
+        <ul>
+          <li>Its first cover with a male on the cover (Richard Gere in 1992).</li>
+          <li>A cover with all the ten most iconic and paid models of those years (April 1992) and another one with.
+          </li>
+          <li>Another one with Hilary Clinton becoming the first featured first lady in 1998.</li>
+        </ul>
+      </p>
+        <p>On one side, the choice of the colors involved in this project was not accidental and we actually researched
+          the
+          most used colors of those years, both using the ones in past Vogue covers and searching the color
+          palettes
+          which were the most famous in those years.</p>
+        <p>We also chose to give a layout that would mimick the one inside
+          the  selected edition, with the two columns division to the section about the authors and their works of the issue page . It is also important to point out that we used the <i>Didot</i> font, which is a simplified version of the
+          original one used in the Vogue cover with the permission of Linotype. Through time, the logo changed and evolved itself, but the magazine kept on using many of Firmin Didot's
+          fonts,
+          until in the 2004-2005 Terminal Design took over the deisgn of the logo.</p>
+        <p>What is also a pivotal element of <i>Vogue</i> is images, and in this case we tried our best to actually
+          accentuate their brightness and intensity, since it is important they are in full focus, as many times
+          that is what catches people's eyes. Because of this they are used in various ways through text, to communicate and help the text convey its message and catch the reader's attention.</p>
+        <p>Obviously every style choice was attentively thought to be also as accessible and easily-readable by the reader, as possible.</p>
+        <p>
+          Bibliography:
+        <ul>
+          <li>Various author: <i>Vogue</i>, August 1993</li>
+          <li><i>Most Popular Colors Through Decades</i>, Juicebox Interactive.
+            (American Antiquarian Society)</li>
+          <li>Giada Graziano:<i>The History of Vogue</i>, Glam Observer, 4th August, 2020
+          </li>
+          <li><i>What Is the Font Used on the Cover of Vogue Magazine?</i>, Reference, 7th April, 2020
+          </li>
+        </ul>
+        <a href="https://www.pinterest.it/brokenhrtsclub/late-xx-beginning-xxi/"><i class="bi bi-pinterest"></i></a>
+        Discover our moodboard on Pinterest
+        </p>
+      </div>
+      <div>
+        <h4>Future</h4>
+        <p>We define as "future" a style which is likely to be applied in the close
+          future (approximately, 2030). For this reason, it was not possible to faithfully emulate an original document.
+          We hence took inspiration from recent technological development such as "Google Infinite Scroll": in
+          contradiction with the paradigm of little content in a broad space, we decided to mantain the layout structure
+          used nowadays. To increase the breath of the text we set higher left and right margins.</p>
+        <p>
+          For what concerns typographic and color details we relied on the aesthetical canon of the vaporwave movement,
+          which has often been used in science fiction content. The page is hence characterized by two different fonts:
+          the first one is pixelled and used exclusively in the navbars of the header; the second one is more readable
+          and is applied to the textual content. All the colors are instead taken from pre-existent color palettes directly
+          availble online (in particular Pinterest). Moreover, these nuances have also been chosen for the image filter,
+          which is meant to resemble some of the most trending effects used nowadays (e.g. memes). As can be seen in the
+          final output, the nuances are mainly taken from the spectrum of pink and violet (as suggested also by the
+          background gradient). The massive presence of purple tones is justified by the traditional connection
+          between this colors and witchcraft, a magical art practiced by the first protagonist of our magazine, Medea.
+        </p>
+        <p>
+          Finally, looking also at the recent development in the artistic field (e.g. post-drammatic theatre), we thought
+          that future typography might rely on multimedia material, such as music. For this purpose, we added the
+          possibility to listen to a soundtrack while reading the articles (click the button to play or pause). The
+          chosen song is <a href="https://www.youtube.com/watch?v=-NqnPNV-llk">Glass Animals' <i>Heat Waves</i></a><sup
+            onclick="alert('Its use here is not intended to be an alternative or replace its original location available at the embedded link. All copyrights and related rights on the content remain with their original owners.')">1</sup>.
+          The choice of this track is due to two reasons: firstly, the band chose vaporwave aesthetic in the cover of
+          the
+          album; secondly, at an interdiscoursive level, the track and the history of Medea show common motifs. The
+          ossessive thoughts of Medea at the very beginning of Ovid's <i>Metamorphoses</i>, VII, seems to anticipate
+          Glass
+          Animals' refrain.</p>
+        <p>
+          <a href="https://www.pinterest.it/brokenhrtsclub/future/"><i class="bi bi-pinterest"></i></a> Discover our
+          moodboard on Pinterest
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <footer class="py-3 my-4">
+        <div class="text-center p-3">
+            MA <a href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge/">"Digital Humanities and Digital Knowledge"</a>, University of Bologna <br>
+            Course <a href="https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2021/424631">"Digital Text in the Humanities:theories, Methodologies and Applications"</a> <br>
+
+            <div>
+                <small>Powered by Bootstrap</small>
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+                    href="https://github.com/a-friendship/DTitH.git" role="button" data-mdb-ripple-color="white">
+                    <i class="fa fa-github" id="whitecat"></i>
+                </a><br>
+            </div>
+             <a href="https://www.flaticon.com/free-icons/respect" title="respect icons">Respect icons created by SBTS2018 - Flaticon</a>
+            <p class="text-center">&copy; 2022 A Friendship</p>
+    </footer>
+
+</body>
+
+</html>

@@ -301,6 +301,21 @@ html {
     filter: opacity(95%);
 }
 
+.hero-image4 {
+
+    background-image: url("https://www.napolimilionaria.it/wp-content/uploads/2022/02/anticipazioni-l-amica-geniale-3-20-febbraio-2022.jpeg");
+
+
+    height: 50%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    filter: brightness(500%);
+    filter: opacity(95%);
+}
+
 /* ==== CARDS AUTHORS ==== */
 
 .image {
@@ -703,14 +718,7 @@ width: 800px;
 
 
 
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
+
 
     
 

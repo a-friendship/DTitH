@@ -181,6 +181,7 @@
 
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
+        ['Chapter', 'Frequency'],
         ['Chapter 1', 5],
         ['Chapter 2', 1],
         ['Chapter 3', 5],
@@ -202,7 +203,10 @@
 
 
         var options = {
-          
+          chart: {
+            title: 'Company Performance',
+            subtitle: 'Sales, Expenses, and Profit: 2014-2017',
+          },
           bars: 'horizontal' // Required for Material Bar Charts.
         };
 

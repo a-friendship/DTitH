@@ -59,6 +59,7 @@
                 </div>
             </div>
         </nav>
+    </header>
     <div class="hero-image4">
     </div>
      <div class="textsection" id="documentation">
@@ -110,23 +111,12 @@
           </div>
   <div id="timeline">
       <h4>2.2 Timeline</h4>
-          <p>To do so, I obtained the supervised OCR-D text of the novel and then imported it in <b>XML</b>. I then used <b>TEI</b> <a href="https://tei-c.org">(Text Encoding Initiative)</a> guidelines, which have the advantage to be a recognized principle for the representation of digital texts which heightens the interoperability of the text, accordingly to the schema I chose to better represent the text, and which better fit my own purposes. Both the original text used and the TEI documents are available below, but to further understand, here are the tags that had a particular relevance for my own research:</p>
-<p>
-    <ol>
-    <li>
-
-        &#8249;<b>particDesc</b>	
-&#8250; with the use of &#8249;persName&#8249; in the section &#8249;body&#8249;, referred through it the attribute @href, which describes the identifiable speakers, voices, or other participants in any kind of text or other persons named or otherwise referred to in a text, edition, or metadata <a href="">(Text Encoding Initiative, 2005)</a>.</li>&#8249;
-        <li> &#8249;<b>date</b>	
-&#8250; contains a date in any format and was used to refer to the various events happening throughout the books; it was paired with its attributes @when, @notBefore, @notAfter, @from, @to <a href="">(Text Encoding Initiative, 2005)</a>.</li></ol>
-<p>Through XSLT I transformed my XML document in an HTML. Then following to a further analysis described below (3.1), I divided the obtained text in three parts to allow the reader to have an easier consultation and to have a first visual idea of the network of characters in the text. In fact, two tools have been created to allow the reader to further explore the text:</p> 
-<ul><li>Two checkboxes allow the reader, if checked, to highlight in the text the characters and the events happening in those specific sections.</li>
-<li>A small tab, beside the text list, all the characters, present in that part of the text, also, through clicking on a specific character, the reader will be able to scroll to that specific name.</li></ul>
-<p>These tools were employed to further emphasize on the point that “the digital medium with its inherent variability presents itself as the ideal environment to deal with text variation in ways that go beyond the possibilities offered by the print medium” <a href="">(Patrick Sahle, 2016 52)</a>, hence this section brings more features to the simple text, allowing a first level of analysis and the possibility to also visualize the text from other point of views than simply by reading, already mapping out the relationships within <a href="">(Vitali-Rosati, 2018 19-21)</a>. Patrick Sahle’s principles for scholarly digital editions were also applied when working on creating the digital edition, first applying a digital paradigm – which differentiates a digitized edition from a digital one – and then the scholar nature of this text is referenced through the original edition, linked below <a href="">(Sahle, 2016, 28)</a>.
-<p>The project also aimed to create <b>an easily findable, accessible, interoperable, and reusable resource</b> that will be helpful in bring further understanding in those who are also interested in researching on this field; in the future, it’d be good to maybe offer a complete digital edition of the entire book and to bring a more semantic dimension to it <a href="">(Wilkinson et al. 2016)</a>.</p>
-          <h5>Disclaimer:</h5>
-<p>The purpose of this website is to perform a multilevel digital analysis of Ferrante's novel, as an end-of-course project for the "Digital Text in the Humanities: Theories, Methodologies and Applications" course of the Master Degree in Digital Humanities and Digital Knowledge of the University of Bologna, under prof. Tiziana Mancinelli. The displayed publication of the aforementioned book is not intended to be an alternative or replace its original location, i.e. the edition by E/O Edition published in 2011. All copyrights and related rights on the content remain with their original owners. All copyright on the typographic and layout choices, as well as the methodologies and results of the performed analysis are 2022 © A Friendship.</p>
-          </div>
+      <p>Ferrante’s own perception of <b>time</b>, inside the novels, is quite confusing: many times, the plots that are being recounted are interrupted midway through to start another story, although the two tales are somehow linked in the narrator’s mind.</p>
+This is due to the fact “Ferrante deploys the run-on to create a momentum that is headlong and occasionally breathless but still intimate—here you are, inside the operation of Elena’s head, everything she thinks coming out in the order it occurs to her” (Arcade, n.d.) The employment of this artistic device, which entails the use of two sentence together, without the use of a coordinating conjunctions or proper conjunctions is due to the author’s need to convey the illogical intensity of somebody recounting things right after they happened, expressing the urgency of knowing more and of looking back at the time with spite and harshness in an almost vindictive way as the truth is searched and never found.
+Still, through this structure, it is almost impossible to recount in a linear way the events happening in the books, as it is read, which doesn’t help contextualizing in time the various events that are happening to the two girls and to their own relationships. To solve this, I created a timeline of the events through TimelineJS, an open-source tool that enables anyone to build visually rich, interactive timelines; the tool doesn’t only create the timeline but also each slide is accompanied by the date, a title, and a small description of the selected event.
+This timeline doesn’t offer only the possibility to actually ‘put in order’ what happens during the book, but also it allows to contextualize it in time the text. “My Brilliant Friend” is set in post-WWII Naples and this has a huge impact on the characterization of the district as a whole and a few interesting – and negative – characters, such as Don Achille and the Solaras, who brought grew to be rich through illicit affairs during the war. Similarly, the war influences the characters’ view on violence, which is seen by them as necessary, ordinary, and generational (Blue Ink Notes, 2022).
+Disclaimer: Elena Ferrante doesn’t often state the dates for the events happening in her books, aside from a few selected ones, hence my work was mostly a reconstruction based on the context, the character’s ages, and their birthdates, which might entail a few inaccuracies.
+</div>
 
 
 

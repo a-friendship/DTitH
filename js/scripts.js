@@ -37,7 +37,7 @@ function showOvd() {
   }
 }
 
-function drawChartLila() {
+function drawChart() {
 
     var data = google.visualization.arrayToDataTable([
       ['Chapter', 'Frequency'],

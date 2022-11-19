@@ -141,7 +141,7 @@
       <div id="networkanalysisintro">
             <h5>2.3.1 Introduction</h5>
           <p>Before diving in with the network analysis, I wanted to have a general idea of the dispersion of the various characters through the chapters of this part and for this I employed a XQuery function to obtain the frequency per chapter of Lila, Lenù and the entirety of the cast of characters. The results I obtained were quite similar, as presented by the graphs below, which proved that both Lila and Lenù seemed to be the most present in the chapters 8 and 15, and those were the same chapters in which the various characters were more present.</p>
-         <div id="myChart" style="width:100%; max-width:600px; height:500px;"></div>
+         <div id="barchart_material" style="width:100%; max-width:600px; height:500px;"></div>
           <p>After such a discovery, I divided the main text in three parts and corpora, respectively:</p>
           <p><ul>
           <li>Part 1 (chapter 1-7).</li>
@@ -175,8 +175,42 @@
              <a href="https://www.flaticon.com/free-icons/respect" title="respect icons">Respect icons created by SBTS2018 - Flaticon</a>
             <p class="text-center">&copy; 2022 A Friendship</p>
     </footer>
-      <script>google.charts.load('current',{packages:['corechart']});
-          google.charts.setOnLoadCallback(drawChart);</script>
+        <script type="text/javascript">
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+        ['Chapter 1', 5],
+        ['Chapter 2', 1],
+        ['Chapter 3', 5],
+        ['Chapter 4', 1],
+        ['Chapter 5', 5],
+        ['Chapter 6', 13],
+        ['Chapter 7', 7],
+        ['Chapter 8', 23],
+        ['Chapter 9', 15],
+        ['Chapter 10', 7],
+        ['Chapter 11', 5],
+        ['Chapter 12', 4],
+        ['Chapter 13', 3],
+        ['Chapter 14', 10],
+        ['Chapter 15', 20],
+        ['Chapter 16', 11],
+        ['Chapter 17', 11],
+        ['Chapter18', 11]]);
+
+
+        var options = {
+          
+          bars: 'horizontal' // Required for Material Bar Charts.
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('barchart_material'));
+
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      }
+    </script>
 
 </body>
 

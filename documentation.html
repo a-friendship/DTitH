@@ -148,6 +148,7 @@
              <div class="columngraph">
                 <div id="barchart_material_lenù" style="width:100%; max-width:600px; height:500px;"></div>
              </div>
+                 <div id="chart_div" style="width: 900px; height: 500px;"></div>
           </div>
           <p>After such a discovery, I divided the main text in three parts and corpora, respectively:</p>
           <p><ul>
@@ -261,6 +262,76 @@
         chart.draw(data, google.charts.Bar.convertOptions(options));
       }
     </script>
+          <script type="text/javascript">
+google.charts.load('current', {
+    packages: ['corechart', 'line']
+});
+google.charts.setOnLoadCallback(drawLineColors);
+
+function drawLineColors() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('number', 'Chapter');
+    data.addColumn('number', 'persName');
+    data.addColumn('number', 'events');
+    data.addColumn({
+        type: 'string',
+        role: 'annotation'
+    });
+    data.addColumn({
+        type: 'string',
+        role: 'annotationText'
+    });
+
+    data.addRows([
+        [1, 15, 1, "1944-1950", ""],
+        [2, 2, 1, null, null],
+        [3, 23, 1, "1950", null],
+        [4, 24, 0, null, null],
+        [5, 42, 1, null, null],
+        [6, 34, 1, "1950-1951", ""],
+        [7, 22, 0, null, null],
+        [8, 68, 1, "1951-1952", ""],
+        [9, 51, 1, null, null],
+        [10, 11, 0, null, null],
+        [11, 48, 2, null, null],
+        [12, 10, 1, null, null],
+        [13, 32, 1, "1955", ""],
+        [14, 37, 0, null, null],
+        [15, 74, 4, null, null],
+        [16, 35, 1, null, null],
+        [17, 31, 2, null, null],
+        [18, 45, 1, null, null]
+    ]);
+
+    var options = {
+        height: 400,
+        hAxis: {
+            title: 'Chapter'
+        },
+        vAxis: {
+            title: 'Frequency',
+            maxValue: 75
+        },
+        colors: ['#b87333', '#CFA240'],
+        annotations: {
+            alwaysOutside: true,
+            style: 'line',
+            datum: {
+                stem: {
+                    color: 'black',
+                    length: 75
+                }
+            },
+            textStyle: {
+                color: 'black'
+            }
+        }
+    };
+
+    var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+    chart.draw(data, options);
+}
+</script>
 
 </body>
 

@@ -37,8 +37,7 @@ function showOvd() {
   }
 }
 
-google.charts.load('current',{packages:['corechart']});
-google.charts.setOnLoadCallback(drawChart);
+
 
 function drawChart() {
 
@@ -56,7 +55,7 @@ function drawChart() {
       ['Chapter 10', 7],
       ['Chapter 11', 5],
       ['Chapter 12', 4],
-      ['Chapter 13', 3]
+      ['Chapter 13', 3],
       ['Chapter 14', 10],
       ['Chapter 15', 20],
       ['Chapter 16', 11],
@@ -92,7 +91,7 @@ function drawChart() {
       ['Chapter 10', 1],
       ['Chapter 11', 1],
       ['Chapter 12', 1],
-      ['Chapter 13', 2]
+      ['Chapter 13', 2],
       ['Chapter 11', 2],
       ['Chapter 15', 7],
       ['Chapter 16', 2],

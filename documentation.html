@@ -141,7 +141,14 @@
       <div id="networkanalysisintro">
             <h5>2.3.1 Introduction</h5>
           <p>Before diving in with the network analysis, I wanted to have a general idea of the dispersion of the various characters through the chapters of this part and for this I employed a XQuery function to obtain the frequency per chapter of Lila, Lenù and the entirety of the cast of characters. The results I obtained were quite similar, as presented by the graphs below, which proved that both Lila and Lenù seemed to be the most present in the chapters 8 and 15, and those were the same chapters in which the various characters were more present.</p>
-         <div id="barchart_material" style="width:100%; max-width:600px; height:500px;"></div>
+         <div class="rowgraph">
+             <div class="columngraph">
+          <div id="barchart_material" style="width:100%; max-width:600px; height:500px;"></div>
+             </div>
+             <div class="columngraph">
+                 <div></div>
+             </div>
+          </div>
           <p>After such a discovery, I divided the main text in three parts and corpora, respectively:</p>
           <p><ul>
           <li>Part 1 (chapter 1-7).</li>
@@ -204,8 +211,7 @@
 
         var options = {
           chart: {
-            title: 'Company Performance',
-            subtitle: 'Sales, Expenses, and Profit: 2014-2017',
+            title: 'Lila Frequency',
           },
           bars: 'horizontal' // Required for Material Bar Charts.
         };
